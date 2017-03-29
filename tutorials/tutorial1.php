@@ -37,6 +37,8 @@
 		<input type="button" onclick="checkAnswer()" value="Submit"> </form>
 	<div>
 
-	</body>
-
-</html>
+	<?php
+	$path = '../';
+	$title = 'Tutorial 1';
+	include $path.'assets/footer.php';
+?>
