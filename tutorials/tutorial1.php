@@ -14,7 +14,9 @@
 	
 	<p>Open "Terminal"</p>
 	
-	<!-Screenshot of terminal->
+	<!-Screenshot of terminal
+		<img src="terminal.jpg" alt="Terminal">
+	->
 	
 	<h2>How to SSH</h2>
 	
