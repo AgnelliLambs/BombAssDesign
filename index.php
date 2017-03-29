@@ -19,7 +19,5 @@
 
 <!-- Footer PHP -->
 <?php
-	$path = '../';
-	$title = 'YouNiz';
 	include $path.'assets/footer.php';
 ?>
