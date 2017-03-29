@@ -1,26 +1,49 @@
-/* navbar */
+/* Navbar */
 .navbar-default {
-    background-color: #43c0f6;
-    border-color: #E7E7E7;
-	
+	background-color: #43c0f6;
 }
-/* title */
+
+
+/* Title */
 .navbar-default .navbar-brand {
-    color: #ffffff;
+	color: #ffffff;
 	transition: color .2s;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #333;
+	color: #333;
 }
-/* link */
+
+
+/* Link */
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+	color: #fff;
 	transition: color .2s;
 }
+
+/*
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #333;
+	color: #333;
+}
+
+*/
+
+/* Icon */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/* Disable hover color on small screens, change dropdown color */
+@media (max-width: 768px) {
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus, 
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:active{
+		color: #fff;
+	}
 }
 
 /*
