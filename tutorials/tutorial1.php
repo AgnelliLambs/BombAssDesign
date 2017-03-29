@@ -1,3 +1,4 @@
+<!-- Header PHP-->
 <?php
 	$path = '../';
 	$title = 'Tutorial 1';
@@ -36,7 +37,8 @@
 		</select>
 		<input type="button" onclick="checkAnswer()" value="Submit"> </form>
 
-	<?php
+<!-- Footer PHP-->
+<?php
 	$path = '../';
 	$title = 'Tutorial 1';
 	include $path.'assets/footer.php';
