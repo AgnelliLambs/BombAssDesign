@@ -35,7 +35,6 @@
 			<option>c</option>
 		</select>
 		<input type="button" onclick="checkAnswer()" value="Submit"> </form>
-	<div>
 
 	<?php
 	$path = '../';
