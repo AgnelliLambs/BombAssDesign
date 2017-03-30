@@ -36,7 +36,7 @@
 <script>
     $(function() {
 		 var isMobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-		 if (!isMobile) {
+		 if (!isMobile  && $(window).width() >= 768) {
 			  $(".dropdown").hover(
 					function(){ $(this).addClass('open') },
 					function(){ $(this).removeClass('open') }
