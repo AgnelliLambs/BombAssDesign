@@ -1,11 +1,11 @@
 /* Navbar */
 .navbar-default {
-	background-color: #43c0f6;
+	background-color: #43c0f6;	
 }
-
 
 /* Title */
 .navbar-default .navbar-brand {
+	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	transition: color .2s;
 }
@@ -20,6 +20,7 @@
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	transition: color .2s;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -45,6 +46,28 @@
 		color: #fff;
 	}
 }
+
+.dropdown-menu {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* footer */
+#bottom{
+	position: fixed; 
+	bottom: 0px; 
+	left: 0px; 
+	width: 100%;
+	height:180px;
+	padding:30px;/*Change height and padding to increase footer size*/
+	background-color:#333333;
+}
+#bottomtext{
+	margin:0px auto;
+	padding:4px;
+	text-align:center;
+	color:#fffafa;
+}
+
 
 /*
 .navbar-default .navbar-nav > .active > a, 

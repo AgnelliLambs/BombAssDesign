@@ -15,24 +15,3 @@
 </div> 
 </body> 
 </html> 
-
-
-<!--  CSS associated with footer -->
-<!--
-#bottom{
-	position: fixed; 
-	bottom: 0px; 
-	left: 0px; 
-	width: 100%;
-	height:100px;
-	padding:40px;/*Change height and padding to increase footer size*/
-	background-color:#000;
-}
-#bottomtext{
-	width:998px;
-	margin:0px auto;
-	padding:4px;
-	text-align:center;
-	color:#fffafa;
-}
--->
