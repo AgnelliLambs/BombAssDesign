@@ -2,7 +2,7 @@
 <?php
 	$path = '../';
 	$title = 'Tutorial 1';
-	include $path.'assets/header.php';
+	include $path.'assets/includes/header.php';
 ?>
 	<h1>Tutorial One - SSH</h1>
 	
@@ -43,5 +43,5 @@
 <?php
 	$path = '../';
 	$title = 'Tutorial 1';
-	include $path.'assets/footer.php';
+	include $path.'assets/includes/footer.php';
 ?>

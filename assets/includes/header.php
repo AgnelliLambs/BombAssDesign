@@ -18,5 +18,5 @@
 
 <body>
 	<?php
-	include $path.'assets/navBar.php';
+	include $path.'assets/includes/navBar.php';
 ?>

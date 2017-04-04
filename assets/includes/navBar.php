@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 			<li class="dropdown">
-        		<a class="dropdown-toggle" href="google.com">Tutorials<span class="caret"></span></a>
+        		<a class="dropdown-toggle" href="google.com">Tutorials<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="#">Navigation</a></li>
 					<li><a href="<?php echo $path;?>tutorials/ssh.php">SSH</a></li>
@@ -32,15 +32,5 @@
   </div>
 </nav>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script>
-    $(function() {
-		 var isMobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-		 if (!isMobile  && $(window).width() >= 768) {
-			  $(".dropdown").hover(
-					function(){ $(this).addClass('open') },
-					function(){ $(this).removeClass('open') }
-			  );
-    	}
-	 });
-</script>
+
+<script src="<?php echo $path;?>assets/js/dropdown.js"></script>
