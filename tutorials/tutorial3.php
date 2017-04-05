@@ -12,6 +12,7 @@ WILL ADD MORE DETAILS LATER
 ?>
 	<h1>Tutorial Three - Creating, Deleting, and Moving Files and Directories</h1>
 	<h2>Directories</h2>
+	<p>.......</p>
 	<h2>Creating a Directory</h2>
 	<p>mkdir &lt;directoryName&gt;</p>
 	<p>Example: mkdir directory1 </p>
@@ -19,7 +20,10 @@ WILL ADD MORE DETAILS LATER
 	<h2>Removing a Directory </h2>
 	<p>rmdir &lt;directoryName&gt;</p>
 	<p>Example: rmdir directory1 </p>
-	<p>Files</p>
+
+	<h2>Files</h2>
+	<p>.......</p>
+
 	<h2>Deleting a File</h2>
 	<p>rm &lt;fileName&gt;</p>
 	<p>Example: rm file1 </p>
