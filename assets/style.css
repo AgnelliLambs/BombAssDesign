@@ -3,11 +3,25 @@
 	background-color: #43c0f6;	
 }
 
+body {
+	background-color: #f2eee2;
+}
+
 /* Title */
 .navbar-default .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
+	font-size: 220%;
+	color: #f81b84;
 	transition: color .2s;
+	    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#you {
+	color: #F5CE28;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -21,6 +35,7 @@
 	color: #fff;
 	transition: color .2s;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 140%;
 }
 
 /*
@@ -46,7 +61,7 @@
 }
 
 .dropdown-menu {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* footer */

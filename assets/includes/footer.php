@@ -1,7 +1,5 @@
-<!-- Footer.php -->
-<!-- B.A.D Design -->
 
-<!-- </div>  end contentwrapper, remove/add if header php is different-->
+	<!-- </div>  end contentwrapper, remove/add if header php is different-->
 
 
 <div id="bottom"> 

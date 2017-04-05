@@ -1,10 +1,8 @@
-<!-- Tutorial 1-->
-<!--B.A.D Design -->
-
 <!-- Header PHP-->
 <?php
 	$path = '../';
 	$title = 'Tutorial 1';
+	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
 	<h1>Tutorial One - SSH</h1>
