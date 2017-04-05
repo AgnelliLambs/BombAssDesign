@@ -37,12 +37,10 @@
 }
 
 /* Disable hover color on small screens, change dropdown color */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus, 
-	.navbar-default .navbar-nav .open .dropdown-menu>li>a,
-	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
-	.navbar-default .navbar-nav .open .dropdown-menu>li>a:active{
+	.navbar-default .navbar-nav > li > a:focus
+	{
 		color: #fff;
 	}
 }
@@ -53,7 +51,6 @@
 
 /* footer */
 #bottom{
-
 	bottom: 0px; 
 	left: 0px; 
 	width: 100%;
