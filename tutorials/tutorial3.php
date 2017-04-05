@@ -1,7 +1,7 @@
 <!-- Tutorial 3 -->
 <!-- B.A.D Design -->
 
-
+WILL ADD MORE DETAILS LATER
 <!-- Header PHP-->
 <!-- &lt; - less than -->
 <!-- &gt; - greater than -->
