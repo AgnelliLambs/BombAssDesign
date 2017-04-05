@@ -54,6 +54,6 @@ WILL ADD MORE DETAILS LATER
 <!-- Footer PHP-->
 <?php
 	$path = '../';
-	$title = 'Tutorial 1';
+	$title = 'Tutorial 3';
 	include $path.'assets/includes/footer.php';
 ?>
