@@ -1,3 +1,6 @@
+//dropdown.js
+//B.A.D Design
+
 $(window).on("load resize",function(e){ //run every time the window is resized
 	if ($(window).width() >= 768) {
 		document.getElementById("caret").style.display = "inline-block";
