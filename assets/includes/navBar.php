@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-		 <a class="navbar-brand" href="<?php echo $path;?>index.php"><Span id="you">You</Span>Nix</a>
+		 <a class="navbar-brand" href="<?php echo $path;?>index.php"><Span id="you">You</Span><Span id="nix">Nix</Span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -14,7 +14,7 @@
         		<a class="dropdown-toggle" href="google.com">TUTORIALS<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
-					<li><a href="#">Navigation</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
 					<li><a href="#">Creating and deleting files</a></li>
 					<li><a href="#">SFTP</a></li>
 					<li><a href="#">File Permissions</a></li>
