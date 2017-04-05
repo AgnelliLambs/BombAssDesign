@@ -3,6 +3,8 @@
 
 
 <!-- Header PHP-->
+<!-- &lt; - less than -->
+<!-- &gt; - greater than -->
 <?php
 	$path = '../';
 	$title = 'Tutorial 3';
