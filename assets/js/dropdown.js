@@ -6,8 +6,10 @@ $(window).on("load resize",function(e){ //run every time the window is resized
 		}, function () {
 			$(this).removeClass('open')
 		});
-	}
-	else {
+	} else {
+			$(".dropdown").hover(function () {
+			$(this).removeClass('open')
+		});
 		document.getElementById("caret").style.display = "none";
 	}
 });
