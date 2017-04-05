@@ -5,7 +5,7 @@
 
 <?php
 	$path = '../';
-	$title = 'Tutorial 3';
+	$title = 'Tutorial 5';
 	include $path.'assets/includes/header.php';
 ?>
 
@@ -73,6 +73,6 @@
 <!-- Footer PHP-->
 <?php
 	$path = '../';
-	$title = 'Tutorial 1';
+	$title = 'Tutorial 5';
 	include $path.'assets/includes/footer.php';
 ?>
