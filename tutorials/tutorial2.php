@@ -43,6 +43,31 @@
 	-->
 	
 	<h2>For Mac</h2>
+	<p>
+		Click the green "Download FileZilla Client" button. Choose where you would like to save the zip
+		file. In this example, the zip file will be saved to the "Downloads" file.
+	</p>
+	<!--Screenshot
+		<img src="<\?php echo $path;?>/assets/imgs/mac_download.png" alt="FileZilla Download for Windows">
+	-->
+	<p>
+		To unzip your downloaded file, go to the location of you download and double click the zipped file.
+		A new application item called "FileZilla-Installer" will appear in the folder. Open this application
+		and click "Open" to download.
+	</p>
+	<!--Screenshot
+		<img src="<\?php echo $path;?>/assets/imgs/accept_download2.png" alt="FileZilla Download for Windows">
+	-->
+	<p>
+		The Installer will open, read and agree to the software license terms to continue.
+	</p>
+	<!--Screenshot
+		<img src="<\?php echo $path;?>/assets/imgs/install.png" alt="FileZilla Download for Windows">
+	-->
+	<p>
+		When the application has finished installing, select the "Done" button to complete your installation and
+		FileZilla should run.
+	</p>
 	<!-- Quiz -->
 	
 <!-- Footer PHP-->
