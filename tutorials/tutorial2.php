@@ -27,11 +27,22 @@
 	
 	<p>Alternatively, you can go to FileZilla's homepage <a href="https://filezilla-project.org/">here</a>.</p>
 	
-	<!--Screenshot of terminal
-		<img src="<\?php echo $path;?>/assets/imgs/filezilla.jpg" alt="FileZilla">
+	
+	<h2>For Windows</h2>
+	
+	<!--Screenshot
+		<img src="<\?php echo $path;?>/assets/imgs/windows_download.png" alt="FileZilla Download for Windows">
+	-->
+	<p>
+		Click the green "Download FileZilla Client" button. Your download will be a .exe file.
+		Run the file when the download is completed, and give it permission to run on your computer.
+	</p>
+	
+	<!--Screenshot
+		<img src="<\?php echo $path;?>/assets/imgs/agreement_windows.png" alt="FileZilla Download for Windows">
 	-->
 	
-	<h2>TITLE</h2>
+	<h2>For Mac</h2>
 	<!-- Quiz -->
 	
 <!-- Footer PHP-->
