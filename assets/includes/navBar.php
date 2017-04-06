@@ -11,20 +11,20 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 			<li class="dropdown">
-        		<a class="dropdown-toggle" href="google.com">TUTORIALS<span class="caret" id="caret"></span></a>
+        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials.php">TUTORIALS<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
-					<li><a href="#">Creating and deleting files</a></li>
-					<li><a href="#">SFTP</a></li>
-					<li><a href="#">File Permissions</a></li>
-					<li><a href="#">How the internet works</a></li>
-					<li><a href="#">Apache</a></li>
-					<li><a href="#">Unix text editors</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial3.php">Creating and deleting files</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial4.php">SFTP</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial5.php">File Permissions</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial6.php">How the internet works</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial7.php">Apache</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial8.php">Unix text editors</a></li>
 				</ul>
       	</li>
         <li class="dropdown">
-			  	<a class="dropdown-toggle" href="#">QUIZZES<span class="caret" id="caret1"></span></a>
+			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes.php">QUIZZES<span class="caret" id="caret1"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
