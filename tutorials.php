@@ -5,6 +5,8 @@
 	$heading = 'Home';
 	include $path.'assets/includes/header.php';
 ?>
+<br>
+<br>
 <ul>
 	<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 	<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
