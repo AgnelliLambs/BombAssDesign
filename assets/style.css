@@ -32,12 +32,14 @@ body {
 	background-color: #fff;
 }
 
-#active{
-	background-color: #49EBC3;
-}
-
 .dropdown-menu {
 	font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 768px) {
+	#active {
+		background-color: #49EBC3;
+	}
 }
 
 
