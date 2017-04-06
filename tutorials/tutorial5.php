@@ -1,8 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	</head>
-	<body>
+<!-- Tutorial 5 -->
+<!-- B.A.D Design -->
+
+<!-- Header PHP-->
+
+<?php
+	$path = '../';
+	$title = 'Tutorial 5';
+	$heading = 'tutorial';
+	include $path.'assets/includes/header.php';
+?>
+	<div class="tutorial">
 		<h1>Tutorial Five - File Permissions</h1>
 		
 		<h2>File Permissions Layout</h2>
@@ -50,7 +57,7 @@
 		<p>The most common file permissions for the web are:</p>
 		<p>644 for files</p>
 		<p>755 for folders/directories</p>
-		
+	
 		
 		<!-- Quiz -->
 		
@@ -63,8 +70,9 @@
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 		</form>
+	</div>	
 		
-	</body>
-	<footer>
-	</footer>
-</html>
+<!-- Footer PHP-->
+<?php
+	include $path.'assets/includes/footer.php';
+?>
