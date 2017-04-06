@@ -6,7 +6,7 @@
 <?php
 	$path = '../';
 	$title = 'Tutorial 5';
-	$heading = 'tutorial';
+	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">

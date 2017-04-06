@@ -2,7 +2,7 @@
 <?php
 	$path = '';
 	$title = 'YouNix';
-	$heading = 'Home';
+	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
 <br>
