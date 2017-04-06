@@ -8,7 +8,7 @@
 	<div class="tutorial">
 		<h1>Tutorial One - SSH</h1>
 
-		<p>SSH stands for Secure Shell. It is a secure (encrypted) way to remotely log into and control other computers through the bash command line. In order to control your Unix server from your computer, you'll need to use SSH.</p>
+		<p>SSH stands for Secure Shell. It is a secure (encrypted) way to remotely log into and control unix computers through the bash command line. In order to control your Unix server from your computer, you'll need to use SSH.</p>
 
 		<!-- Link to correct computer thing -->
 
@@ -20,8 +20,6 @@
 			<img src="<\?php echo $path;?>/assets/imgs/terminal.jpg" alt="Terminal">
 		-->
 
-		<h2>How to SSH</h2>
-
 		<p>Use SSH to connect to your Linux machine by typing "SSH" followed by USERNAME@HOSTNAME replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Press enter to execute the line.</p>
 
 		<p class="code">$ SSH bad@192.168.55.4</p>
@@ -29,6 +27,8 @@
 		<p>The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
 
 		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		
+		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
 
 		<h2>Open your bash terminal (Windows)</h2>
 
@@ -41,6 +41,8 @@
 		<p>PuTTY will then open a terminal window connected to your server. The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
 
 		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		
+		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
 </div>
 	
 	<!-- Quiz -->
