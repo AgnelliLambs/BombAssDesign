@@ -1,21 +1,61 @@
-/* Navbar */
-.navbar-default {
-	background-color: #43c0f6;	
+body {
+	padding-top: 52px;
+	background-color: #f2eee2;
+	font-family: 'Raleway', sans-serif;
 }
 
-body {
-	background-color: #f2eee2;
+
+/* Navbar */
+
+.navbar-default {
+	background-color: #43c0f6;
+	position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
 }
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	transition: color .2s;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 140%;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.dropdown-menu {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Remove hover color change and fixed header on mobile */
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		color: #fff;
+	}
+	body {
+		padding-top: 0;
+	}
+	.navbar-default {
+		position: relative;
+	}
+}
+
 
 /* Title */
+
 .navbar-default .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 220%;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #you {
@@ -36,44 +76,67 @@ body {
 	color: #F5CE28;
 }
 
-/* Link */
-.navbar-default .navbar-nav > li > a {
-	color: #fff;
-	transition: color .2s;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 140%;
+
+/* Content */
+
+.tutorial {
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1000px;
+	margin: auto;
 }
 
-/* Icon */
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+img {
+	display: block;
+	margin: auto;
 }
 
-/* Disable hover color on small screens, change dropdown color */
-@media (max-width: 767px) {
-	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus
-	{
-		color: #fff;
-	}
+
+/*Terminal code */
+
+.code {
+	font-family: 'Ubuntu Mono', monospace;
+	border-radius: 3px;
+	border: 1px solid #d6d6d6;
+	background-color: #333333;
+	color: #fffafa;
+	padding: 5px;
+	margin: 5px;
+	text-indent: 5px;
 }
 
-.dropdown-menu {
-	font-family: 'Montserrat', sans-serif;
-}
 
-/* footer */
-#bottom{
-	bottom: 0px; 
-	left: 0px; 
+/* Footer */
+
+#bottom {
+	bottom: 0px;
+	left: 0px;
 	width: 100%;
-	height:180px;
-	padding:30px;/*Change height and padding to increase footer size*/
-	background-color:#333333;
+	height: 180px;
+	padding: 30px;
+	/*Change height and padding to increase footer size*/
+	background-color: #333333;
 }
-#bottomtext{
-	margin:0px auto;
-	padding:4px;
-	text-align:center;
-	color:#fffafa;
+
+#bottomtext {
+	margin: 0px auto;
+	padding: 4px;
+	text-align: center;
+	color: #fffafa;
+}
+
+/* Push footer to bottom of page */
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -180px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
 }
