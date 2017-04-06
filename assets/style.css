@@ -9,9 +9,12 @@ body {
 
 .navbar-default {
 	background-color: #43c0f6;
-	position: fixed; /* Set the navbar to fixed position */
-   top: 0; /* Position the navbar at the top of the page */
-	width: 100%; /* Full width */
+	position: fixed;
+	/* Set the navbar to fixed position */
+	top: 0;
+	/* Position the navbar at the top of the page */
+	width: 100%;
+	/* Full width */
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -92,6 +95,15 @@ img {
 }
 
 
+/* Resize images on mobile */
+
+@media (max-width: 767px) {
+	img {
+		width: 100%;
+	}
+}
+
+
 /*Terminal code */
 
 .code {
@@ -125,18 +137,20 @@ img {
 	color: #fffafa;
 }
 
+
 /* Push footer to bottom of page */
 
-html, body {
-  height: 100%;
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -180px;
-}
-.page-wrap:after {
-  content: "";
-  display: block;
+	flex: 1;
+	padding-bottom: 30px;
 }
