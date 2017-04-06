@@ -1,7 +1,7 @@
 
 	<!-- </div>  end contentwrapper, remove/add if header php is different-->
 
-
+</div>
 <div id="bottom"> 
 	<div id="bottomtext">
 		<a href="<?php echo $path;?>assets/aboutUs.html" style="color:#b4c1d1;">About Us</a><br>
