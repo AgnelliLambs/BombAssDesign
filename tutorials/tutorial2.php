@@ -1,10 +1,10 @@
 <?php
 	$path = '../';
 	$title = 'Tutorial 1';
-	$heading = 'tutorial';
+	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
-	<div class="tutorial">
+	<div class="Tutorial">
 		<h1>Tutorial 2 - SFTP</h1>
 
 		<p>

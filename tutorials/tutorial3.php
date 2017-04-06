@@ -8,7 +8,7 @@ WILL ADD MORE DETAILS LATER
 <?php
 	$path = '../';
 	$title = 'Tutorial 3';
-	$heading = 'turotial';
+	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">
