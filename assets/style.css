@@ -42,6 +42,14 @@ body {
 	}
 }
 
+.navbar-default .navbar-nav>.open>a:hover {
+	background-color: #43c0f6;
+}
+
+.navbar-default .navbar-nav #active a:hover {
+	background-color: #49EBC3;
+}
+
 
 /* Remove hover color change and fixed header on mobile */
 
@@ -141,6 +149,15 @@ img {
 	padding: 4px;
 	text-align: center;
 	color: #fffafa;
+}
+
+#bottomtext a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#bottomtext a:hover {
+	text-decoration: underline;
 }
 
 
