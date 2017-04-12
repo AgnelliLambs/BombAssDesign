@@ -11,8 +11,6 @@
 		<p>Navigating through files in UNIX is one of the most common things you will ever do. There are only
 			a few simple commands you'll need to remember: ls, cd, and pwd.</p>
 
-		
-		
 		<h2>Step 1</h2>
 
 		<p>The first thing you need to do is open Terminal, or another application that will let you 
@@ -25,9 +23,9 @@
 		<p>We'll start with pwd: pwd stands for <u>P</u>rint <u>W</u>orking <u>D</u>irectory. This will display the path from the ROOT directory
 			(usually C:\) to wherever you are now. Entering the pwd command should look something like this:</p>
 
-		<p class="code">$ pwd<p>/users/home</p></p>
+		<p class="code">$ pwd<br />/Users/Username</p>
 
-		<p>EVERYTHING ELSE IS SHIT</p>
+		<p>Remember, if you are ever unsure where you are, just type pwd and you can find your location.</p>
 
 		<p class="code">$ SSH bad@192.168.55.4's password: </p>
 		
