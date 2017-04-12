@@ -16,6 +16,7 @@
 	<h1>Tutorial Three - Creating, Deleting, and Moving Files and Directories</h1>
 	<h2>Directories</h2>
 	<p>Directories are similar to folders, where files and other directories can be placed inside to create a hierarchy. This helps the user organize organize as well as manage the different files in the structure. </p>
+	
 	<h2>Creating a Directory</h2>
 	<p>Command: mkdir &lt;directoryName&gt;</p>
 	<p>Example: mkdir directory1 </p>
@@ -66,7 +67,23 @@
 			<input type="button" onclick="checkAnswer()" value="Submit">
 		
 			<h3 class ="question">Which choice is the correct way to rename a file?</h3>
-			<select id="3.2">
+			<select id="3.3">
+				<option>rn file1 file2</option>
+				<option>rmdir file1</option>
+				<option>delete file1</option>
+			</select>
+			<input type="button" onclick="checkAnswer()" value="Submit">
+		
+			<h3 class ="question">Which choice is the correct way to a file?</h3>
+			<select id="3.4">
+				<option>rm file1</option>
+				<option>rmdir file1</option>
+				<option>delete file1</option>
+			</select>
+			<input type="button" onclick="checkAnswer()" value="Submit">
+		
+			<h3 class ="question">Which choice is the correct way to rename a file?</h3>
+			<select id="3.5">
 				<option>rn file1 file2</option>
 				<option>rmdir file1</option>
 				<option>delete file1</option>
