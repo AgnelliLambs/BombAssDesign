@@ -10,6 +10,7 @@
 	include $path.'assets/includes/header.php';
 ?>
 	<!-- Quiz -->
+	<h2>Files and Directories</h2>
 	
 	<form>
 			<!-- Question 1 -->
