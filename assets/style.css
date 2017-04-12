@@ -61,7 +61,16 @@ body {
 	text-align: center;
 	background-color: #F5CE28;
 	line-height:13vw;
+	color:#43c0f6;/*the color of text */
+	text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
 }
+#content>a:visited{
+		/*border-color:#F5CE28;
+		background-color:#f81b84;
+		*/
+		border:none;
+		
+	}
 .median{
 	clear:both;
 }
@@ -109,7 +118,6 @@ body {
 		width:20vw;
 		line-height:16vw;
 	}
-	
 }
 
 
