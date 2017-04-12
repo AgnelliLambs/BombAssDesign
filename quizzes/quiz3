@@ -41,20 +41,20 @@
 			<input type="button" onclick="checkAnswer()" value="Submit">
 			
 			<!-- Question 4 -->
-			<h3 class ="question">Which choice is the correct way to a file?</h3>
+			<h3 class ="question">Which choice is ?</h3>
 			<select id="3.4">
-				<option>rm file1</option>
-				<option>rmdir file1</option>
-				<option>delete file1</option>
+				<option></option>
+				<option></option>
+				<option></option>
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 			
 			<!-- Question 5 -->
-			<h3 class ="question">Which choice is the correct way to rename a file?</h3>
+			<h3 class ="question">Which choice ?</h3>
 			<select id="3.5">
-				<option>rn file1 file2</option>
-				<option>rmdir file1</option>
-				<option>delete file1</option>
+				<option></option>
+				<option></option>
+				<option></option>
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 		
