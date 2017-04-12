@@ -83,8 +83,9 @@
 		</p>
 			<img src="../assets/imgs/loggedin.png" alt="FileZilla Download">
 		<p>
-			Transferring files from your computer to the host can be as simple as selecting your files and dragging them to the host
-			"www" folder.
+			Transferring files from your computer to the host is as simple as selecting your files and dragging them to the host
+			"www" folder. The files you want to transfer can be found on the left, which is the listing of files on your computer,
+			or you can grab them directly from your computer and drop them to the host on the right.
 		</p>
 	</div>
 <!-- Footer PHP-->
