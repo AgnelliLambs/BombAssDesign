@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 			<li class="dropdown">
-        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials.php" id="<?php if ($heading == 'Tutorial'){echo 'active';}?>">TUTORIALS<span class="caret" id="caret"></span></a>
+        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials/tutorial_home.php" id="<?php if ($heading == 'Tutorial'){echo 'active';}?>">TUTORIALS<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
