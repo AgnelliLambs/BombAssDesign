@@ -1,9 +1,10 @@
 <!-- Header PHP -->
-<?php
-	$path = '../';
-	$title = 'Tutorial 1';
-	include $path.'assets/includes/header.php';
-?>
+ <?php
+  	$path = '../';
+  	$title = 'Tutorial 4';
+ 	$heading = 'Tutorial';
+  	include $path.'assets/includes/header.php';
+  ?>
 	<h1>Tutorial 2 - SFTP</h1>
 	
 	<p>
@@ -20,7 +21,7 @@
 	
 	<p>
 		To begin downloading, please select your operating system from the list below.
-		Clicking the link below will takr you directly to the dowload page on FileZilla.
+		Clicking the link below will take you directly to the dowload page on FileZilla.
 	</p>
 	
 	<ol>
@@ -34,40 +35,31 @@
 	
 	<h2>For Windows</h2>
 	
-	<!--Screenshot
-		<img src="<\?php echo $path;?>/assets/imgs/windows_download.png" alt="FileZilla Download for Windows">
-	-->
+		<img src="../assets/imgs/windows_download.png" alt="FileZilla Download for Windows">
+	
 	<p>
 		Click the green "Download FileZilla Client" button. Your download will be a .exe file.
 		Run the file when the download is completed, and give it permission to run on your computer.
 	</p>
-	
-	<!--Screenshot
-		<img src="<\?php echo $path;?>/assets/imgs/agreement_windows.png" alt="FileZilla Download for Windows">
-	-->
+		<img src="../assets/imgs/agreement_windows.png" alt="FileZilla Download Agreement">
+
 	
 	<h2>For Mac</h2>
 	<p>
 		Click the green "Download FileZilla Client" button. Choose where you would like to save the zip
 		file. In this example, the zip file will be saved to the "Downloads" file.
 	</p>
-	<!--Screenshot
-		<img src="<\?php echo $path;?>/assets/imgs/mac_download.png" alt="FileZilla Download for Windows">
-	-->
+		<img src="../assets/imgs/mac_download.png" alt="FileZilla Download for Mac">
 	<p>
 		To unzip your downloaded file, go to the location of you download and double click the zipped file.
 		A new application item called "FileZilla-Installer" will appear in the folder. Open this application
 		and click "Open" to download.
 	</p>
-	<!--Screenshot
-		<img src="<\?php echo $path;?>/assets/imgs/accept_download2.png" alt="FileZilla Download for Windows">
-	-->
+		<img src="../assets/imgs/accept_download.png" alt="FileZilla Download">
 	<p>
 		The Installer will open, read and agree to the software license terms to continue.
 	</p>
-	<!--Screenshot
-		<img src="<\?php echo $path;?>/assets/imgs/install.png" alt="FileZilla Download for Windows">
-	-->
+		<img src="../assets/imgs/install.png" alt="FileZilla Download">
 	<p>
 		When the application has finished installing, select the "Done" button to complete your installation and
 		FileZilla should run.
@@ -78,10 +70,20 @@
 	<p>
 		Congratulations on successfully downloading FileZilla!
 	</p>
+	<h2>Establishing the File Connection</h2>
+	<p>
+		In order to send files, you must know the name of the host you want to connect to, the username, and the password.
+		The default port number for SFTP is '22'. To establish the connection enter the host name, username, password, 
+		and port number in the fields at the top, then press the "Quickconnect" button.
+	</p>
+		<img src="../assets/imgs/login.png" alt="FileZilla Download">
+	
+	<!-- image -->
 	
 	<p>
-		
+		If you have successfully connected to the host, you will see
 	</p>
+		<img src="../assets/imgs/loggedin.png" alt="FileZilla Download">
 	<!-- Quiz -->
 	
 <!-- Footer PHP-->
