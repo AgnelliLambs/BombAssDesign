@@ -5,7 +5,7 @@
 	$heading = 'Home';
 	include $path.'assets/includes/header.php';
 ?>
-
+		<div class="index">
 		<h1>Home</h1>
 		<a href="tutorials/tutorial_home.php"><div class="homeBox">
 		<h1>Tutorials</h1>
@@ -16,6 +16,7 @@
 		<a href="glossary.php"><div class="homeBox">
 		<h1>Glossary</h1>
 		</div></a>
+		</div>
 
 <!-- Footer PHP -->
 <?php
