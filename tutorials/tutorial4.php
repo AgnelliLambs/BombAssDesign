@@ -7,7 +7,7 @@
   ?>
   <div class="tutorial">
 		<h1>Tutorial 2 - SFTP</h1>
-		
+		<!-- Quick walkthrough of what SFTP is -->
 		<p>
 			SFTP stands for SSH File Transfer Protocol, it can also be called Secure File Transfer Protocol. 
 			SFTP is an encrypted command-line transfer of files between two systems. This transfer can be done
@@ -15,16 +15,14 @@
 			the transferring process. SFTP requires the name of the host you are connecting to, as well as a username and password for the host.
 			In this tutorial, you will be learning how to download and use the free SFTP software, FileZilla.
 		</p>
-		
-		<!-- Link to correct computer thing -->
-		
+		<!-- Walkthrough for Windows and Mac -->
 		<h2>Downloading FileZilla</h2>
 		
 		<p>
 			To begin downloading, please select your operating system from the list below.
 			Clicking the link below will take you directly to the dowload page on FileZilla.
 		</p>
-		
+		<!-- Links to downloads -->
 		<ol>
 			<li><a href="https://filezilla-project.org/download.php?type=client">Windows 64bit</a></li>
 			<li><a href="https://filezilla-project.org/download.php?platform=win32">Windows 32bit</a></li>
@@ -63,13 +61,15 @@
 			When the application has finished installing, select the "Done" button to complete your installation and
 			FileZilla should run.
 		</p>
-		
+		<!-- How to use FileZilla -->
 		<h2>Using FileZilla</h2>
 		
 		<p>
 			Congratulations on successfully downloading FileZilla!
 		</p>
+		
 		<h2>Establishing the File Connection</h2>
+		
 		<p>
 			In order to send files, you must know the name of the host you want to connect to, the username, and the password.
 			The default port number for SFTP is '22'. To establish the connection enter the host name, username, password, 
