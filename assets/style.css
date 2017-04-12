@@ -48,6 +48,32 @@ body {
 }
 
 
+
+/* Primarily for tutorials page */
+#content>a{
+	margin:5vw;
+	margin-top:0px;
+	float:left;
+	width:15vw;
+	height:15vw;
+	border-radius:50%;
+	border: 5px solid #f81b84;
+	text-align: center;
+	background-color: #F5CE28;
+	line-height:13vw;
+}
+.median{
+	clear:both;
+}
+#content{
+	width:80%;
+	margin:auto;
+	font-size:2vw;
+}
+
+/* end of tutorials page css */
+
+
 /* Set active color for desktop only */
 
 @media (min-width: 768px) {
@@ -70,6 +96,20 @@ body {
 	.navbar-default {
 		position: relative;
 	}
+	
+		/* for mobile page, extend width */
+	#content{
+		width:80%;
+		font-size:3vw;
+	}
+	/* for mobile tutorials page, make circles bigger */
+	#content>a{
+		margin:3vw;
+		height:20vw;
+		width:20vw;
+		line-height:16vw;
+	}
+	
 }
 
 
