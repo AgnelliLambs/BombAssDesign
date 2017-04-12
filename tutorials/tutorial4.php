@@ -33,8 +33,7 @@
 		
 		<p>Alternatively, you can go to FileZilla's homepage <a href="https://filezilla-project.org/">here</a>.</p>
 		
-		
-		<h2>For Windows</h2>
+		<h3>For Windows</h3>
 		
 			<img src="../assets/imgs/windows_download.png" alt="FileZilla Download for Windows">
 		
@@ -44,8 +43,7 @@
 		</p>
 			<img src="../assets/imgs/agreement_windows.png" alt="FileZilla Download Agreement">
 
-		
-		<h2>For Mac</h2>
+		<h3>For Mac</h3>
 		<p>
 			Click the green "Download FileZilla Client" button. Choose where you would like to save the zip
 			file. In this example, the zip file will be saved to the "Downloads" file.
@@ -78,14 +76,16 @@
 			and port number in the fields at the top, then press the "Quickconnect" button.
 		</p>
 			<img src="../assets/imgs/login.png" alt="FileZilla Download">
-		
-		<!-- image -->
-		
 		<p>
-			If you have successfully connected to the host, you will see
+			If you have successfully connected to the host, you will see a connected message directly below your connection information.
+			The content on the left is a listing of files and directories for your computer, content on the right is files and 
+			directories for the host you are connected to.
 		</p>
 			<img src="../assets/imgs/loggedin.png" alt="FileZilla Download">
-		<!-- Quiz -->
+		<p>
+			Transferring files from your computer to the host can be as simple as selecting your files and dragging them to the host
+			"www" folder.
+		</p>
 	</div>
 <!-- Footer PHP-->
 <?php
