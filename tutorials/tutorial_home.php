@@ -12,16 +12,17 @@
 <div id='content'>
 	<h1>Tutorials</h1>
 	
-	<a href = "quiz1.php">SSH</a> 
-	<a href = "quiz2.php">SFTP</a> 
-	<a href = "quiz3.php">Files</a> 
-	<a href = "quiz4.php">Navigation</a> 
-	<a href = "quiz5.php">Permissions</a> 
-	<a href = "quiz6.php">Internet</a> 
-	<a href = "quiz7.php">Apache</a> 
-	<a href = "quiz8.php">Text Editors</a> 
+		<a href="../tutorials/tutorial1.php">SSH</a>
+		<a href="../tutorials/tutorial2.php">Navigation</a>
+		<a href="../tutorials/tutorial3.php">Files</a>
+		<a href="../tutorials/tutorial4.php">SFTP</a>
+		<a href="../tutorials/tutorial5.php">Permissions</a>
+		<a href="../tutorials/tutorial6.php">Internet</a>
+		<a href="../tutorials/tutorial7.php">Apache</a>
+		<a href="../tutorials/tutorial8.php">Text Editors</a>
 	<div class='median'>
-
+		
+					
 	</div>
 </div> <!-- end of content -->
 <!-- Footer PHP -->

@@ -4,21 +4,21 @@
 <?php
 	$path = '../';
 	$title = 'Quizzes';
-	$heading = 'Quizzes';
+	$heading = 'Quiz';
 	include $path.'assets/includes/header.php';
 ?>
 
 <div id='content'>
 	<h1>Quizzes</h1>
 	
-	<a href = "tutorial1.php">SSH</a> 
-	<a href = "tutorial2.php">SFTP</a> 
-	<a href = "tutorial3.php">Files</a> 
-	<a href = "tutorial4.php">Navigation</a> 
-	<a href = "tutorial5.php">Permissions</a> 
-	<a href = "tutorial6.php">Internet</a> 
-	<a href = "tutorial7.php">Apache</a> 
-	<a href = "tutorial8.php">Text Editors</a> 
+	<a href = "../quizzes/quiz1.php">SSH</a> 
+	<a href = "../quizzes/quiz2.php">SFTP</a> 
+	<a href = "../quizzes/quiz3.php">Files</a> 
+	<a href = "../quizzes/quiz4.php">Navigation</a> 
+	<a href = "../quizzes/quiz5.php">Permissions</a> 
+	<a href = "../quizzes/quiz6.php">Internet</a> 
+	<a href = "../quizzes/quiz7.php">Apache</a> 
+	<a href = "../quizzes/quiz8.php">Text Editors</a> 
 	
 	<div class='median'>
 	</div>
