@@ -10,8 +10,8 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-			<li class="dropdown" id="<?php if ($heading == 'Tutorial'){echo 'active';}?>">
-        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials.php" >TUTORIALS<span class="caret" id="caret"></span></a>
+			<li class="dropdown">
+        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials.php" id="<?php if ($heading == 'Tutorial'){echo 'active';}?>">TUTORIALS<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
@@ -23,8 +23,8 @@
 					<li><a href="<?php echo $path;?>tutorials/tutorial8.php">Unix text editors</a></li>
 				</ul>
       	</li>
-        <li class="dropdown" id="<?php if ($heading == 'Quiz'){echo 'active';}?>">
-			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes.php">QUIZZES<span class="caret" id="caret1"></span></a>
+        <li class="dropdown">
+			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes.php"  id="<?php if ($heading == 'Quiz'){echo 'active';}?>">QUIZZES<span class="caret" id="caret1"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>

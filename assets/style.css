@@ -36,18 +36,21 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 768px) {
-	#active {
-		background-color: #49EBC3;
-	}
-}
+	
+/* Stop color change on dropdown open*/
 
 .navbar-default .navbar-nav>.open>a:hover {
 	background-color: #43c0f6;
 }
 
+.navbar-default .navbar-nav .dropdown .dropdown-toggle {
+	background-color: #43c0f6;
+}
+
+/* Set active color for desktop only */
+
 @media (min-width: 768px) {
-	.navbar-default .navbar-nav #active a:hover {
+	#active {
 		background-color: #49EBC3;
 	}
 }
@@ -160,6 +163,26 @@ img {
 
 #bottomtext a:hover {
 	text-decoration: underline;
+}
+
+/* Phone link */
+
+@media (max-width: 767){
+	#mobilePhoneLink {
+		display: block;
+	}
+	#desktopPhone {
+		display: none;
+	}
+}
+
+@media (min-width: 768){
+	#mobilePhoneLink {
+		display: none;
+	}
+	#desktopPhone {
+		display: block;
+	}
 }
 
 
