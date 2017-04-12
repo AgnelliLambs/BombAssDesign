@@ -7,9 +7,11 @@
 	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
-<h1>Tutorials</h1>
+
 
 <div id='content'>
+	<h1>Tutorials</h1>
+	
 	<a href = "tutorial1.php">SSH</a> 
 	<a href = "tutorial2.php">SFTP</a> 
 	<a href = "tutorial3.php">Files</a> 
