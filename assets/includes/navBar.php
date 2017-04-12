@@ -24,16 +24,16 @@
 				</ul>
       	</li>
         <li class="dropdown">
-			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes.php"  id="<?php if ($heading == 'Quiz'){echo 'active';}?>">QUIZZES<span class="caret" id="caret1"></span></a>
+			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes/quiz_home.php"  id="<?php if ($heading == 'Quiz'){echo 'active';}?>">QUIZZES<span class="caret" id="caret1"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
-					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
-					<li><a href="#">Creating and deleting files</a></li>
-					<li><a href="#">SFTP</a></li>
-					<li><a href="#">File Permissions</a></li>
-					<li><a href="#">How the internet works</a></li>
-					<li><a href="#">Apache</a></li>
-					<li><a href="#">Unix text editors</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz1.php">SSH</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz2.php">Navigation</a></li>
+					<li><a href="quizzes/quiz3.php">Creating and deleting files</a></li>
+					<li><a href="quizzes/quiz4.php">SFTP</a></li>
+					<li><a href="quizzes/quiz5.php">File Permissions</a></li>
+					<li><a href="quizzes/quiz6.php">How the internet works</a></li>
+					<li><a href="quizzes/quiz7.php">Apache</a></li>
+					<li><a href="quizzes/quiz8.php">Unix text editors</a></li>
 				</ul>
 			</li>
         <li><a href="<?php echo $path;?>glossary.php" id="<?php if ($heading == 'Glossary'){echo 'active';}?>">GLOSSARY</a></li>
