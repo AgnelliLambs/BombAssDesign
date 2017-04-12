@@ -11,14 +11,14 @@
 <div id='content'>
 	<h1>Quizzes</h1>
 	
-	<a href = "tutorial1.php">SSH</a> 
-	<a href = "tutorial2.php">SFTP</a> 
-	<a href = "tutorial3.php">Files</a> 
-	<a href = "tutorial4.php">Navigation</a> 
-	<a href = "tutorial5.php">Permissions</a> 
-	<a href = "tutorial6.php">Internet</a> 
-	<a href = "tutorial7.php">Apache</a> 
-	<a href = "tutorial8.php">Text Editors</a> 
+	<a href = "quiz1.php">SSH</a> 
+	<a href = "quiz2.php">Navigation</a> 
+	<a href = "quiz3.php">Files</a> 
+	<a href = "quiz4.php">SFTP</a> 
+	<a href = "quiz5.php">Permissions</a> 
+	<a href = "quiz6.php">Internet</a> 
+	<a href = "quiz7.php">Apache</a> 
+	<a href = "quiz8.php">Text Editors</a> 
 	
 	<div class='median'>
 	</div>

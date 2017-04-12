@@ -1,96 +1,56 @@
-<!-- Header PHP -->
- <?php
-  	$path = '../';
-  	$title = 'Tutorial 4';
- 	$heading = 'Tutorial';
-  	include $path.'assets/includes/header.php';
-  ?>
-	<div class="tutorial">
-		<h1>Tutorial 2 - SFTP</h1>
-
-		<p>
-			SFTP stands for SSH File Transfer Protocol, it can also be called Secure File Transfer Protocol. 
-			SFTP is an encrypted command-line transfer of files between two systems. This transfer can be done
-			through the command-line on your computer, or an SFTP graphical client software can be used to simplify
-			the transferring process. SFTP requires the name of the host you are connecting to, as well as a username and password for the host.
-			In this tutorial, you will be learning how to download and use the free SFTP software, FileZilla.
-		</p>
-
-		<!-- Link to correct computer thing -->
-
-		<h2>Downloading FileZilla</h2>
-
-		<p>
-			To begin downloading, please select your operating system from the list below.
-			Clicking the link below will take you directly to the dowload page on FileZilla.
-		</p>
-
-		<ol>
-			<li><a href="https://filezilla-project.org/download.php?type=client">Windows 64bit</a></li>
-			<li><a href="https://filezilla-project.org/download.php?platform=win32">Windows 32bit</a></li>
-			<li><a href="https://filezilla-project.org/download.php?platform=osx">Mac OS X</a></li>
-		</ol>
-
-		<p>Alternatively, you can go to FileZilla's homepage <a href="https://filezilla-project.org/">here</a>.</p>
-
-
-		<h2>For Windows</h2>
-
-			<img src="../assets/imgs/windows_download.png" alt="FileZilla Download for Windows">
-
-		<p>
-			Click the green "Download FileZilla Client" button. Your download will be a .exe file.
-			Run the file when the download is completed, and give it permission to run on your computer.
-		</p>
-			<img src="../assets/imgs/agreement_windows.png" alt="FileZilla Download Agreement">
-
-
-		<h2>For Mac</h2>
-		<p>
-			Click the green "Download FileZilla Client" button. Choose where you would like to save the zip
-			file. In this example, the zip file will be saved to the "Downloads" file.
-		</p>
-			<img src="../assets/imgs/mac_download.png" alt="FileZilla Download for Mac">
-		<p>
-			To unzip your downloaded file, go to the location of you download and double click the zipped file.
-			A new application item called "FileZilla-Installer" will appear in the folder. Open this application
-			and click "Open" to download.
-		</p>
-			<img src="../assets/imgs/accept_download.png" alt="FileZilla Download">
-		<p>
-			The Installer will open, read and agree to the software license terms to continue.
-		</p>
-			<img src="../assets/imgs/install.png" alt="FileZilla Download">
-		<p>
-			When the application has finished installing, select the "Done" button to complete your installation and
-			FileZilla should run.
-		</p>
-
-		<h2>Using FileZilla</h2>
-
-		<p>
-			Congratulations on successfully downloading FileZilla!
-		</p>
-		<h2>Establishing the File Connection</h2>
-		<p>
-			In order to send files, you must know the name of the host you want to connect to, the username, and the password.
-			The default port number for SFTP is '22'. To establish the connection enter the host name, username, password, 
-			and port number in the fields at the top, then press the "Quickconnect" button.
-		</p>
-			<img src="../assets/imgs/login.png" alt="FileZilla Download">
-
-		<!-- image -->
-
-		<p>
-			If you have successfully connected to the host, you will see
-		</p>
-			<img src="../assets/imgs/loggedin.png" alt="FileZilla Download">
-		<!-- Quiz -->
-	</div>
-	
-<!-- Footer PHP-->
+<!-- Header PHP-->
 <?php
 	$path = '../';
 	$title = 'Tutorial 1';
+	$heading = 'Tutorial';
+	include $path.'assets/includes/header.php';
+?>
+	<div class="tutorial">
+		<h1>Tutorial Two - Navigating Terminal</h1>
+
+		<p>Navigating through files in UNIX is one of the most common things you will ever do. There are only
+			a few simple commands you'll need to remember: ls, cd, and pwd.</p>
+
+		
+		
+		<h2>Step 1</h2>
+
+		<p>The first thing you need to do is open Terminal, or another application that will let you 
+			enter UNIX commands.</p>	
+
+		<!--Screenshot of terminal
+			<img src="<\?php echo $path;?>/assets/imgs/terminal.jpg" alt="Terminal">
+		-->
+
+		<p>We'll start with pwd: pwd stands for <u>P</u>rint <u>W</u>orking <u>D</u>irectory. This will display the path from the ROOT directory
+			(usually C:\) to wherever you are now. Entering the pwd command should look something like this:</p>
+
+		<p class="code">$ pwd<p>/users/home</p></p>
+
+		<p>EVERYTHING ELSE IS SHIT</p>
+
+		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		
+		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
+
+		<h2>Open your bash terminal (Windows)</h2>
+
+		<p>Since Windows is not based on UNIX, we have to install a program to interface with a UNIX computer from a windows computer.We will use PuTTY to SSH. PuTTY can be downloaded <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">here.</a> </p>
+
+		<p>When you open putty, enter USERNAME@HOSTNAME into the "Host Name" box, replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Enter port 22, and then press "Open".</p>
+
+		<img src="<?php echo $path;?>/assets/imgs/putty.jpg" alt="PuTTY">
+
+		<p>PuTTY will then open a terminal window connected to your server. The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
+
+		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		
+		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
+</div>
+	
+	<!-- Quiz -->
+	
+<!-- Footer PHP-->
+<?php
 	include $path.'assets/includes/footer.php';
 ?>
