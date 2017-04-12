@@ -46,8 +46,10 @@ body {
 	background-color: #43c0f6;
 }
 
-.navbar-default .navbar-nav #active a:hover {
-	background-color: #49EBC3;
+@media (min-width: 768px) {
+	.navbar-default .navbar-nav #active a:hover {
+		background-color: #49EBC3;
+	}
 }
 
 
