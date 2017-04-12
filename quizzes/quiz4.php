@@ -53,7 +53,5 @@
 		</form>
 	</div>
 <?php
-	$path='../';
-	$title='Quiz 4';
 	include $path.'assets/includes/footer.php';
 ?>
