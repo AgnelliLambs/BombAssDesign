@@ -1,3 +1,6 @@
+<!-- Tutorial 2 -->
+<!-- B.A.D Design -->
+
 <!-- Header PHP -->
  <?php
   	$path = '../';
