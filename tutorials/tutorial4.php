@@ -1,3 +1,6 @@
+<!-- Tutorial 4 -->
+<!-- B.A.D Design -->
+
 <!-- Header PHP -->
  <?php
   	$path = '../';
@@ -91,6 +94,6 @@
 <!-- Footer PHP-->
 <?php
 	$path = '../';
-	$title = 'Tutorial 1';
+	$title = 'Tutorial 4';
 	include $path.'assets/includes/footer.php';
 ?>
