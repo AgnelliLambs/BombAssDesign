@@ -4,6 +4,27 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+/* Index Page CSS */
+
+			.index h1 {
+				text-align: center;
+				color: blue;
+				font-size: 40px;
+			}
+			
+			.homeBox {
+				background-color: grey;
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 15px 10px;
+				margin-bottom: 20px;
+				border-radius: 15px;
+			}
+			
+			.index a{
+				text-decoration: none;
+			}
 
 /* Navbar */
 
