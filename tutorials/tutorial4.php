@@ -93,7 +93,5 @@
 	</div>
 <!-- Footer PHP-->
 <?php
-	$path = '../';
-	$title = 'Tutorial 4';
 	include $path.'assets/includes/footer.php';
 ?>
