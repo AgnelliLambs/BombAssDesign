@@ -186,6 +186,9 @@ body {
 img {
 	display: block;
 	margin: auto;
+	max-width: 900px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 
@@ -207,8 +210,8 @@ img {
 	background-color: #333333;
 	color: #fffafa;
 	padding: 5px;
+	padding-left: 10px;
 	margin: 5px;
-	text-indent: 5px;
 }
 
 
