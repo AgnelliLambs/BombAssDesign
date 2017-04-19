@@ -1,7 +1,7 @@
 <?php
 	$path='../';
 	$title='Quiz 4';
-	$heading='Quizes';
+	$heading='Quiz';
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="quiz">

@@ -4,7 +4,7 @@
 <?php
 	$path = '../';
 	$title = 'Quizzes';
-	$heading = 'Quizzes';
+	$heading = 'Quiz';
 	include $path.'assets/includes/header.php';
 ?>
 
