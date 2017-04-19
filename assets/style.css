@@ -81,7 +81,7 @@ body {
 	float: left;
 	width: 15vw;
 	height: 15vw;
-	border-radius: 50%;
+	border-radius: 90%;
 	border: 5px solid #f81b84;
 	text-align: center;
 	background-color: #F5CE28;
@@ -136,14 +136,16 @@ body {
 	}
 	/* for mobile page, extend width */
 	#content {
-		font-size: 3vw;
+		font-size: 5vw;
+		width:83vw;
+		margin:auto;
 	}
 	/* for mobile tutorials page, make circles bigger */
 	#content>a {
 		margin: 3vw;
-		height: 20vw;
-		width: 20vw;
-		line-height: 16vw;
+		height: 30vw;
+		width: 35vw;
+		line-height: 27vw;
 		border: 3px solid #f81b84;
 	}
 }
