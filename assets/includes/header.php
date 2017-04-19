@@ -15,7 +15,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 	<!-- Style sheet -->
-	<link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/style.css"> </head>
+	<link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/style.css">
+	</head>
 
 <body>
 	<div class="page-wrap">

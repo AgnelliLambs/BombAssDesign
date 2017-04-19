@@ -189,6 +189,8 @@ img {
 	max-width: 900px;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	cursor: pointer;
+	max-height: 800px;
 }
 
 
@@ -280,4 +282,36 @@ body {
 .page-wrap {
 	flex: 1;
 	padding-bottom: 30px;
+}
+
+
+/* Divs for fullscreen images (fullscreen_photos.js)*/
+
+#Fullscreen {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 21;
+	background-image: url("");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dimBackground {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.6;
+	z-index: 20;
+	height: 100%;
+	width: 100%;
+	background-repeat: repeat;
 }
