@@ -20,7 +20,7 @@
 		<p>Open "Terminal"</p>	
 
 		<!--Screenshot of terminal
-			<img src="<\?php echo $path;?>/assets/imgs/terminal.jpg" alt="Terminal">
+			<img src="<\?php echo $path;?>/assets/imgs/tutorial1/terminal.jpg" alt="Terminal">
 		-->
 
 		<p>Use SSH to connect to your Linux machine by typing "SSH" followed by USERNAME@HOSTNAME replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Press enter to execute the line.</p>
@@ -39,7 +39,7 @@
 
 		<p>When you open putty, enter USERNAME@HOSTNAME into the "Host Name" box, replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Enter port 22, and then press "Open".</p>
 
-		<img src="<?php echo $path;?>/assets/imgs/putty.jpg" alt="PuTTY">
+		<img src="<?php echo $path;?>/assets/imgs/tutorial1/putty.jpg" alt="PuTTY">
 
 		<p>PuTTY will then open a terminal window connected to your server. The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
 

@@ -9,7 +9,7 @@
   	include $path.'assets/includes/header.php';
   ?>
   <div class="tutorial">
-		<h1>Tutorial 2 - SFTP</h1>
+		<h1>Tutorial Four - SFTP</h1>
 		<!-- Quick walkthrough of what SFTP is -->
 		<p>
 			SFTP stands for SSH File Transfer Protocol, it can also be called Secure File Transfer Protocol. 
@@ -36,30 +36,30 @@
 		
 		<h3>For Windows</h3>
 		
-			<img src="../assets/imgs/windows_download.png" alt="FileZilla Download for Windows">
+			<img src="../assets/imgs/tutorial4/windows_download.png" alt="FileZilla Download for Windows">
 		
 		<p>
 			Click the green "Download FileZilla Client" button. Your download will be a .exe file.
 			Run the file when the download is completed, and give it permission to run on your computer.
 		</p>
-			<img src="../assets/imgs/agreement_windows.png" alt="FileZilla Download Agreement">
+			<img src="../assets/imgs/tutorial4/agreement_windows.png" alt="FileZilla Download Agreement">
 
 		<h3>For Mac</h3>
 		<p>
 			Click the green "Download FileZilla Client" button. Choose where you would like to save the zip
 			file. In this example, the zip file will be saved to the "Downloads" file.
 		</p>
-			<img src="../assets/imgs/mac_download.png" alt="FileZilla Download for Mac">
+			<img src="../assets/imgs/tutorial4/mac_download.png" alt="FileZilla Download for Mac">
 		<p>
 			To unzip your downloaded file, go to the location of you download and double click the zipped file.
 			A new application item called "FileZilla-Installer" will appear in the folder. Open this application
 			and click "Open" to download.
 		</p>
-			<img src="../assets/imgs/accept_download.png" alt="FileZilla Download">
+			<img src="../assets/imgs/tutorial4/accept_download.png" alt="FileZilla Download">
 		<p>
 			The Installer will open, read and agree to the software license terms to continue.
 		</p>
-			<img src="../assets/imgs/install.png" alt="FileZilla Download">
+			<img src="../assets/imgs/tutorial4/install.png" alt="FileZilla Download">
 		<p>
 			When the application has finished installing, select the "Done" button to complete your installation and
 			FileZilla should run.
@@ -78,13 +78,13 @@
 			The default port number for SFTP is '22'. To establish the connection enter the host name, username, password, 
 			and port number in the fields at the top, then press the "Quickconnect" button.
 		</p>
-			<img src="../assets/imgs/login.png" alt="FileZilla Download">
+			<img src="../assets/imgs/tutorial4/login.png" alt="FileZilla Download">
 		<p>
 			If you have successfully connected to the host, you will see a connected message directly below your connection information.
 			The content on the left is a listing of files and directories for your computer, content on the right is files and 
 			directories for the host you are connected to.
 		</p>
-			<img src="../assets/imgs/loggedin.png" alt="FileZilla Download">
+			<img src="../assets/imgs/tutorial4/loggedin.png" alt="FileZilla Download">
 		<p>
 			Transferring files from your computer to the host is as simple as selecting your files and dragging them to the host
 			"www" folder. The files you want to transfer can be found on the left, which is the listing of files on your computer,
@@ -93,7 +93,5 @@
 	</div>
 <!-- Footer PHP-->
 <?php
-	$path = '../';
-	$title = 'Tutorial 4';
 	include $path.'assets/includes/footer.php';
 ?>
