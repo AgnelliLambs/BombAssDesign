@@ -35,11 +35,11 @@
 		<div class="question5">
 		<h3 class="question">Question 5: Which of the selections below do you NOT need to know in order to
 			connect to a file with SFTP?</h3>
-			<input type="radio" name="answer5" value="0">Host name</input>
-			<input type="radio" name="answer5" value="1">IP Address</input> <!-- Correct answer --> 
-			<input type="radio" name="answer5" value="2">Port</input>
-			<input type="radio" name="answer5" value="3">Password</input>
-			<input type="radio" name="answer5" value="4">Username</input>
+			<input type="radio" name="answer5" value="0">Host name</input> 
+			<input type="radio" name="answer5" value="1">Port</input>
+			<input type="radio" name="answer5" value="2">Password</input>
+			<input type="radio" name="answer5" value="3">Username</input>
+			<input type="radio" name="answer5" value="4">IP Address</input> <!-- Correct answer -->
 		</div>
 			<button onclick="checkQuiz(4)">Submit</button>
 		</form>
