@@ -10,7 +10,7 @@
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">
-		<h1>Tutorial Five - File Permissions</h1>
+		<h1>File Permissions</h1>
 		
 		<h2>File Permissions Layout</h2>
 		

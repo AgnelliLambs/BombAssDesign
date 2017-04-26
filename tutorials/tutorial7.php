@@ -9,7 +9,7 @@
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">
-		<h1>Tutorial Seven - Apache</h1>
+		<h1>Apache</h1>
 		
 		<p>Apache is the server application that we will be using to host our website. Apache is the most popular web server and can run on any operating system. We'll be installing it on a linux server through terminal.</p>
 		

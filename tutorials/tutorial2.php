@@ -6,7 +6,7 @@
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">
-		<h1>Tutorial Two - Navigating Terminal</h1>
+		<h1>Navigating Terminal</h1>
 
 		<p>Navigating through files in UNIX is one of the most common things you will ever do. There are only
 			a few simple commands you'll need to remember: ls, cd, and pwd.</p>

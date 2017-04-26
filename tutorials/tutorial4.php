@@ -9,7 +9,7 @@
   	include $path.'assets/includes/header.php';
   ?>
   <div class="tutorial">
-		<h1>Tutorial Four - SFTP</h1>
+		<h1>SFTP</h1>
 		<!-- Quick walkthrough of what SFTP is -->
 		<p>
 			SFTP stands for SSH File Transfer Protocol, it can also be called Secure File Transfer Protocol. 

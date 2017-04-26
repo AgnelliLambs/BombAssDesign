@@ -9,7 +9,7 @@
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">
-		<h1>Tutorial One - SSH</h1>
+		<h1>SH</h1>
 
 		<p>SSH stands for Secure Shell. It is a secure (encrypted) way to remotely log into and control unix computers through the bash command line. In order to control your Unix server from your computer, you'll need to use SSH.</p>
 
