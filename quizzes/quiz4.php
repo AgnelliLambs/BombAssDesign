@@ -12,7 +12,7 @@
 				<option>left</option> <!-- Correct answer -->
 				<option>right</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
 			
 			<h3 class="question">Question 2: What does SFTP stand for?</h3>
 			<select id="4.2">
@@ -21,7 +21,7 @@
 				<option>Secure File Transfer Protocol</option> <!-- Correct answer -->
 				<option>Secure File Transmission Protocol</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
 			
 			<h3 class="question">Question 3: What is the port number for SFTP?</h3>
 			<select id="4.3">
@@ -30,14 +30,14 @@
 				<option>22</option> <!-- Correct answer -->
 				<option>23</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
 			
 			<h3 class="question">Question 4: Which side of the FileZilla application shows files on the host?</h3>
 			<select id="4.4">
 				<option>left</option>
 				<option>right</option><!-- Correct answer -->
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
 			
 			<h3 class="question">Question 5: Which of the selections below do you NOT need to know in order to
 				connect to a file with SFTP?</h3>
@@ -48,7 +48,7 @@
 				<option>Password</option>
 				<option>Username</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
 		</form>
 	</div>
 <?php
