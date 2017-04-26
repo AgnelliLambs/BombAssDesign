@@ -3,6 +3,7 @@ function checkQuizDeprecated(quizNum){
 	var quizzes = [[]];
 	//quizzes[0] = [0,1,2,3]; //a ,b ,c ,d
 	//quizzes[1]= [1,2,1,1,2];
+	//tutorial4 quiz [0,2,2,1,4]
 	var quizForm = document.getElementsByTagName('form')[0];
 	
 	for(var i = 0; i<quizzes[quizNum].length; i++){
