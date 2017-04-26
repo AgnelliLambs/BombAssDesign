@@ -35,7 +35,7 @@
 		<h2>Copying a File</h2>
 		<p>To Copy a file in Linux the "cp" command is used, followed by the name of the file being copied, and then the name of the new copy being created</p>
 		<p>Command: cp &lt;fileName1&gt; &lt;fileName2&gt;</p>
-		<img src="<?php echo $path;?>/assets/imgs/tutorial3/cp.PNG" alt="copy">
+		<img src="<?php echo $path;?>/assets/imgs/tutorial3/Cp.PNG" alt="copy">
 
 		<!-- Moving Files-->
 		<h2>Moving a File</h2>
