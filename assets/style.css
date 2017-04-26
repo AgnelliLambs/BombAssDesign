@@ -27,7 +27,14 @@ body {
 	text-decoration: none;
 }
 
+span #iyellow {
+	color: #F5CE28;
+}
 
+span #ipink {
+	color: #f81b84;;
+	
+}
 /* Navbar */
 
 .navbar-default {
