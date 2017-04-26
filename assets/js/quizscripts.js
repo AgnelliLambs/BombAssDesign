@@ -1,8 +1,8 @@
-function checkQuizDeprecated(var quizNum){
+function checkQuizDeprecated(quizNum){
 	quizNum++;
-	var[] quizzes = [];
-	quizzes[0] = [0,1,2,3]; //a ,b ,c ,d
-	quizzes[5]= [1,2,1,1,2];
+	var quizzes = [[]];
+	//quizzes[0] = [0,1,2,3]; //a ,b ,c ,d
+	//quizzes[1]= [1,2,1,1,2];
 	var quizForm = document.getElementsByTagName('form')[0];
 	
 	for(var i = 0; i<quizzes[quizNum].length; i++){
@@ -11,7 +11,7 @@ function checkQuizDeprecated(var quizNum){
 		var ops = ans.options;
 		
 		
-		if[ops[quizzes[quizNum][i].selected]{
+		if(true){//ops[quizzes[quizNum][i].selected){
 			document.getElementsByClassName('question')[i].style.color = 'black';
 		}
 		else{
@@ -22,9 +22,9 @@ function checkQuizDeprecated(var quizNum){
 	
 }
 
-function checkQuiz(var quizNum){
+function checkQuiz(quizNum){
 	quizNum++;
-	var[] quizzes = [	[0,0,0,0],
+	var quizzes = [	[0,0,0,0],
 						[0,0,0,0],
 						[0,0,0,0],
 						[0,0,0,0],
@@ -33,10 +33,12 @@ function checkQuiz(var quizNum){
 						[0,0,0,0],
 						[0,0,0,0],
 						[0,0,0,0]
-					]
+					];
 	for(var i=1;i<=quizzes[quizNum].length;i++){
-		var question = document.getElementByClassName('question')[i];
-		if(question.getElementsByTagName('input')[quizzes[quizNum][i].selected){
+		var question = document.getElementsByClassName('question')[i];
+		var inputs = question.getElementsByTagName('input');
+		var shouldBeSelected = quizzes[quizNum][i];
+		if(inputs[shouldBeSelected].checked){
 			alert('yay');
 		}
 	}
