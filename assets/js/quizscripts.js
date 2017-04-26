@@ -1,4 +1,4 @@
-function checkQuiz(var quizNum){
+function checkQuizDeprecated(var quizNum){
 	quizNum++;
 	var[] quizzes = [];
 	quizzes[0] = [0,1,2,3]; //a ,b ,c ,d
@@ -20,4 +20,24 @@ function checkQuiz(var quizNum){
 		//alert (ans.checked ? 'Correct!':'Wrong :(');
 	}
 	
+}
+
+function checkQuiz(var quizNum){
+	quizNum++;
+	var[] quizzes = [	[0,0,0,0],
+						[0,0,0,0],
+						[0,0,0,0],
+						[0,0,0,0],
+						[1,2,1,1,2],
+						[0,0,0,0],
+						[0,0,0,0],
+						[0,0,0,0],
+						[0,0,0,0]
+					]
+	for(var i=1;i<=quizzes[quizNum].length;i++){
+		var question = document.getElementByClassName('question')[i];
+		if(question.getElementsByTagName('input')[quizzes[quizNum][i].selected){
+			alert('yay');
+		}
+	}
 }
