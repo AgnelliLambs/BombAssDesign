@@ -10,7 +10,7 @@
 			<div class="homeBox">
 			<a href="tutorials/tutorial_home.php"><h1>Tutorials</h1></a>
 			</div>
-			<div class="homeBox"><a href="quizzes/quizzes_home.php">
+			<div class="homeBox"><a href="quizzes/quiz_home.php">
 			<h1>Quizzes</h1></a>
 			</div>
 			<div class="homeBox"><a href="glossary.php">
