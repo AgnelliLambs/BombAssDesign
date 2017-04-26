@@ -6,49 +6,42 @@
 ?>
 	<div class="quiz">
 		<h1>SFTP Quiz</h1>
-		<form>
+		<div class="question1">
 			<h3 class="question">Question 1: Which side of the FileZilla application shows files on your computer?</h3>
-			<select id="4.1">
-				<option>left</option> <!-- Correct answer -->
-				<option>right</option>
-			</select>
-			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
-			
+			<form action"">
+				<input type="radio" name="answer1" value="0">left</input> <!-- Correct answer -->
+				<input type="radio" name="answer1" value="1">right</input>
+		</div>
+		<div class="question2">
 			<h3 class="question">Question 2: What does SFTP stand for?</h3>
-			<select id="4.2">
-				<option>Separate File Transferring Protocol</option>
-				<option>Secret File Transmission Protocol </option>
-				<option>Secure File Transfer Protocol</option> <!-- Correct answer -->
-				<option>Secure File Transmission Protocol</option>
-			</select>
-			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
-			
-			<h3 class="question">Question 3: What is the port number for SFTP?</h3>
-			<select id="4.3">
-				<option>20</option>
-				<option>21</option>
-				<option>22</option> <!-- Correct answer -->
-				<option>23</option>
-			</select>
-			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
-			
-			<h3 class="question">Question 4: Which side of the FileZilla application shows files on the host?</h3>
-			<select id="4.4">
-				<option>left</option>
-				<option>right</option><!-- Correct answer -->
-			</select>
-			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
-			
-			<h3 class="question">Question 5: Which of the selections below do you NOT need to know in order to
-				connect to a file with SFTP?</h3>
-			<select id="4.5">
-				<option>Host name</option>
-				<option>IP Address</option> <!-- Correct answer --> 
-				<option>Port</option>
-				<option>Password</option>
-				<option>Username</option>
-			</select>
-			<!-- <input type="button" onclick="checkQuiz3()" value="Submit"> -->
+			<input type="radio" name="answer2" value="0">Separate File Transferring Protocol</input>
+			<input type="radio" name="answer2" value="1">Secret File Transmission Protocol </input>
+			<input type="radio" name="answer2" value="2">Secure File Transfer Protocol</input> <!-- Correct answer -->
+			<input type="radio" name="answer2" value="3">Secure File Transmission Protocol</input>
+		</div>
+		<div class="question3">
+		<h3 class="question">Question 3: What is the port number for SFTP?</h3>
+			<input type="radio" name="answer3" value="0">20</input>
+			<input type="radio" name="answer3" value="1">21</input>
+			<input type="radio" name="answer3" value="2">22</input> <!-- Correct answer -->
+			<input type="radio" name="answer3" value="3">23</input>
+		</div>
+		<div class="question4">
+		<h3 class="question">Question 4: Which side of the FileZilla application shows files on the host?</h3>
+
+			<input type="radio" name="answer4" value="0">left</input>
+			<input type="radio" name="answer4" value="1">right</input><!-- Correct answer -->
+		</div>
+		<div class="question5">
+		<h3 class="question">Question 5: Which of the selections below do you NOT need to know in order to
+			connect to a file with SFTP?</h3>
+			<input type="radio" name="answer5" value="0">Host name</input>
+			<input type="radio" name="answer5" value="1">IP Address</input> <!-- Correct answer --> 
+			<input type="radio" name="answer5" value="2">Port</input>
+			<input type="radio" name="answer5" value="3">Password</input>
+			<input type="radio" name="answer5" value="4">Username</input>
+		</div>
+			<button onclick="checkQuiz(4)">Submit</button>
 		</form>
 	</div>
 <?php
