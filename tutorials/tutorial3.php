@@ -22,13 +22,13 @@
 	<!-- Commands -->
 	<h2>Creating a File</h2>
 	<p>To Create a file in Linux the "vi" command is used, followed by the name of the file being created</p>
-	<p>Command: vi &lt;fileName&gt;</p>
+	<pclass="code">vi &lt;fileName&gt;</p>
 	<img src="<?php echo $path;?>/assets/imgs/tutorial3/vi.PNG" alt="vi/create file">
 	
 	<!-- Deleting Files -->
 	<h2>Deleting a File</h2>
 	<p>To Delete a file in Linux the "rm" command is used, followed by the name of the file being deleted</p>
-	<p>Command: rm &lt;fileName&gt;</p>
+	<p class="code">Command: rm &lt;fileName&gt;</p>
 	<img src="<?php echo $path;?>/assets/imgs/tutorial3/rm.PNG" alt="remove file">
 	
 	<!-- Copying Files -->
@@ -40,13 +40,13 @@
 	<!-- Moving Files-->
 	<h2>Moving a File</h2>
 	<p>To Move a file in Linux the "mv" command is used, followed by the name of the file being moved, the new name if the moved file(Can be the same name), and then the new address</p>
-	<p>Command: mv &lt;fileName1&gt; &lt;fileName2&gt; &lt;newAddress&gt; </p>	
+	<p class="code">mv &lt;fileName1&gt; &lt;fileName2&gt; &lt;newAddress&gt; </p>	
 	<img src="<?php echo $path;?>/assets/imgs/tutorial3/mv.PNG" alt="move ">
 	
 	<!-- Renaming Files-->
 	<h2>Renaming a File</h2>
 	<p>The Rename command is similar to the move command, in that it uses the same command "mv". The difference with it is that there is no address at the end of the command </p>
-	<p>Command: mv &lt;fileName1&gt; &lt;fileName2&gt;</p>
+	<p class="code">mv &lt;fileName1&gt; &lt;fileName2&gt;</p>
 	<img src="<?php echo $path;?>/assets/imgs/tutorial3/rename.PNG" alt="rename">
 	
 	
