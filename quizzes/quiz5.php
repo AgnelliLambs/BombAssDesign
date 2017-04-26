@@ -3,9 +3,9 @@
 
 <!-- Header -->
 <?php
-	$path = '';
+	$path = '../';
 	$title = 'YouNix';
-	$heading = 'Home';
+	$heading = 'quiz5';
 	include $path.'assets/includes/header.php';
 ?>
 
