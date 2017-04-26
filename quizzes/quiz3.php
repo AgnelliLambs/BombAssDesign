@@ -21,7 +21,6 @@
 				<option>mkdir file1</option>
 				<option>vi file1</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
 		
 			<!-- Question 2 -->
 			<h3 class ="question">Which choice is the correct way to delete a file?</h3>
@@ -30,7 +29,6 @@
 				<option>rmdir file1</option>
 				<option>delete file1</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
 			
 			<!-- Question 3 -->
 			<h3 class ="question">Which choice is the correct way to rename a file?</h3>
@@ -39,7 +37,7 @@
 				<option>rn file1 file 2</option>
 				<option>rename file1 file2</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+		
 			
 			<!-- Question 4 -->
 			<h3 class ="question">Which choice is the correct way move to a file?</h3>
@@ -48,7 +46,6 @@
 				<option>mv file1 file2 newDestination</option>
 				<option>move file1 file2 newDestination</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
 			
 			<!-- Question 5 -->
 			<h3 class ="question">Which choice is the correct way to copy a file?</h3>
@@ -57,10 +54,34 @@
 				<option>copy file1 file2</option>
 				<option>vi file1 file2</option>
 			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
+			
+			<button onclick="checkQuiz(x)">SUBMit</button>
 		
 		</form>
-	
+	<div class = 'question1'>
+	<p>This is a question?</p>
+	<input type='radio' name='answer1' value='1'>Answer1</input>
+	<input type='radio' name='answer1' value='2'>Answer1</input>
+	<input type='radio' name='answer1' value='3'>Answer1</input>
+	<input type='radio' name='answer1' value='4'>Answer1</input>
+</div>
+
+<div class = 'question2'>
+	<p>This is a question?</p>
+	<input type='radio' name='answer2' value='1'>Answer1</input>
+	<input type='radio' name='answer2' value='2'>Answer1</input>
+	<input type='radio' name='answer2' value='3'>Answer1</input>
+	<input type='radio' name='answer2' value='4'>Answer1</input>
+</div>
+
+<div class = 'question3'>
+	<p>This is a question?</p>
+	<input type='radio' name='answer3' value='1'>Answer1</input>
+	<input type='radio' name='answer3' value='2'>Answer1</input>
+	<input type='radio' name='answer3' value='3'>Answer1</input>
+	<input type='radio' name='answer3' value='4'>Answer1</input>
+</div>
+<button onclick="checkQuiz(x)">SUBMit</button>
 <!-- Footer PHP-->
 <?php
 	$path = '../';
