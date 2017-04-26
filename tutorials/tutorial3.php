@@ -17,13 +17,12 @@
 		<h1>Files</h1>
 
 		<!-- Files -->
-		<h2>Files</h2>
 			<p>Linux stores all of it data in files. Things such as programs, texts, and images are examples of files. These files can be found in directories.</p>
 
 		<!-- Commands -->
 		<h2>Creating a File</h2>
 		<p>To Create a file in Linux the "vi" command is used, followed by the name of the file being created</p>
-		<pclass="code">vi &lt;fileName&gt;</p>
+		<p class="code">vi &lt;fileName&gt;</p>
 		<img src="<?php echo $path;?>/assets/imgs/tutorial3/vi.PNG" alt="vi/create file">
 
 		<!-- Deleting Files -->
