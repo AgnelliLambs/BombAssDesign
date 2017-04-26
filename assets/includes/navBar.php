@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 			<li class="dropdown">
-        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials/tutorial_home.php" id="<?php if ($heading == 'Tutorial'){echo 'active';}?>">TUTORIALS<span class="caret" id="caret"></span></a>
+        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials/tutorial_home.php" <?php if ($heading == 'Tutorial'){echo 'id="active"';}?>>TUTORIALS<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
@@ -24,7 +24,7 @@
 				</ul>
       	</li>
         <li class="dropdown">
-			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes/quiz_home.php"  id="<?php if ($heading == 'Quiz'){echo 'active';}?>">QUIZZES<span class="caret" id="caret1"></span></a>
+			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes/quiz_home.php"  <?php if ($heading == 'Quiz'){echo 'id="active"';}?>>QUIZZES<span class="caret" id="caret1"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>quizzes/quiz1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>quizzes/quiz2.php">Navigation</a></li>
@@ -36,7 +36,7 @@
 					<li><a href="quizzes/quiz8.php">Unix text editors</a></li>
 				</ul>
 			</li>
-        <li><a href="<?php echo $path;?>glossary.php" id="<?php if ($heading == 'Glossary'){echo 'active';}?>">GLOSSARY</a></li>
+        <li><a href="<?php echo $path;?>glossary.php" <?php if ($heading == 'Glossary'){echo 'id="active"';}?>>GLOSSARY</a></li>
       </ul>
 		 <?php if($heading == 'Glossary'){
 			echo '
@@ -53,3 +53,4 @@
 </nav>
 
 <script src="<?php echo $path;?>assets/js/dropdown.js"></script>
+id="
