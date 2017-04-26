@@ -66,6 +66,9 @@ span #ipink {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.form-control {
+    border-radius: 33px;
+}
 
 /* Stop color change on dropdown open*/
 
