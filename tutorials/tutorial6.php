@@ -35,7 +35,7 @@
 		<h2>Copying a Directory</h2>
 		<p>To Copy a directory in Linux the "cp" command is used, followed by the name of the directory being copied, and then the name of the new copy being created</p>
 		<p class="code">cp &lt;directoryName1&gt; &lt;directoryName2&gt;</p>
-		<img src="<?php echo $path;?>/assets/imgs/tutorial10/cp.PNG" alt="copy">
+		<img src="<?php echo $path;?>/assets/imgs/tutorial10/Cp.PNG" alt="copy">
 
 		<!-- Moving Directories -->
 		<h2>Moving a Directory</h2>
