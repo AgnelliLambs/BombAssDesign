@@ -21,31 +21,31 @@
 	<h2>Creating a Directory</h2>
 	<p>To Create a directory in Linux the "mkdir" command is used, followed by the name of the directory being created</p>
 	<p>Command: mkdir &lt;directoryName&gt;</p>
-	<img src="<?php echo $path;?>/assets/imgs/tutorial3/mkdir.PNG" alt="make directory">
+	<img src="<?php echo $path;?>/assets/imgs/tutorial10/mkdir.PNG" alt="make directory">
 		
 	<!-- Removing Directories -->
 	<h2>Removing a Directory </h2>
 	<p>To Remove a directory in Linux the "rmdir" command is used, followed by the name of the directory being deleted</p>
 	<p>Command: rmdir &lt;directoryName&gt;</p>
-	<img src="<?php echo $path;?>remove directory">
+	<img src="<?php echo $path;?>/assets/imgs/tutorial10/rmdir.PNG" alt="make directory">
 	
 	<!-- Copying directory -->
 	<h2>Copying a Directory</h2>
 	<p>To Copy a directory in Linux the "cp" command is used, followed by the name of the directory being copied, and then the name of the new copy being created</p>
 	<p>Command: cp &lt;directoryName1&gt; &lt;directoryName2&gt;</p>
-	<img src="<?php echo $path;?>/assets/imgs/tutorial3/cp.PNG" alt="copy">
+	<img src="<?php echo $path;?>/assets/imgs/tutorial10/cp.PNG" alt="copy">
 	
 	<!-- Moving Directories -->
 	<h2>Moving a Directory</h2>
 	<p>To Move a directory in Linux the "mv" command is used, followed by the name of the directory being moved, the new name if the moved directory, and then the new address</p>
 	<p>Command: mv &lt;directoryName1&gt; &lt;directoryName2&gt; &lt;newDestination&gt; </p>	
-	<img src="<?php echo $path;?>/assets/imgs/tutorial3/mv.PNG" alt="move ">
+	<img src="<?php echo $path;?>/assets/imgs/tutorial10/mv.PNG" alt="move ">
 	
 	<!-- Renaming Directories -->
 	<h2>Renaming a directory</h2>
 	<p>The Rename command is similar to the move command, in that it uses the same command "mv". The difference with it is that there is no address at the end of the command </p>
 	<p>Command: mv &lt;directoryName1&gt; &lt;directoryName2&gt;</p>
-	<img src="<?php echo $path;?>/assets/imgs/tutorial3/rename.PNG" alt="rename">
+	<img src="<?php echo $path;?>/assets/imgs/tutorial10/rename.PNG" alt="rename">
 	
 	<!-- Quiz -->
 	
