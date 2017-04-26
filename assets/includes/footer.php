@@ -16,5 +16,6 @@
 		
 </div> 
 <script src="<?php echo $path;?>assets/js/fullscreen_photos.js"></script>
+<script src="<?php echo $path;?>assets/js/quizscripts.js"></script>
 </body> 
 </html> 
