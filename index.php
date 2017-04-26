@@ -22,5 +22,3 @@
 <?php
 	include $path.'assets/includes/footer.php';
 ?>
-
-</html>
