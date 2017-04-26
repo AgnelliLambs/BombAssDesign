@@ -7,14 +7,14 @@
 	<div class="quiz">
 		<h1>SFTP Quiz</h1>
 		<form>
-			<h3>Question 1: Which side of the FileZilla application shows files on your computer?</h3>
+			<h3 class="question">Question 1: Which side of the FileZilla application shows files on your computer?</h3>
 			<select id="4.1">
 				<option>left</option> <!-- Correct answer -->
 				<option>right</option>
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 			
-			<h3>Question 2: What does SFTP stand for?</h3>
+			<h3 class="question">Question 2: What does SFTP stand for?</h3>
 			<select id="4.2">
 				<option>Separate File Transferring Protocol</option>
 				<option>Secret File Transmission Protocol </option>
@@ -23,7 +23,7 @@
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 			
-			<h3>Question 3: What is the port number for SFTP?</h3>
+			<h3 class="question">Question 3: What is the port number for SFTP?</h3>
 			<select id="4.3">
 				<option>20</option>
 				<option>21</option>
@@ -32,14 +32,14 @@
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 			
-			<h3>Question 4: Which side of the FileZilla application shows files on the host?</h3>
+			<h3 class="question">Question 4: Which side of the FileZilla application shows files on the host?</h3>
 			<select id="4.4">
 				<option>left</option>
 				<option>right</option><!-- Correct answer -->
 			</select>
 			<input type="button" onclick="checkAnswer()" value="Submit">
 			
-			<h3>Question 5: Which of the selections below do you NOT need to know in order to
+			<h3 class="question">Question 5: Which of the selections below do you NOT need to know in order to
 				connect to a file with SFTP?</h3>
 			<select id="4.5">
 				<option>Host name</option>
