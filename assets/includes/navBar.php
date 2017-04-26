@@ -15,7 +15,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php">Navigation</a></li>
-					<li><a href="<?php echo $path;?>tutorials/tutorial3.php">Creating and deleting files</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial3.php">Files</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial4.php">SFTP</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial5.php">File Permissions</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial6.php">Directories</a></li>
@@ -28,7 +28,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>quizzes/quiz1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>quizzes/quiz2.php">Navigation</a></li>
-					<li><a href="quizzes/quiz3.php">Creating and deleting files</a></li>
+					<li><a href="quizzes/quiz3.php">Files</a></li>
 					<li><a href="quizzes/quiz4.php">SFTP</a></li>
 					<li><a href="quizzes/quiz5.php">File Permissions</a></li>
 					<li><a href="quizzes/quiz6.php">Directories</a></li>
