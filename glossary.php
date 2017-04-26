@@ -7,9 +7,11 @@
 <?php
 	$path = '';
 	$title = 'Glossary';
+	$heading = 'Glossary';
 	include $path.'assets/includes/header.php';
 ?>
 <!-- Glossary -->
+<div class="glossary">
 <h2>Glossary</h2>
 	<p>Apache: A foundation that develops open source projects. This tutorial refers to specifically, their HTTP servers, used to host a website.</p>
 	
@@ -27,7 +29,7 @@
 
 <!-- Commands -->
 <h2>List of Commands</h2>
-	bg <job number> - resumes suspended job in the background
+	bg &ltjob number&gt - resumes suspended job in the background
 	
 	<p>cd <path> - change directory, changes where your cursor is ‘cd ..’ returns you to the directory that your directory is located in.</p>
 	
@@ -63,9 +65,8 @@
 	<p>vi - opens up the text editor, this can be used to change file contents.</p>
 	wc <filename> - Gives you a word count of the file. Adding ‘-w’ prints a list of the words, ‘-l’ prints the number of lines.
 
+		</div>
 <!-- Footer PHP-->
 <?php
-	$path = '';
-	$title = 'Glossary';
 	include $path.'assets/includes/footer.php';
 ?>
