@@ -6,14 +6,16 @@ function checkQuiz(quizNum){
 	var quizForm = document.getElementsByTagName('form')[0];
 	
 	for(var i = 0; i<quizzes[quizNum].length; i++){
-		var ans = document.getElementsByName('answer'+(i+1))[quizzes[quizNum][i]];
+		var ans = document.getElementsByClassName('select')[quizzes[quizNum][i]];
 		
-		if(!ans.checked){
-			document.getElementsByClassName('question')[i].style.color = 'red';
-		}
-		else
-		{
+		var ops = ans.options;
+		
+		
+		if[ops[quizzes[quizNum][i].selected]{
 			document.getElementsByClassName('question')[i].style.color = 'black';
+		}
+		else{
+			document.getElementsByClassName('question')[i].style.color = 'red';
 		}
 		//alert (ans.checked ? 'Correct!':'Wrong :(');
 	}
