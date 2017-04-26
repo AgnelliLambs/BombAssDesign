@@ -17,7 +17,7 @@
 
 		<p>Open "Terminal"</p>	
 
-			<img src="<?php echo $path;?>/assets/imgs/tutorial1/mac_terminal.PNG" alt="Mac terminal">
+			<img src="<?php echo $path;?>/assets/imgs/tutorial1/Mac_Terminal.png" alt="Mac terminal">
 
 		<p>Use SSH to connect to your Linux machine by typing "SSH" followed by USERNAME@HOSTNAME replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Press enter to execute the line.</p>
 
