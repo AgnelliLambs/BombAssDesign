@@ -351,3 +351,13 @@ body {
 	width: 100%;
 	background-repeat: repeat;
 }
+
+
+<!--Twitter-->
+.sidebar-nav-fixed {
+	width:200px;
+	position: absolute;
+	float:right;
+ 
+}
+
