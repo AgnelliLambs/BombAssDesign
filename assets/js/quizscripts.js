@@ -37,6 +37,7 @@ function checkQuiz(quizNum){
 					];
 	for(var i=1;i<=quizzes[quizNum].length;i++){
 		var question = document.getElementsByClassName('question')[i];
+		alert('question');
 		var inputs = question.getElementsByTagName('input');
 		var shouldBeSelected = quizzes[quizNum][i];
 		if(inputs[shouldBeSelected].checked){

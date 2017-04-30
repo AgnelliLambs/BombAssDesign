@@ -61,16 +61,7 @@
 		
 		<!-- Quiz -->
 		
-		<form>
-			<h3 class ="question">What command will not give execute permission to everyone?</h3>
-			<select id="5.1">
-				<option>a</option>
-				<option>b</option>
-				<option>c</option>
-			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
-		</form>
-	</div>	
+		
 		
 <!-- Footer PHP-->
 <?php
