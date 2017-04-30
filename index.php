@@ -7,6 +7,19 @@
 ?>
 		<div class="index">
 			<h1><Span id="you">You</Span><Span id="nix">Nix</Span></h1>
+		<!-- Twitter -->	
+		<div class="sidebar-nav-absolute pull-right" style="float:right;">
+               	 <div class="well">
+                         	<a class="twitter-timeline" href="https://twitter.com/therealbadesign" 
+							data-tweet-limit="3"
+							data-width="200px"
+							>
+							Tweets by @therealbadesign</a> 
+							<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+             	   </div>
+                	<!--/.well -->
+          	  </div>
+			
 			<p>Welcome to YouNix, an interactive UNIX learning experience. Whether you are new to UNIX 
 				or you already have some experience, these tutorials can help you host your website for all 
 				the world to see.</p>
