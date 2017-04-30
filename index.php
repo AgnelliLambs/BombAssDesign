@@ -6,18 +6,15 @@
 	include $path.'assets/includes/header.php';
 ?>
 		<div class="index">
-			<h1><span id="iyellow">You</span><span id="ipink">Nix</span></h1>
-			<div class="homeBox">
-			<a href="tutorials/tutorial_home.php"><h1>Tutorials</h1></a>
-			</div>
-			<div class="homeBox"><a href="quizzes/quiz_home.php">
-			<h1>Quizzes</h1></a>
-			</div>
-			<div class="homeBox"><a href="glossary.php">
-			<h1>Glossary</h1></a>
-			</div>
+			<h1><Span id="you">You</Span><Span id="nix">Nix</Span></h1>
+			<p>Welcome to YouNix, an interactive UNIX learning experience. Whether you are new to UNIX 
+				or you already have some experience, these tutorials can help you host your website for all 
+				the world to see.</p>
+			<p>YouNix was created by web developers, for web developers, and it's here to give you
+				all the tools you need to put your site onto a server. You can 
+				<a href="<?php echo $path?>tutorials/tutorial_home.php">start the tutorials</a>
 		</div>
-
+		<img src="assets/imgs/happy.jpg" alt="People laughing" />
 <!-- Footer PHP -->
 <?php
 	include $path.'assets/includes/footer.php';

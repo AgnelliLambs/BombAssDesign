@@ -117,8 +117,6 @@ span #ipink {
 	margin: auto;
 	font-size: 2vw;
 }
-
-
 /* end of tutorials page css */
 
 /*Quiz CSS */
@@ -131,7 +129,11 @@ span #ipink {
 .page-wrap>h2{
 	text-align:center;
 }
+/* End QUIZ CSS */
 
+p{
+	text-align:center;
+}
 
 /* Set active color for desktop only */
 
@@ -183,11 +185,13 @@ span #ipink {
 #you {
 	color: #F5CE28;
 	transition: color .2s;
+	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
 #nix {
 	color: #f81b84;
 	transition: color .2s;
+	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
 .navbar-default .navbar-brand:hover #you {
