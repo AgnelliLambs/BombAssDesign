@@ -121,6 +121,17 @@ span #ipink {
 
 /* end of tutorials page css */
 
+/*Quiz CSS */
+.page-wrap>form{
+	margin-left:3vw;
+}
+.page-wrap>form>div{
+	margin-left:3vw;
+}
+.page-wrap>h2{
+	text-align:center;
+}
+
 
 /* Set active color for desktop only */
 
