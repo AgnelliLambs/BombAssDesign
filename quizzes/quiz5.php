@@ -4,8 +4,8 @@
 <!-- Header -->
 <?php
 	$path = '../';
-	$title = 'YouNix';
-	$heading = 'quiz5';
+	$title = 'Quiz 5';
+	$heading = 'Quiz';
 	include $path.'assets/includes/header.php';
 ?>
 
