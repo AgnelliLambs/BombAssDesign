@@ -6,7 +6,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-		 <a class="navbar-brand" <?php if ($heading == 'Home'){echo 'id="active"';}?> href="<?php echo $path;?>index.php"><Span id="you">You</Span><Span id="nix">Nix</Span></a>
+		 <a class="navbar-brand" <?php if ($heading == 'Home'){echo 'id="active"';}?> href="<?php echo $path;?>index.php"><span class="you">You</span><span class="nix">Nix</span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -28,12 +28,12 @@
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>quizzes/quiz1.php">SSH</a></li>
 					<li><a href="<?php echo $path;?>quizzes/quiz2.php">Navigation</a></li>
-					<li><a href="quizzes/quiz3.php">Files</a></li>
-					<li><a href="quizzes/quiz4.php">SFTP</a></li>
-					<li><a href="quizzes/quiz5.php">File Permissions</a></li>
-					<li><a href="quizzes/quiz6.php">Directories</a></li>
-					<li><a href="quizzes/quiz7.php">Apache</a></li>
-					<li><a href="quizzes/quiz8.php">Unix text editors</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz3.php">Files</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz4.php">SFTP</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz5.php">File Permissions</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz6.php">Directories</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz7.php">Apache</a></li>
+					<li><a href="<?php echo $path;?>quizzes/quiz8.php">Unix text editors</a></li>
 				</ul>
 			</li>
         <li><a href="<?php echo $path;?>glossary.php" <?php if ($heading == 'Glossary'){echo 'id="active"';}?>>GLOSSARY</a></li>
