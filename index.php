@@ -6,7 +6,6 @@
 	include $path.'assets/includes/header.php';
 ?>
 		<div class="index">
-			<h1><Span id="you">You</Span><Span id="nix">Nix</Span></h1>
 		<!-- Twitter -->	
 		<div class="sidebar-nav-absolute pull-right" style="float:right;">
                	 <div class="well">
@@ -19,7 +18,7 @@
              	   </div>
                 	<!--/.well -->
           	  </div>
-			
+			<h1 id="logo"><span class="you">You</span><span class="nix">Nix</span></h1>
 			<p>Welcome to YouNix, an interactive UNIX learning experience. Whether you are new to UNIX 
 				or you already have some experience, these tutorials can help you host your website for all 
 				the world to see.</p>

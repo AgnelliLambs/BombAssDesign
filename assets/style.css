@@ -27,14 +27,7 @@ body {
 	text-decoration: none;
 }
 
-span #iyellow {
-	color: #F5CE28;
-}
 
-span #ipink {
-	color: #f81b84;
-	
-}
 /* Navbar */
 
 .navbar-default {
@@ -182,23 +175,23 @@ p{
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-#you {
+.you {
 	color: #F5CE28;
 	transition: color .2s;
 	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
-#nix {
+.nix {
 	color: #f81b84;
 	transition: color .2s;
 	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
-.navbar-default .navbar-brand:hover #you {
+.navbar-default .navbar-brand:hover .you, #logo:hover .you {
 	color: #f81b84;
 }
 
-.navbar-default .navbar-brand:hover #nix {
+.navbar-default .navbar-brand:hover .nix, #logo:hover .nix {
 	color: #F5CE28;
 }
 
@@ -352,12 +345,10 @@ body {
 	background-repeat: repeat;
 }
 
-
-<!--Twitter-->
+/* Twitter */
 .sidebar-nav-fixed {
 	width:200px;
 	position: absolute;
 	float:right;
  
 }
-
