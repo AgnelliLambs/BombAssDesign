@@ -4,7 +4,7 @@
 <!-- Header PHP-->
 
 <?php
-	$path = '../';
+	$path = '../../';
 	$title = 'Tutorial 5';
 	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
@@ -61,7 +61,7 @@
 		
 		<!-- Quiz -->
 		
-		
+		<a href="../../quizzes/quiz5.php">The Quiz</a>
 		
 <!-- Footer PHP-->
 <?php
