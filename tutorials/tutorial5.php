@@ -61,7 +61,7 @@
 		
 		<!-- Quiz -->
 		
-		<a href="../../quizzes/quiz5.php">The Quiz</a>
+		<a href="../quizzes/quiz5.php">The Quiz</a>
 		
 <!-- Footer PHP-->
 <?php
