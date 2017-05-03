@@ -9,11 +9,11 @@
 		 
       
 		<a href="<?php echo $path;?>about.php" style="color:#b4c1d1;">About Us</a><br>
-		<a href="<?php echo $path;?>citations.php" style="color:#b4c1d1;">Citations</a><br>
+		<a href="<?php echo $path;?>citations.php" style="color:#b4c1d1;">Citations</a>
 		
 		<!--YouNix -->
-		<div class="col-xs-6">
-		&copy; YouNix<br>
+		<div class="col-xs-6">Site Owners:
+		Copywrite &copy; YouNix<br>
 		<div id="mobilePhoneLink">Phone: <a href="tel:18005559988" target="_blank">1-800-555-9988</a> <br></div>
 		<div id="desktopPhone">Phone: 1-800-555-9988<br></div>
 		Email: <a href="mailto:bombassdesign@gmail.com?subject=Website%20contact" target="_top">YouNix@gmail.com</a><br>
@@ -21,8 +21,8 @@
 		</div>
 		
 		<!--Bomb Ass Design -->
-		<div class="col-xs-6">
-		&copy; Bomb Ass Design 2017<br>
+		<div class="col-xs-6">Site Design By:<br>
+		Copywrite &copy; Bomb Ass Design 2017<br>
 		<div id="mobilePhoneLink">Phone: <a href="tel:18005558899" target="_blank">1-800-555-8899</a> <br></div>
 		<div id="desktopPhone">Phone: 1-800-555-8899<br></div>
 		Email: <a href="mailto:bombassdesign@gmail.com?subject=Website%20contact" target="_top">bombassdesign@gmail.com</a><br>
