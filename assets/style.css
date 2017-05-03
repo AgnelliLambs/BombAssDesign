@@ -1,6 +1,6 @@
 body {
 	padding-top: 52px;
-	background-color: #f2eee2;
+	background-color: #eee;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 /* Navbar */
 
 .navbar-default {
-	background-color: #43c0f6;
+	background-color: #07889B;
 	position: fixed;
 	/* Set the navbar to fixed position */
 	top: 0;
@@ -63,14 +63,13 @@ body {
     border-radius: 33px;
 }
 
-/* Stop color change on dropdown open*/
+/* Navbar hover colors */
 
-.navbar-default .navbar-nav>.open>a:hover {
-	background-color: #43c0f6;
-}
-
-.navbar-default .navbar-nav .dropdown .dropdown-toggle {
-	background-color: #43c0f6;
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav li a:hover{
+	background-color: #66B9BF;
+	color: #fff;
 }
 
 
@@ -128,12 +127,9 @@ p{
 	text-align:center;
 }
 
-/* Set active color for desktop only */
-
-@media (min-width: 768px) {
-	#active {
-		background-color: #49EBC3;
-	}
+#active {
+	background-color: #E37222;
+	color: white;
 }
 
 
@@ -352,3 +348,7 @@ body {
 	float:right;
  
 }
+
+/* PINK #A30053
+GREEN #00981B
+*/
