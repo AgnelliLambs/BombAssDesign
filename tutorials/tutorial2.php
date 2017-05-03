@@ -41,14 +41,14 @@
 		<p>The cd part of the statement tells Unix to change our directory, the slash tells it which directo to go to, '/' is always your root directory.<p>
 		<p>Now lets go down, if you type cd, followed by the name of a directory, you will move into that directory. Use ls to see which directories are available
 			from your location and use cd <i>filename</i> to move into one of them.</p>
-		<p class = "code">$ cd Users</p>
+		<p class = "code">$ cd Users<br />C:/Users</p>
 		<p>If you wanted to go up one level, you could type <i>cd ../</i>. The <i>../</i> goes up one level.</p>
 		<p>If you wanted, you could even combine multiple directories together, each seperated by a slash,
 			to traverse through them all in one command. For instance: if your desktop has two directories, one called myDir
 			and one called myOtherDir, then to navigate from the first to the second you could use either the commamd<p>
-		<p class="code">cd ../myOtherDir</p>
+		<p class="code">$ cd ../myOtherDir<br />C:/Users/YouNix/desktop/myOtherDir</p>
 		<p>or you could do it on two lines by writing</p>
-		<p class = "code">cd ../ <br /> cd myOtherDir</p>
+		<p class = "code">$ cd ../<br />C:/Users/YouNix/desktop <br />$ cd myOtherDir<br />C:/Users/YouNix/desktop/myOtherDir</p>
 	</div>
 	
 	<!-- Quiz -->
