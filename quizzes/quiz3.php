@@ -32,7 +32,7 @@
 	</div>
 
 <div class = 'question3'>
-	<p>Which choice is the correct way to rename a file?</p>
+	<h3>Which choice is the correct way to rename a file?</h3>
 	<div class ="question">
 	<input type='radio' name='answer3' value='1'>mv file1 file2</input>
 	<input type='radio' name='answer3' value='2'>rn file1 file 2</input>
