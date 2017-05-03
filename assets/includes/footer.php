@@ -9,7 +9,7 @@
 		 
       
 		<a href="<?php echo $path;?>about.php" style="color:#b4c1d1;">About Us</a><br>
-		<a href="<?php echo $path;?>citations.php" style="color:#b4c1d1;">Citations</a>
+		<a href="<?php echo $path;?>citations.php" style="color:#b4c1d1;">Citations</a><br>
 		
 		<!--YouNix -->
 		<div class="col-xs-6">Site Owners:
