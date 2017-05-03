@@ -27,6 +27,49 @@ body {
 	text-decoration: none;
 }
 
+#tutorialsStart {
+	margin: 0 auto;
+	text-align: center;
+	background: url("assets/imgs/happy.jpg");
+	width: 90%;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+#gotoglossary {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	padding-bottom: 5em;
+	height: 15em;
+}
+#gotoglossary h2 {
+	padding: 40px;
+}
+#glossaryLink {
+	
+}
+#tutorialsStart #tutorialsLink, #gotoglossary #glossaryLink {
+	margin: auto;
+	min-width: 20px;
+	border: 3px solid white;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: invisible;
+	background-color: #66B9BF;
+	color: #fff;
+}
+
+@media (max-width: 280px) {
+	#tutorialsStart {
+		background-image: none;
+		padding: 15px;
+	}
+	#tutorialsStart #tutorialsLink, #gotoglossary #glossaryLink {
+		padding: 5px;
+	}
+}
 
 /* Navbar */
 
