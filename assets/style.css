@@ -59,24 +59,27 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.form-control {
-    border-radius: 33px;
+#active {
+	background-color: #E37222;
+	color: white;
 }
 
 /* Navbar hover colors */
 
-.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav li a:hover{
+.navbar-default .navbar-nav li a:hover {
 	background-color: #66B9BF;
 	color: #fff;
 }
 
 
-/* Primarily for tutorials page */
-#content>h1{
-	text-align:center;
+/* Primarily for tutorials home page */
+
+#content>h1 {
+	text-align: center;
 }
+
 #content>a {
 	margin: 5vw;
 	margin-top: 0px;
@@ -109,28 +112,34 @@ body {
 	margin: auto;
 	font-size: 2vw;
 }
-/* end of tutorials page css */
+
 
 /*Quiz CSS */
-.page-wrap>form{
-	margin-left:3vw;
-}
-.page-wrap>form>div{
-	margin-left:3vw;
-}
-.page-wrap>h2{
-	text-align:center;
-}
-/* End QUIZ CSS */
-
-p{
-	text-align:center;
+.quiz {
+	max-width: 1000px;
+	margin: auto;
 }
 
-#active {
-	background-color: #E37222;
-	color: white;
+
+.quiz form {
+	margin-left: 3vw;
 }
+
+.quiz>form>div {
+	margin-left: 3vw;
+}
+
+.quiz>h2 {
+	text-align: center;
+}
+
+
+/* Home Page */
+
+.index p {
+	text-align: center;
+}
+
 
 
 /* Remove hover color change and fixed header on mobile */
@@ -149,8 +158,8 @@ p{
 	/* for mobile page, extend width */
 	#content {
 		font-size: 5vw;
-		width:83vw;
-		margin:auto;
+		width: 83vw;
+		margin: auto;
 	}
 	/* for mobile tutorials page, make circles bigger */
 	#content>a {
@@ -167,28 +176,28 @@ p{
 
 .navbar-default .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	font-size: 220%;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .you {
-	color: #F5CE28;
+	color: #fff;
 	transition: color .2s;
-	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
 .nix {
-	color: #f81b84;
+	color: #05c226;
 	transition: color .2s;
-	text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
 }
 
-.navbar-default .navbar-brand:hover .you, #logo:hover .you {
-	color: #f81b84;
+.navbar-default .navbar-brand:hover .you,
+#logo:hover .you {
+	color: #05c226;
 }
 
-.navbar-default .navbar-brand:hover .nix, #logo:hover .nix {
-	color: #F5CE28;
+.navbar-default .navbar-brand:hover .nix,
+#logo:hover .nix {
+	color: #fff;
 }
 
 
@@ -199,6 +208,10 @@ p{
 	padding-right: 10px;
 	max-width: 1000px;
 	margin: auto;
+}
+
+.tutorial h1 {
+	text-align: center;
 }
 
 .glossary {
@@ -238,7 +251,8 @@ img {
 	color: #fffafa;
 	padding: 5px;
 	padding-left: 10px;
-	margin: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 
@@ -341,14 +355,11 @@ body {
 	background-repeat: repeat;
 }
 
-/* Twitter */
-.sidebar-nav-fixed {
-	width:200px;
-	position: absolute;
-	float:right;
- 
-}
 
-/* PINK #A30053
-GREEN #00981B
-*/
+/* Twitter */
+
+.sidebar-nav-fixed {
+	width: 200px;
+	position: absolute;
+	float: right;
+}
