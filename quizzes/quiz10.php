@@ -1,4 +1,4 @@
-<!-- Quiz 10 -->
+<!-- Quiz 6 -->
 <!-- B.A.D Design -->
 
 
@@ -6,7 +6,7 @@
 
 <?php
 	$path = '../';
-	$title = 'Quiz 10';
+	$title = 'Quiz 6';
 	include $path.'assets/includes/header.php';
 ?>
 		<!-- Quiz -->
@@ -58,6 +58,6 @@
 <!-- Footer PHP-->
 <?php
 	$path = '../';
-	$title = 'Quiz 10';
+	$title = 'Quiz 6';
 	include $path.'assets/includes/footer.php';
 ?>
