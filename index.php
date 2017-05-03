@@ -30,7 +30,13 @@
 				all the tools you need to put your site onto a server. You can 
 				<a href="<?php echo $path?>tutorials/tutorial_home.php">start the tutorials</a>
 		</div>
-		<img src="assets/imgs/happy.jpg" alt="People laughing" />
+		<div id="tutorialsStart">
+			<a id="tutorialsLink" href="#">Start Tutorials</a> <!-- Goes to first tutorial -->
+		</div>
+		<div id="gotoglossary">
+			<h2>Already know Unix?</h2>
+			<a id="glossaryLink" href="#">Search Glossary</a>
+		</div>
 <!-- Footer PHP -->
 <?php
 	include $path.'assets/includes/footer.php';
