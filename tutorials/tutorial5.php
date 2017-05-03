@@ -15,6 +15,7 @@
 		<h2>File Permissions Layout</h2>
 		
 		<!-- Screenshot of home directory permissions (ls -l) -->
+		<img src="<?php echo $path;?>/assets/imgs/tutorial5/1HomeDirectoryExample1.png" alt="Home Directory">
 		
 		<p>The file permissions are at the very start of the line.
 		The first space within the file directory determine whether the file is
@@ -23,6 +24,8 @@
 		Other (o). The three spaces can consist of an r, w, or x which stand for
 		read = r, write = w, and execute = x.</p>
 		<!-- Use picture to highligh focus areas during the tutorial reading -->
+		
+		<img src="<?php echo $path;?>/assets/imgs/tutorial5/2FilePermissionsLocation2.png" alt="File Permissions Location">
 		
 		<h2>Changing specific permissions</h2>
 		
@@ -38,12 +41,14 @@
 		change permissions of files that are unknown.</p>
 		
 		<!-- Screenshot of chmod example -->
+		<img src="<?php echo $path;?>/assets/imgs/tutorial5/3RemovePermissions3.png" alt="Removing Permissions">
 		
 		<p>With your knowledge so far, change the files permissions to allow for
 		you the user to read, write, and execute, the group to read and write, and other
 		to read and write.
 		
 		<!-- Hidden Screenshot of answer? -->
+		<img src="<?php echo $path;?>/assets/imgs/tutorial5/4ChangePermissionsCorrect4.png" alt="Change of Permissions">
 		
 		<h2>Permissions using numbers</h2>
 		
