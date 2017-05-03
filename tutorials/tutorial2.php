@@ -1,7 +1,7 @@
 <!-- Header PHP-->
 <?php
 	$path = '../';
-	$title = 'Tutorial 1';
+	$title = 'Tutorial 2';
 	$heading = 'Tutorial';
 	include $path.'assets/includes/header.php';
 ?>
