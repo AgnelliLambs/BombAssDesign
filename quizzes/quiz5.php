@@ -8,11 +8,10 @@
 	$heading = 'Quiz';
 	include $path.'assets/includes/header.php';
 ?>
-
+	
 	<!-- Quiz -->
-	<h2>File Permissions</h2>
-		
-		
+	<div class="quiz">
+		<h2>File Permissions</h2>
 		<!-- Question 1 -->
 			<form action="">
 			<h3>Which command will change a file so it can be read by everyone</h3>
@@ -53,6 +52,7 @@
 			</div>
 			<input type="button" onclick="checkQuiz(5)" value="Submit">
 		</form>
+	</div>
 		
 <?php
 	include $path.'assets/includes/footer.php';
