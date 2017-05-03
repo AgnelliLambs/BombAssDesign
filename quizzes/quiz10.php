@@ -9,56 +9,46 @@
 	$title = 'Quiz 10';
 	include $path.'assets/includes/header.php';
 ?>
-	<!-- Quiz -->
-	<h2>Directories</h2>
+		<!-- Quiz -->
+	<h2>Directories Quiz</h2>
 	<form>
-	<!-- Question 1 -->
-			<h3 class ="question">Question 1: Which choice is the correct way to create a directory?</h3>
-			<select id="3.1">
-				<option>create directory1</option>
-				<option>mkdir directory1</option>
-				<option>vi directory1</option>
-			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
-		
-			<!-- Question 2 -->
-			<h3 class ="question">Which choice is the correct way to delete a file?</h3>
-			<select id="3.2">
-				<option>rm file1</option>
-				<option>rmdir file1</option>
-				<option>delete file1</option>
-			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
-			
-			<!-- Question 3 -->
-			<h3 class ="question">Which choice is the correct way to rename a file?</h3>
-			<select id="3.2">
-				<option>rn file1 file2</option>
-				<option>rmdir file1</option>
-				<option>delete file1</option>
-			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
-			
-			<!-- Question 4 -->
-			<h3 class ="question">Which choice is ?</h3>
-			<select id="3.4">
-				<option></option>
-				<option></option>
-				<option></option>
-			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
-			
-			<!-- Question 5 -->
-			<h3 class ="question">Which choice is?</h3>
-			<select id="3.5">
-				<option></option>
-				<option></option>
-				<option></option>
-			</select>
-			<input type="button" onclick="checkAnswer()" value="Submit">
-		
-		</form>	
-			
+	
+<div class = 'question1'>
+	<p>Question 1: Which choice is the correct way to create a directory?</p>
+	<input type='radio' name='answer1' value='1'>create directory1</input>
+	<input type='radio' name='answer1' value='2'>mkdir directory1</input>
+	<input type='radio' name='answer1' value='3'>vi directory1</input>
+</div>
+
+<div class = 'question2'>
+	<p>Which choice is the correct way to delete a directory?</p>
+	<input type='radio' name='answer2' value='1'>rm directory1</input>
+	<input type='radio' name='answer2' value='2'>rmdir directory1</input>
+	<input type='radio' name='answer2' value='3'>delete directory1</input>
+</div>
+
+<div class = 'question3'>
+	<p>Which choice is the correct way to rename a directory?</p>
+	<input type='radio' name='answer3' value='1'>mv directory1 directory2</input>
+	<input type='radio' name='answer3' value='2'>rn directory1 directory2</input>
+	<input type='radio' name='answer3' value='3'>rename directory1 directory2</input>
+</div>
+
+<div class = 'question4'>
+	<p>Which choice is the correct way move to a directory?</p>
+	<input type='radio' name='answer4' value='1'>vi directory1 directory2 newDestination</input>
+	<input type='radio' name='answer4' value='2'>mv directory1 directory2 newDestination</input>
+	<input type='radio' name='answer4' value='3'>move directory1 directory2 newDestination</input>
+</div>
+
+<div class = 'question5'>
+	<p>Which choice is the correct way to copy a directory?</p>
+	<input type='radio' name='answer5' value='1'>cp directory1 directory2</input>
+	<input type='radio' name='answer5' value='2'>copy directory1 directory2</input>
+	<input type='radio' name='answer5' value='3'>vi directory1 directory2</input>
+</div>
+<button onclick="checkQuiz(x)">SUBMIT</button>
+	
 	
 <!-- Footer PHP-->
 <?php
