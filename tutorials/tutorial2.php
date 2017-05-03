@@ -11,7 +11,6 @@
 		<p>Navigating through files in UNIX is one of the most common things you will ever do. There are only
 			a few simple commands you'll need to remember: ls, cd, and pwd.</p>
 
-		<h2>Step 1</h2>
 
 		<p>The first thing you need to do is open Terminal, or another application that will let you 
 			enter UNIX commands.</p>	
@@ -19,7 +18,9 @@
 		<!--Screenshot of terminal
 			<img src="<\?php echo $path;?>/assets/imgs/terminal.jpg" alt="Terminal">
 		-->
-
+		
+		<h2>Where are you?</h2>
+		
 		<p>We'll start with pwd: pwd stands for <u>P</u>rint <u>W</u>orking <u>D</u>irectory. This will display the path from the ROOT directory
 			(usually C:\) to wherever you are now. Entering the pwd command should look something like this:</p>
 
@@ -27,24 +28,28 @@
 
 		<p>Remember, if you are ever unsure where you are, just type pwd and you can find your location.</p>
 
-		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		<h2>Where can you go?</h2>
 		
-		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
-
-		<h2>Open your bash terminal (Windows)</h2>
-
-		<p>Since Windows is not based on UNIX, we have to install a program to interface with a UNIX computer from a windows computer.We will use PuTTY to SSH. PuTTY can be downloaded <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">here.</a> </p>
-
-		<p>When you open putty, enter USERNAME@HOSTNAME into the "Host Name" box, replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Enter port 22, and then press "Open".</p>
-
-		<img src="<?php echo $path;?>/assets/imgs/putty.jpg" alt="PuTTY">
-
-		<p>PuTTY will then open a terminal window connected to your server. The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
-
-		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		<p>To list the files and directories that are in your current directory just type the command ls
+		<p class="code">$ ls </p>
+		<p> and your terminal will display all of the files in your current directory</p>
 		
-		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
-</div>
+		<h2>How to move.</h2>
+		<p>The cd command, which stands for change directory, allows you to move up and down through files in Unix. To start, lets go all the way back to our root directory,
+			to do this type cd /</p>
+		<p class="code">$ cd /<br />C:/</p>
+		<p>The cd part of the statement tells Unix to change our directory, the slash tells it which directo to go to, '/' is always your root directory.<p>
+		<p>Now lets go down, if you type cd, followed by the name of a directory, you will move into that directory. Use ls to see which directories are available
+			from your location and use cd <i>filename</i> to move into one of them.</p>
+		<p class = "code">$ cd Users</p>
+		<p>If you wanted to go up one level, you could type <i>cd ../</i>. The <i>../</i> goes up one level.</p>
+		<p>If you wanted, you could even combine multiple directories together, each seperated by a slash,
+			to traverse through them all in one command. For instance: if your desktop has two directories, one called myDir
+			and one called myOtherDir, then to navigate from the first to the second you could use either the commamd<p>
+		<p class="code">cd ../myOtherDir</p>
+		<p>or you could do it on two lines by writing</p>
+		<p class = "code">cd ../ <br /> cd myOtherDir</p>
+	</div>
 	
 	<!-- Quiz -->
 	
