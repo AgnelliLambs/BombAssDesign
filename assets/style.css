@@ -23,18 +23,15 @@ body {
 	border-radius: 15px;
 }
 
-.index a {
-	text-decoration: none;
-}
-
 #tutorialsStart {
 	margin: 0 auto;
 	text-align: center;
-	background: url("assets/imgs/happy.jpg");
+	background: url("imgs/happy.jpg");
 	width: 90%;
 	padding-top: 10em;
 	padding-bottom: 10em;
 }
+
 #gotoglossary {
 	margin: 0 auto;
 	text-align: center;
@@ -42,13 +39,13 @@ body {
 	padding-bottom: 5em;
 	height: 15em;
 }
+
 #gotoglossary h2 {
 	padding: 40px;
 }
-#glossaryLink {
-	
-}
-#tutorialsStart #tutorialsLink, #gotoglossary #glossaryLink {
+
+#tutorialsStart #tutorialsLink,
+#gotoglossary #glossaryLink {
 	margin: auto;
 	min-width: 20px;
 	border: 3px solid white;
@@ -59,6 +56,8 @@ body {
 	overflow: invisible;
 	background-color: #66B9BF;
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
 }
 
 @media (max-width: 280px) {
@@ -66,10 +65,12 @@ body {
 		background-image: none;
 		padding: 15px;
 	}
-	#tutorialsStart #tutorialsLink, #gotoglossary #glossaryLink {
+	#tutorialsStart #tutorialsLink,
+	#gotoglossary #glossaryLink {
 		padding: 5px;
 	}
 }
+
 
 /* Navbar */
 
@@ -85,6 +86,7 @@ body {
 	margin: 0;
 	border: 0;
 	border-radius: 0;
+	box-shadow: 0 1px 5px #999;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -106,6 +108,7 @@ body {
 	background-color: #E37222;
 	color: white;
 }
+
 
 /* Navbar hover colors */
 
@@ -137,6 +140,7 @@ body {
 	color: #43c0f6;
 	/*the color of text */
 	text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
+	box-shadow: 0 3px 5px #999;
 }
 
 #content>a:visited {
@@ -158,11 +162,11 @@ body {
 
 
 /*Quiz CSS */
+
 .quiz {
 	max-width: 1000px;
 	margin: auto;
 }
-
 
 .quiz form {
 	margin-left: 3vw;
@@ -182,7 +186,6 @@ body {
 .index p {
 	text-align: center;
 }
-
 
 
 /* Remove hover color change and fixed header on mobile */
