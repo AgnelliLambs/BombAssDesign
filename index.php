@@ -31,11 +31,11 @@
 				<a href="<?php echo $path?>tutorials/tutorial_home.php">start the tutorials</a>
 		</div>
 		<div id="tutorialsStart">
-			<a id="tutorialsLink" href="#">Start Tutorials</a> <!-- Goes to first tutorial -->
+			<a id="tutorialsLink" href="tutorials/tutorial1.php">Start Tutorials</a> <!-- Goes to first tutorial -->
 		</div>
 		<div id="gotoglossary">
 			<h2>Already know Unix?</h2>
-			<a id="glossaryLink" href="#">Search Glossary</a>
+			<a id="glossaryLink" href="glossary.php">Search Glossary</a>
 		</div>
 <!-- Footer PHP -->
 <?php
