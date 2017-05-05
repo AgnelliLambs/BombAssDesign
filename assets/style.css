@@ -5,7 +5,11 @@ body {
 }
 
 
-/* Index Page CSS */
+/* Home Page */
+
+.index p {
+	text-align: center;
+}
 
 .index h1 {
 	text-align: center;
@@ -30,6 +34,7 @@ body {
 	width: 90%;
 	padding-top: 10em;
 	padding-bottom: 10em;
+	height: 325px;
 }
 
 #gotoglossary {
@@ -37,12 +42,15 @@ body {
 	text-align: center;
 	width: 90%;
 	padding-bottom: 5em;
-	height: 15em;
+	height: 200px;
 }
 
 #gotoglossary h2 {
 	padding: 40px;
 }
+
+
+/* Home page Buttons */
 
 #tutorialsStart #tutorialsLink,
 #gotoglossary #glossaryLink {
@@ -57,7 +65,23 @@ body {
 	background-color: #66B9BF;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 165%;
 	text-decoration: none;
+	border-radius: 600px;
+	transition: all 0.3s ease-in-out;
+}
+
+
+/* Increase utton size on hover */
+
+#tutorialsStart #tutorialsLink:hover,
+#gotoglossary #glossaryLink:hover {
+	padding-left: 66px;
+	padding-right: 66px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+	font-size: 181%;
+	box-shadow: 0 2px 5px #999;
 }
 
 @media (max-width: 280px) {
@@ -120,7 +144,7 @@ body {
 }
 
 
-/* Primarily for tutorials home page */
+/* Tutorials home page */
 
 #content>h1 {
 	text-align: center;
@@ -177,13 +201,6 @@ body {
 }
 
 .quiz>h2 {
-	text-align: center;
-}
-
-
-/* Home Page */
-
-.index p {
 	text-align: center;
 }
 
@@ -271,10 +288,11 @@ img {
 	display: block;
 	margin: auto;
 	max-width: 900px;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	cursor: pointer;
 	max-height: 800px;
+	box-shadow: 0 5px 10px #999;
 }
 
 
@@ -308,7 +326,7 @@ img {
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	height: 180px;
+	height: 170px;
 	padding: 30px;
 	/*Change height and padding to increase footer size*/
 	background-color: #333333;
