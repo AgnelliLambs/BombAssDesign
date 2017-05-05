@@ -1,8 +1,8 @@
 <!-- Header PHP-->
 <?php
 	$path = '';
-	$title = 'YouNix';
-	$heading = 'Home';
+	$title = 'About Us';
+	$heading = 'About';
 	include $path.'assets/includes/header.php';
 ?>
  
