@@ -146,44 +146,53 @@ body {
 }
 
 
+/* Set mobile navbar not sticky */
+
+@media (max-width: 767px) {
+	body {
+		padding-top: 0;
+	}
+	.navbar-default {
+		position: relative;
+	}
+}
+
+
 /* Tutorials home page */
 
 #content>h1 {
 	text-align: center;
 }
 
-#content>a {
-	margin: 5vw;
-	margin-top: 0px;
-	float: left;
-	width: 15vw;
-	height: 15vw;
-	border-radius: 90%;
-	border: 5px solid #f81b84;
-	text-align: center;
-	background-color: #F5CE28;
-	line-height: 13vw;
-	color: #43c0f6;
-	/*the color of text */
-	text-shadow: -.5px -.5px 0 #000, .5px -.5px 0 #000, -.5px .5px 0 #000, .5px .5px 0 #000;
-	box-shadow: 0 3px 5px #999;
-}
 
-#content>a:visited {
-	/*border-color:#F5CE28;
-		background-color:#f81b84;
-		*/
-	border: none;
+/* Mobile tutorials home pace */
+
+@media (max-width: 767px) {
+	#content {
+		font-size: 5.3vw;
+		width: 83vw;
+		margin: auto;
+		font-weight: bold;
+	}
+	#content>a {
+		margin: 3vw;
+		margin-top: 0px;
+		float: left;
+		width: 35.5vw;
+		height: 35.5vw;
+		border-radius: 90%;
+		border: 3px solid #07889B;
+		text-align: center;
+		background-color: #fff;
+		line-height: 33vw;
+		color: #07889B;
+		box-shadow: 1px 3px 5px #999;
+		text-decoration: none;
+	}
 }
 
 .median {
 	clear: both;
-}
-
-#content {
-	width: 77%;
-	margin: auto;
-	font-size: 2vw;
 }
 
 
@@ -204,36 +213,6 @@ body {
 
 .quiz>h2 {
 	text-align: center;
-}
-
-
-/* Remove hover color change and fixed header on mobile */
-
-@media (max-width: 767px) {
-	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus {
-		color: #fff;
-	}
-	body {
-		padding-top: 0;
-	}
-	.navbar-default {
-		position: relative;
-	}
-	/* for mobile page, extend width */
-	#content {
-		font-size: 5vw;
-		width: 83vw;
-		margin: auto;
-	}
-	/* for mobile tutorials page, make circles bigger */
-	#content>a {
-		margin: 3vw;
-		height: 30vw;
-		width: 35vw;
-		line-height: 27vw;
-		border: 3px solid #f81b84;
-	}
 }
 
 
@@ -324,30 +303,25 @@ img {
 
 /* Footer */
 
-#bottom {
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	height: 170px;
-	padding: 30px;
-	/*Change height and padding to increase footer size*/
+.footer {
 	background-color: #333333;
-}
-
-#bottomtext {
-	margin: 0px auto;
-	padding: 4px;
+	padding: 20px;
+	padding-bottom: 0px;
 	text-align: center;
 	color: #fffafa;
 }
 
-#bottomtext a {
+.footer a {
 	text-decoration: none;
 	color: inherit;
 }
 
-#bottomtext a:hover {
+.footer a:hover {
 	text-decoration: underline;
+}
+
+.footer .col-md-6 {
+	padding-bottom: 20px;
 }
 
 
@@ -422,10 +396,11 @@ body {
 }
 
 
-/* Twitter */
+/* Twitter 
 
 .sidebar-nav-fixed {
 	width: 200px;
 	position: absolute;
 	float: right;
 }
+*/
