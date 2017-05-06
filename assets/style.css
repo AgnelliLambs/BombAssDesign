@@ -30,7 +30,9 @@ body {
 #tutorialsStart {
 	margin: 0 auto;
 	text-align: center;
-	background: url("imgs/happy.jpg");
+	background: url("assets/imgs/happy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 90%;
 	padding-top: 10em;
 	padding-bottom: 10em;
