@@ -2,11 +2,10 @@
 <div id="Fullscreen"> </div>
 <div id="dimBackground"></div>
 </div>
-<div id="bottom">
-	<div id="bottomtext">
-		<div class="row">
+<footer class="footer">
+	<div class="row">
 			<!--YouNix -->
-			<div class="col-xs-6">Site Owners:
+			<div class="col-md-6 col-sm-6">Site Owners:
 				<br> Copyright &copy; YouNix 2017
 				<br>
 				<div id="mobilePhoneLink">Phone: <a href="tel:18005559988" target="_blank">1-800-555-9988</a>
@@ -16,7 +15,7 @@
 				<br> <a href="http://maps.google.com/maps?q=123+Fake+Str,+Rochester,+NY+14623" target="_blank">123 Fake Str, Rochester, NY 14623</a>
 				<br> <a href="<?php echo $path;?>citations.php" style="color:#b4c1d1;">Citations</a></div>
 			<!--Bomb Ass Design -->
-			<div class="col-xs-6">Site Design By:
+			<div class="col-md-6 col-sm-6">Site Design By:
 				<br> Copyright &copy; Bomb Ass Design 2017
 				<br>
 				<div id="mobilePhoneLink">Phone: <a href="tel:18005558899" target="_blank">1-800-555-8899</a>
@@ -26,8 +25,8 @@
 				<br> <a href="http://maps.google.com/maps?q=1+Lomb+Memorial+Dr,+Rochester,+NY+14623" target="_blank">1 Lomb Memorial Dr, Rochester, NY 14623</a>
 				<br> <a href="<?php echo $path;?>about.php" style="color:#b4c1d1;">About Us</a></div>
 		</div>
-	</div>
-</div>
+		
+</footer>
 <script src="<?php echo $path;?>assets/js/fullscreen_photos.js"></script>
 <script src="<?php echo $path;?>assets/js/quizscripts.js"></script>
 </body>
