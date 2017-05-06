@@ -130,7 +130,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#active {
+.active {
 	background-color: #E37222;
 	color: white;
 }
@@ -328,19 +328,19 @@ img {
 /* Phone links */
 
 @media (max-width: 767px) {
-	div #mobilePhoneLink {
+	div .mobilePhoneLink {
 		display: block;
 	}
-	div #desktopPhone {
+	div .desktopPhone {
 		display: none;
 	}
 }
 
 @media (min-width: 768px) {
-	div #mobilePhoneLink {
+	div .mobilePhoneLink {
 		display: none;
 	}
-	div #desktopPhone {
+	div .desktopPhone {
 		display: block;
 	}
 }
