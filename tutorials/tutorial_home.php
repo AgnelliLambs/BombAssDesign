@@ -8,7 +8,6 @@
 	include $path.'assets/includes/header.php';
 ?>
 
-
 <div id='content'>
 	<h1>Tutorials</h1>
 	
@@ -20,9 +19,7 @@
 	<a href = "tutorial6.php">Directories</a> 
 	<a href = "tutorial7.php">Apache</a> 
 	<a href = "tutorial8.php">Text Editors</a> 
-	<div class='median'>
-
-	</div>
+	<div class='median'></div>
 </div> <!-- end of content -->
 <!-- Footer PHP -->
 <?php

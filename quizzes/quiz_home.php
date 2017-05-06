@@ -19,9 +19,7 @@
 	<a href = "quiz6.php">Directories</a> 
 	<a href = "quiz7.php">Apache</a> 
 	<a href = "quiz8.php">Text Editors</a> 
-	
-	<div class='median'>
-	</div>
+	<div class='median'></div>
 </div> <!-- end of content -->
 <!-- Footer PHP -->
 <?php
