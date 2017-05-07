@@ -63,7 +63,7 @@ body {
 	padding-right: 60px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	overflow: invisible;
+	overflow: hidden;
 	background-color: #66B9BF;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
@@ -130,9 +130,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.active {
+
+/* Navbar active colors */
+
+.active,
+#active {
 	background-color: #E37222;
-	color: white;
+	color: white !important;
 }
 
 
@@ -208,6 +212,7 @@ body {
 }
 
 .quiz>form>div {
+	margin-left: 3vw;
 	margin-left: 3vw;
 }
 
