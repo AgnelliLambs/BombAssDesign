@@ -6,12 +6,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-		 <a class="navbar-brand" <?php if ($heading == 'Home'){echo 'class="active"';}?> href="<?php echo $path;?>index.php"><span class="you">You</span><span class="nix">Nix</span></a>
+		 <a class="navbar-brand" <?php if ($heading == 'Home'){echo 'id="active"';}?> href="<?php echo $path;?>index.php"><span class="you">You</span><span class="nix">Nix</span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
 			<li class="dropdown">
-        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials/tutorial_home.php" <?php if ($heading == 'Tutorial'){echo 'class="active"';}?>>TUTORIALS<span class="caret" id="caret"></span></a>
+        		<a class="dropdown-toggle" href="<?php echo $path;?>tutorials/tutorial_home.php" <?php if ($heading == 'Tutorial'){echo 'id="active"';}?>>TUTORIALS<span class="caret" id="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>tutorials/tutorial1.php" <?php if ($title == 'Tutorial 1'){echo 'class="active"';}?>>SSH</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial2.php" <?php if ($title == 'Tutorial 2'){echo 'class="active"';}?>>Navigation</a></li>
@@ -24,7 +24,7 @@
 				</ul>
       	</li>
         <li class="dropdown">
-			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes/quiz_home.php"  <?php if ($heading == 'Quiz'){echo 'class="active"';}?>>QUIZZES<span class="caret" id="caret1"></span></a>
+			  	<a class="dropdown-toggle" href="<?php echo $path;?>quizzes/quiz_home.php"  <?php if ($heading == 'Quiz'){echo 'id="active"';}?>>QUIZZES<span class="caret" id="caret1"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="<?php echo $path;?>quizzes/quiz1.php" <?php if ($title == 'Quiz 1'){echo 'class="active"';}?>>SSH</a></li>
 					<li><a href="<?php echo $path;?>quizzes/quiz2.php" <?php if ($title == 'Quiz 2'){echo 'class="active"';}?>>Navigation</a></li>
