@@ -15,29 +15,29 @@
 
 		<h2>Open your bash terminal (Mac or linux)</h2>
 
-		<p>Open "Terminal"</p>	
+		<p>Open "Terminal" using Finder.</p>	
 
-			<img src="<?php echo $path;?>/assets/imgs/tutorial1/Mac_Terminal.png" alt="Mac terminal">
+			<img src="<?php echo $path;?>assets/imgs/tutorial1/Mac_Terminal.png" alt="Mac terminal">
 
 		<p>Use SSH to connect to your Linux machine by typing "SSH" followed by USERNAME@HOSTNAME replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Press enter to execute the line.</p>
 
-		<p class="code">$ SSH bad@192.168.55.4</p>
+		<p class="code">$ SSH bad@server.website.com</p>
 
-		<p>The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
+		<p>The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter after you've typed it in.</p>
 
-		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		<p class="code">$ SSH bad@server.website.com's password: </p>
 		
 		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
 
 		<h2>Open your bash terminal (Windows)</h2>
 
-		<p>Since Windows is not based on UNIX, we have to install a program to interface with a UNIX computer from a windows computer.We will use PuTTY to SSH. PuTTY can be downloaded <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">here.</a> </p>
+		<p>Since Windows is not based on UNIX, we have to install a program to interface with a UNIX computer from a windows computer. We will use PuTTY to SSH. PuTTY can be downloaded <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">here.</a> You'll want to select the corect downloiad for you comptuer, 32 or 64-bit. If you don't know, then just download the 32-bit version.</p>
 
-		<img src="<?php echo $path;?>/assets/imgs/tutorial1/Putty_download.PNG" alt="PuTTY download">
+		<img src="<?php echo $path;?>assets/imgs/tutorial1/Putty_download.PNG" alt="PuTTY download">
 		
 		<p>When you open putty, enter USERNAME@HOSTNAME into the "Host Name" box, replacing USERNAME with your account name and replacing HOSTNAME with the hostname or ip address of your linux machine. Enter port 22, and then press "Open".</p>
 
-		<img src="<?php echo $path;?>/assets/imgs/tutorial1/putty.jpg" alt="PuTTY">
+		<img src="<?php echo $path;?>assets/imgs/tutorial1/putty.jpg" alt="PuTTY">
 
 		<p>PuTTY will then open a terminal window connected to your server. The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
 

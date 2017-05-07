@@ -31,7 +31,7 @@
 		
 		<p>You can test to see if apache is up and running by opening your browser and going to the ip address of your server. It should load up this:</p>
 		
-		<img src="../assets/imgs/tutorial7/apache_test.jpg" alt="Apache test page">
+		<img src="<?php echo $path;?>assets/imgs/tutorial7/apache_test.jpg" alt="Apache test page">
 		
 		<h2>Add your own files</h2>
 		
@@ -41,9 +41,9 @@
 		
 		<p>You'll want to navigate to "C:/var/www/html", delete "index.html", and then put your site files there. Once your files are there, your server ip address should show your website instead of the test page.</p>
 		
-		<img src="../assets/imgs/tutorial7/filezilla.png" alt="filezilla">
+		<img src="<?php echo $path;?>assets/imgs/tutorial7/filezilla.png" alt="filezilla">
 		
-		<h2>Configuration settins</h2>
+		<h2>Configuration settings</h2>
 		
 		<p>For more advanced users, apace settings can be changed by edditing hte file located at /etc/apache2/apache2.conf. You'll learn how to open and edit that in a text editor in the <a href="tutorial8.php">next tutorial.</a></p>
 	

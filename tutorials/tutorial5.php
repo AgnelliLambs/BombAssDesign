@@ -15,7 +15,7 @@
 		<h2>File Permissions Layout</h2>
 		
 		<!-- Screenshot of home directory permissions (ls -l) -->
-		<img src="<?php echo $path;?>/assets/imgs/tutorial5/HomeDirectoryExample.png" alt="Home Directory">
+		<img src="<?php echo $path;?>assets/imgs/tutorial5/HomeDirectoryExample.PNG" alt="Home Directory">
 		
 		<p>The file permissions are at the very start of the line.
 		The first space within the file directory determine whether the file is
@@ -25,7 +25,7 @@
 		read = r, write = w, and execute = x.</p>
 		<!-- Use picture to highligh focus areas during the tutorial reading -->
 		
-		<img src="<?php echo $path;?>/assets/imgs/tutorial5/FilePermissionsLocation.png" alt="File Permissions Location">
+		<img src="<?php echo $path;?>assets/imgs/tutorial5/FilePermissionsLocation.PNG" alt="File Permissions Location">
 		
 		<h2>Changing specific permissions</h2>
 		
@@ -41,14 +41,14 @@
 		change permissions of files that are unknown.</p>
 		
 		<!-- Screenshot of chmod example -->
-		<img src="<?php echo $path;?>/assets/imgs/tutorial5/RemovePermissions.png" alt="Removing Permissions">
+		<img src="<?php echo $path;?>assets/imgs/tutorial5/RemovePermissions.PNG" alt="Removing Permissions">
 		
 		<p>With your knowledge so far, change the files permissions to allow for
 		you the user to read, write, and execute, the group to read and write, and other
 		to read and write.
 		
 		<!-- Hidden Screenshot of answer? -->
-		<img src="<?php echo $path;?>/assets/imgs/tutorial5/ChangePermissionsCorrect.png" alt="Change of Permissions">
+		<img src="<?php echo $path;?>assets/imgs/tutorial5/ChangePermissionsCorrect.PNG" alt="Change of Permissions">
 		
 		<h2>Permissions using numbers</h2>
 		
@@ -66,8 +66,8 @@
 		
 		<!-- Quiz -->
 		
-		<a href="../quizzes/quiz5.php">The Quiz</a>
-		
+		<a href="<?php echo $path;?>quizzes/quiz5.php">The Quiz</a>
+</div>
 <!-- Footer PHP-->
 <?php
 	include $path.'assets/includes/footer.php';

@@ -6,7 +6,7 @@
 ?>
 	<div class="quiz">
 		<h1>SFTP Quiz</h1>
-		<form action "">
+		<form>
 			<div class="question1">
 				<h3 class="question">Question 1: Which side of the FileZilla application shows files on your computer?</h3>
 				<input type="radio" name="answer1" value="0">left
@@ -46,7 +46,5 @@
 		</form>
 	</div>
 	<?php
-	$path='../';
-	$title='Quiz 4';
 	include $path.'assets/includes/footer.php';
 ?>
