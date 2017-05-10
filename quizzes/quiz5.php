@@ -18,8 +18,7 @@
 				<label for="a">chmod u+r file</label>
 				<br>
 				<input type="radio" name="answer1" id="b" value="1">
-				<label for="b">
-					<!-- Correct -->chmod a+r file</label>
+				<label for="b">chmod a+r file</label>
 				<br>
 				<input type="radio" name="answer1" id="c" value="2">
 				<label for="c">chmod a+w file</label>
@@ -34,8 +33,7 @@
 				<label for="e">drw--wx---</label>
 				<br>
 				<input type="radio" name="answer2" id="f" value="2">
-				<label for="f">
-					<!-- Correct -->drwxr-xr-x</label>
+				<label for="f">drwxr-xr-x</label>
 				<br> </div>
 			<!-- Question 3 -->
 			<h3>What command will give execute permission to everyone for meeting?</h3>
@@ -44,8 +42,7 @@
 				<label for="g">chmod a+r meeting</label>
 				<br>
 				<input type="radio" name="answer3" id="h" value="1">
-				<label for="h">
-					<!-- Correct -->chmod a+x meeting</label>
+				<label for="h">chmod a+x meeting</label>
 				<br>
 				<input type="radio" name="answer3" id="i" value="2">
 				<label for="i">chmod uo+x meeting</label>
@@ -57,8 +54,7 @@
 				<label for="j">drw-r--r--</label>
 				<br>
 				<input type="radio" name="answer4" id="k" value="1">
-				<label for="k">
-					<!-- correct -->-rw-r--r--</label>
+				<label for="k">-rw-r--r--</label>
 				<br>
 				<input type="radio" name="answer4" id="l" value="2">
 				<label for="l">-r-xrwxrwx</label>
@@ -74,10 +70,9 @@
 				<label for="n">141</label>
 				<br>
 				<input type="radio" name="answer5" id="o" value="2">
-				<label for="o">
-					<!-- Correct -->771</label>
+				<label for="o">771</label>
 				<br> </div>
-			<input type="button" onclick="checkQuiz(5)" value="Submit"> </form>
+			<div class="buttonHolder"><input type="button" onclick="checkQuiz(5)" value="Submit"></div> </form>
 	</div>
 	<?php
 	include $path.'assets/includes/footer.php';
