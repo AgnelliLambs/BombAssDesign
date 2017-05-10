@@ -25,7 +25,7 @@
 		
 		<p class="code">$ sudo apt-get install apache2</p>
 		
-		<p>Some text will pass through, and then it will ask you if you want to continue. ender "y" to continue and it will install apache.</p>
+		<p>Some text will pass through, and then it will ask you if you want to continue. enter "y" to continue and it will install apache.</p>
 		
 		<h2>Test your first website</h2>
 		
