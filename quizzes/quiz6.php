@@ -55,7 +55,6 @@
 	<br/>
 </div>
 
-<div class = 'question4'>
 	<h3>Which choice is the correct way move to a directory?</h3>
 	<div class ="question">
 	<input type='radio' name='answer4' id='j' value='1'>
@@ -69,7 +68,6 @@
 	<br/>
 </div>
 
-<div class = 'question5'>
 	<h3>Which choice is the correct way to copy a directory?</h3>
 	<div class ="question">
 	<input type='radio' name='answer5' id='m' value='1'>
@@ -82,9 +80,9 @@
 	<label for="o">vi directory1 directory2</label>
 	<br/>
 </div>
-	<input type="button" onclick="checkQuiz(6)" value="Submit"
+	<input type="button" onclick="checkQuiz(6)" value="Submit"></div>
 	</form>
-</div>
+
 <!-- Footer PHP-->
 <?php
 	$path = '../';
