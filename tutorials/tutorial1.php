@@ -25,7 +25,7 @@
 
 		<p>The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter after you've typed it in.</p>
 
-		<p class="code">$ SSH bad@server.website.com's password: </p>
+		<p class="code">bad@server.website.com's password: </p>
 		
 		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
 
@@ -41,7 +41,7 @@
 
 		<p>PuTTY will then open a terminal window connected to your server. The server will then ask for your password. As you enter your password, no text will apear on the screen, this is normal. Press enter when it's typed.</p>
 
-		<p class="code">$ SSH bad@192.168.55.4's password: </p>
+		<p class="code">bad@192.168.55.4's password: </p>
 		
 		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
 </div>
