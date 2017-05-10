@@ -48,8 +48,10 @@
 		to read and write.
 		
 		<!-- Hidden Screenshot of answer? -->
-		<img src="<?php echo $path;?>assets/imgs/tutorial5/ChangePermissionsCorrect.PNG" alt="Change of Permissions">
-		
+		<form action="">
+		<img src="<?php echo $path;?>/assets/imgs/tutorial5/ChangePermissionsCorrect.PNG" alt="Change of Permissions" id="hiddenA">
+		<input type="button" onclick="unhide()" value="Show Answer">
+		</form>
 		<h2>Permissions using numbers</h2>
 		
 		<p>The three letters, rwx, all stand for different octal numbers which can be used

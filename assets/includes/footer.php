@@ -29,6 +29,7 @@
 </footer>
 <script src="<?php echo $path;?>assets/js/fullscreen_photos.js"></script>
 <script src="<?php echo $path;?>assets/js/quizscripts.js"></script>
+<script src="<?php echo $path;?>assets/js/tutorial5unhide.js"></script>
 </body>
 
 </html>
