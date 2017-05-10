@@ -37,7 +37,7 @@
 		
 		<p>This is where we finally get to publish your website. We're going to go in and put our own website in there instead.</p>
 		
-		<p>The easiest way to move files is though using <a href="tutorial4.php">SFTP</a> with filezilla.</p>
+		<p>The easiest way to move files is though using <a href="tutorial4.php">SFTP</a> with FileZilla.</p>
 		
 		<p>You'll want to navigate to "C:/var/www/html", delete "index.html", and then put your site files there. Once your files are there, your server ip address should show your website instead of the test page.</p>
 		
