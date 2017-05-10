@@ -7,7 +7,7 @@
 ?>
  
 <h1>About us</h1>
-
+<img src="LifeItself.jpg" alt="LifeItself">
 <!-- Footer PHP -->
 <?php
 	include $path.'assets/includes/footer.php';
