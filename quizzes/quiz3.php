@@ -77,7 +77,7 @@
 					<label for="o">vi file1 file2</label>
 					<br/> 
 			</div>
-			<div class="buttonHolder"><input type="buttonH" onclick="checkQuiz(3)" value="Submit"></div></form>
+			<div class="buttonHolder"><input type="button" onclick="checkQuiz(3)" value="Submit"></div></form>
 	
 	<!-- Footer PHP-->
 	<?php
