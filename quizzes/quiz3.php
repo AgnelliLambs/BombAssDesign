@@ -12,7 +12,7 @@
 		<h2>Files Quiz</h2>
 		<form>
 			
-				<h3>Question 1: Which choice is the correct way to create a file?</h3>
+				<h3>Which choice is the correct way to create a file?</h3>
 				<div class="question">
 					<input type='radio' name='answer1' id="a" value='1'>
 					<label for="a">create file1</label>
