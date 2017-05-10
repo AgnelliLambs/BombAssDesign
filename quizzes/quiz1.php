@@ -9,10 +9,10 @@
 ?>
 	<!-- Quiz -->
 	<div class="quiz">
-		<h2>File Permissions</h2>
+		<h2>SSH</h2>
 		<!-- Question 1 -->
 		<form>
-			<h3>Which program on windows allows you to SSH?</h3>
+			<h3>Which program on Windows allows you to SSH?</h3>
 			<div class="question">
 				<input type="radio" name="answer1" id="a" value="0">
 				<label for="a">Terminal</label>
@@ -60,7 +60,7 @@
 				<label for="l">23</label>
 				<br> </div>
 			<!-- Question 5 -->
-			<h3>What program on mac allows you to SSH?</h3>
+			<h3>What program on Mac or Linux allows you to SSH?</h3>
 			<div class="question">
 				<input type="radio" name="answer5" id="m" value="0">
 				<label for="m">Terminal</label>
