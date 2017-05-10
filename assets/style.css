@@ -57,7 +57,6 @@ body {
 #tutorialsStart #tutorialsLink,
 #gotoglossary #glossaryLink {
 	margin: auto;
-	min-width: 20px;
 	border: 3px solid white;
 	padding-left: 60px;
 	padding-right: 60px;
@@ -74,7 +73,7 @@ body {
 }
 
 
-/* Increase utton size on hover */
+/* Increase button size on hover */
 
 #tutorialsStart #tutorialsLink:hover,
 #gotoglossary #glossaryLink:hover {
@@ -86,14 +85,22 @@ body {
 	box-shadow: 0 2px 5px #999;
 }
 
-@media (max-width: 280px) {
-	#tutorialsStart {
-		background-image: none;
-		padding: 15px;
-	}
+@media (max-width: 500px) {
 	#tutorialsStart #tutorialsLink,
 	#gotoglossary #glossaryLink {
-		padding: 5px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		font-size: 130%;
+	}
+	#tutorialsStart #tutorialsLink:hover,
+	#gotoglossary #glossaryLink:hover {
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		font-size: 130%;
 	}
 }
 
@@ -103,11 +110,8 @@ body {
 .navbar-default {
 	background-color: #07889B;
 	position: fixed;
-	/* Set the navbar to fixed position */
 	top: 0;
-	/* Position the navbar at the top of the page */
 	width: 100%;
-	/* Full width */
 	padding: 0;
 	margin: 0;
 	border: 0;
@@ -200,7 +204,7 @@ body {
 }
 
 
-/*Quiz CSS */
+/* Quiz CSS */
 
 .quiz {
 	max-width: 1000px;
@@ -218,6 +222,38 @@ body {
 
 .quiz>h2 {
 	text-align: center;
+}
+
+
+/* Submit button */
+
+.buttonHolder {
+	text-align: center;
+	height: 60px;
+}
+
+input[type=button] {
+	border: 3px solid white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #66B9BF;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 150%;
+	text-decoration: none;
+	border-radius: 600px;
+	transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover {
+	padding-left: 33px;
+	padding-right: 33px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-size: 165%;
+	box-shadow: 0 2px 5px #999;
 }
 
 
@@ -404,13 +440,3 @@ body {
 	width: 100%;
 	background-repeat: repeat;
 }
-
-
-/* Twitter 
-
-.sidebar-nav-fixed {
-	width: 200px;
-	position: absolute;
-	float: right;
-}
-*/
