@@ -50,7 +50,7 @@
 		<!-- Hidden Screenshot of answer? -->
 		<form action="">
 		<img src="<?php echo $path;?>/assets/imgs/tutorial5/ChangePermissionsCorrect.PNG" alt="Change of Permissions" id="hiddenA">
-		<input type="button" onclick="document.getElementById('hiddenA').style.visibility = 'visible';" value="Show Answer">
+		<input id='fiveAnswer' type="button" onclick="document.getElementById('hiddenA').style.visibility = 'visible';" value="Show Answer">
 		</form>
 		<h2>Permissions using numbers</h2>
 		
@@ -67,8 +67,9 @@
 	
 		
 		<!-- Quiz -->
-		
-		<a href="<?php echo $path;?>quizzes/quiz5.php">The Quiz</a>
+		<div id='toQuiz'>
+		<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Take the Quiz</a>
+		</div>
 </div>
 <!-- Footer PHP-->
 <?php

@@ -50,7 +50,29 @@ body {
 #gotoglossary h2 {
 	padding: 40px;
 }
+/* Tutorial Next Buttons */
 
+#toQuiz{
+	margin: 0 auto;
+	text-align: center;
+	height: 100px;
+	width: 30%;
+}
+
+#toQuiz #quizLink, #fiveAnswer{
+	margin: auto;
+	min-width: 20px;
+	border: 3px solid white;
+	overflow: hidden;
+	background-color: #66B9BF;
+	color: #fff;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 130%;
+	text-decoration: none;
+	border-radius: 150px;
+	padding: 10px 20px;
+	
+}
 
 /* Home page Buttons */
 
