@@ -3,7 +3,9 @@ function checkQuizDeprecated(quizNum){
 	var quizzes = [[]];
 	//quizzes[0] = [0,1,2,3]; //a ,b ,c ,d
 	//quizzes[1]= [1,2,1,1,2];
+	//tutorial3 quiz(files)[3,1,1,2,1]
 	//tutorial4 quiz [0,2,2,1,4]
+	//tutorial6 quiz(directories)[2,2,1,2,1]
 	var quizForm = document.getElementsByTagName('form')[0];
 	
 	for(var i = 0; i<quizzes[quizNum].length; i++){
@@ -25,12 +27,13 @@ function checkQuizDeprecated(quizNum){
 
 function checkQuiz(quizNum){
 	quizNum--;
-	var quizzes = [	[0,0,0,0],
+	var quizzes = [	
 						[0,0,0,0],
 						[0,0,0,0],
+						[3,1,1,2,1],
 						[0,2,2,1,4],
 						[1,2,1,1,2],
-						[0,0,0,0],
+						[2,2,1,2,1],
 						[0,0,0,0],
 						[0,0,0,0],
 						[0,0,0,0]
