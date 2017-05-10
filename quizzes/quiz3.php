@@ -9,7 +9,7 @@
 ?>
 	<!-- Quiz -->
 	<div class="quiz">
-		<h2>Files Quiz</h2>
+		<h2>Files</h2>
 		<form>
 			
 				<h3>Which choice is the correct way to create a file?</h3>
