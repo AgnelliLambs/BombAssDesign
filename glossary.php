@@ -16,7 +16,7 @@
 		//search for the term
 	}
 	else{
-		$result = $conn->query('SELECT * FROM glossaryDB ORDER BY commandName desc');
+		$result = $conn->query('SELECT * FROM glossaryDB ORDER BY commandName');
 		
 	}
 ?>
