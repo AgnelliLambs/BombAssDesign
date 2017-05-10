@@ -50,7 +50,7 @@ body {
 #gotoglossary h2 {
 	padding: 40px;
 }
-/* Tutorial Next Buttons */
+/* Tutorial Next Buttons *
 
 #toQuiz{
 	margin: 0 auto;
@@ -58,10 +58,9 @@ body {
 	height: 100px;
 	width: 30%;
 }
-
+/*
 #toQuiz #quizLink, #fiveAnswer{
 	margin: auto;
-	min-width: 20px;
 	border: 3px solid white;
 	overflow: hidden;
 	background-color: #66B9BF;
@@ -254,7 +253,7 @@ body {
 	height: 60px;
 }
 
-input[type=button] {
+input[type=button], .circleButton a {
 	border: 3px solid white;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -269,7 +268,17 @@ input[type=button] {
 	transition: all 0.3s ease-in-out;
 }
 
-input[type=button]:hover {
+/* Shadow, no grow on hover */
+.circleButton a:hover {padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 150%;
+		box-shadow: 0 2px 5px #999
+}
+
+/* Grow on hover */
+input[type=button]:hover,   {
 	padding-left: 33px;
 	padding-right: 33px;
 	padding-top: 17px;
