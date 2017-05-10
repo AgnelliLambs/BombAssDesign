@@ -12,36 +12,76 @@
 	
 	include '../../dbConn.php';
 	
-	if($_POST['term']!=""){
+	
+?>
+	<!-- SEARCH BAR -->
+	
+
+	   <form class="navbar-form" action='#' method='POST'>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="term" id="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+        </form>
+	<!-- SEARCH BAR -->
+	<?php
+		if($_POST['term']!=""){
 		//search for the term
+		$likeVar = '%'.$_POST['term'].'%';
+		$stmt = $conn->stmt_init();
+		$stmt->prepare('SELECT commandName,commandInfo FROM glossaryDB WHERE commandName LIKE ? or commandInfo LIKE ?');
+		//$stmt->bind_param('s',$_POST['term']);
+		$stmt->bind_param('ss',$likeVar,$likeVar);
+		$stmt->execute();
+		$stmt->bind_result($commandName,$commandInfo);
+		
+		
+	echo '<div id="popUp">';
+		while($stmt->fetch()){
+			echo '<p>'.$commandName.": ". $commandInfo.'</p>';
+		}
+		echo '</div>';
 	}
 	else{
 		$result = $conn->query('SELECT * FROM glossaryDB WHERE type = "program" ORDER BY commandName');
 		
 	}
-?>
+	?>
 <!-- Glossary -->
 <div class="glossary">
-<h2>Glossary</h2>
+	<div id = 'cover'></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->
+	
 
 	<?php
 		if($result->num_rows>0){
+			echo '<h2>Glossary</h2>';
 			while($row = $result->fetch_assoc()){
 				echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
 			}
 		}
-		else{
+		elseif($_POST['term']==""){
 			echo '<h3><i>No Results Found</i></h3>';
+			
+		}
+		
+		
+		
+		if($_POST['term']==""){
+			echo '<h3>Unix Commands</h3>';
 			$result = $conn->query('SELECT * FROM glossaryDB WHERE type != "program" ORDER BY commandName');
-			echo '<h4>Unix Commands</h4>'
 			if($result->num_rows>0){
-			while($row = $result->fetch_assoc()){
-				echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+				while($row = $result->fetch_assoc()){
+					echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+				}
+			}
+			else{
+				echo '<h3><i>No Results Found</i></h3>';
 			}
 		}
-		else{
-			echo '<h3><i>No Results Found</i></h3>';
-		}
+		
+		
 		?>
 		<!--
 	<p>Apache: A foundation that develops open source projects. This tutorial refers to specifically, their HTTP servers, used to host a website.</p>
