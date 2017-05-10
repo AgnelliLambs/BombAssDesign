@@ -16,7 +16,7 @@
 		//search for the term
 	}
 	else{
-		$result = $conn->query('SELECT * FROM glossaryDB ORDER BY commandName');
+		$result = $conn->query('SELECT * FROM glossaryDB WHERE type = "program" ORDER BY commandName');
 		
 	}
 ?>
@@ -26,6 +26,15 @@
 
 	<?php
 		if($result->num_rows>0){
+			while($row = $result->fetch_assoc()){
+				echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+			}
+		}
+		else{
+			echo '<h3><i>No Results Found</i></h3>';
+			$result = $conn->query('SELECT * FROM glossaryDB WHERE type != "program" ORDER BY commandName');
+			echo '<h4>Unix Commands</h4>'
+			if($result->num_rows>0){
 			while($row = $result->fetch_assoc()){
 				echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
 			}
