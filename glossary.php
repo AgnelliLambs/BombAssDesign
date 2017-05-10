@@ -9,10 +9,32 @@
 	$title = 'Glossary';
 	$heading = 'Glossary';
 	include $path.'assets/includes/header.php';
+	
+	include '../../dbConn.php';
+	
+	if($_POST['term']!=""){
+		//search for the term
+	}
+	else{
+		$result = $conn->query('SELECT * FROM glossaryDB ORDER BY commandName desc');
+		
+	}
 ?>
 <!-- Glossary -->
 <div class="glossary">
 <h2>Glossary</h2>
+
+	<?php
+		if($result->num_rows>0){
+			while($row = $result->fetch_assoc()){
+				echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+			}
+		}
+		else{
+			echo '<h3><i>No Results Found</i></h3>';
+		}
+		?>
+		<!--
 	<p>Apache: A foundation that develops open source projects. This tutorial refers to specifically, their HTTP servers, used to host a website.</p>
 	
 	<p>FileZilla: Open source Program used to transfer files between Client and Server</p>
@@ -26,8 +48,11 @@
 	<p>SFTP: Secure File Transfer Protocol, It’s FTP, and SSH, combined. You can send files securely over unsecured networks.</p> 
 	
 	<p>Terminal: The command window used to type in the linux commands.</p>
+	
+	-->
 
 <!-- Commands -->
+<!--
 <h2>List of Commands</h2>
 	
 	<p>cd &lt;path&gt; - change directory, changes where your cursor is ‘cd ..’ returns you to the directory that your directory is located in.</p>
@@ -59,7 +84,7 @@
 	
 	<p>vi - opens up the text editor, this can be used to change file contents.</p>
 	wc &lt;filename&gt; - Gives you a word count of the file. Adding ‘-w’ prints a list of the words, ‘-l’ prints the number of lines.
-
+	-->
 		</div>
 <!-- Footer PHP-->
 <?php
