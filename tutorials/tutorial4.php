@@ -16,7 +16,8 @@
 			SFTP is an encrypted command-line transfer of files between two systems. This transfer can be done
 			through the command-line on your computer, or an SFTP graphical client software can be used to simplify
 			the transferring process. SFTP requires the name of the host you are connecting to, as well as a username and password for the host.
-			In this tutorial, you will be learning how to download and use the free SFTP software, FileZilla.
+			In this tutorial, you will be learning how to download and use the free SFTP software, FileZilla, as well as
+			how to use SFTP through command line.
 		</p>
 		<!-- Walkthrough for Windows and Mac -->
 		<h2>Downloading FileZilla</h2>
@@ -66,7 +67,7 @@
 			Congratulations on successfully downloading FileZilla!
 		</p>
 		
-		<h2>Establishing the File Connection</h2>
+		<h3>Establishing the File Connection</h3>
 		
 		<p>
 			In order to send files, you must know the name of the host you want to connect to, the username, and the password.
@@ -85,6 +86,39 @@
 			"www" folder. The files you want to transfer can be found on the left, which is the listing of files on your computer,
 			or you can grab them directly from your computer and drop them to the host on the right.
 		</p>
+		
+		<h2>SFTP Through Command Line</h2>
+		
+		<p>
+			Using SFTP through command line is very similar to using using SSH. To learn how to use SSH, go
+			to the <a href="tutorial1.php">SSH tutorial here</a>. Once you have connected to the folder with SFTP or 
+			SSH, you will need to know UNIX commands to navigate.
+		</p>
+		<p>
+			 To learn commands for navigating through the connected file, check out the <a href="tutorial2.php">Navigating Termminal tutorial</a>.
+			 For information on commands that will let you make a new file, delete a file, copy a file, move a file, or rename a file,
+			 go to the <a href="tutorial3.php">Files tutorial</a>.
+		</p>
+		
+		<h3>Combining What You've Learned</h3>
+		
+		<p>
+			First, you need to use SFTP to access the file. As with SSH, you will need to know your 
+			username and the website URL or the IP address. You will also need to know the password.
+		</p>
+		<p class="code">$ SFTP username@host_website_or_IP</p>
+		<p class="code">$ SFTP username@host_website_or_IP's password:</p>
+		
+		<p>
+			You can see that using SFTP and SSH to connect to a file are very similar.
+			If you used the correct username and password, you should be connected to the file. From here, you
+			can begin navigating, creating, deleting, and editing the connected folders. The commands are the same
+			as if you were to use SSH. If you want to know specfic commands you can use type "?" or "help".
+		</p>
+		<p class="code"> $ ?</p>
+		or
+		<p class="code"> $ help</p>
+		<img src="../assets/imgs/tutorial4/help.jpg" alt="Command options">
 	</div>
 <!-- Footer PHP-->
 <?php
