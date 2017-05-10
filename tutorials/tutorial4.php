@@ -35,27 +35,22 @@
 		<p>Alternatively, you can go to FileZilla's homepage <a href="https://filezilla-project.org/">here</a>.</p>
 		
 		<h3>For Windows</h3>
-		
-			<img src="<?php echo $path;?>assets/imgs/tutorial4/windows_download.png" alt="FileZilla Download for Windows">
-		
+
 		<p>
 			Click the green "Download FileZilla Client" button. Your download will be a .exe file.
 			Run the file when the download is completed, and give it permission to run on your computer.
 		</p>
-			<img src="<?php echo $path;?>assets/imgs/tutorial4/agreement_windows.png" alt="FileZilla Download Agreement">
-
+	  
 		<h3>For Mac</h3>
 		<p>
 			Click the green "Download FileZilla Client" button. Choose where you would like to save the zip
-			file. In this example, the zip file will be saved to the "Downloads" file.
+			file.
 		</p>
-			<img src="<?php echo $path;?>assets/imgs/tutorial4/mac_download.png" alt="FileZilla Download for Mac">
 		<p>
 			To unzip your downloaded file, go to the location of you download and double click the zipped file.
 			A new application item called "FileZilla-Installer" will appear in the folder. Open this application
 			and click "Open" to download.
 		</p>
-			<img src="<?php echo $path;?>assets/imgs/tutorial4/accept_download.png" alt="FileZilla Download">
 		<p>
 			The Installer will open, read and agree to the software license terms to continue.
 		</p>
