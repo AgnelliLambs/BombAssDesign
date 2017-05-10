@@ -77,8 +77,8 @@
 					<label for="o">vi file1 file2</label>
 					<br/> 
 			</div>
-			<input type="buttonHolder" onclick="checkQuiz(3)" value="Submit"></form>
-	</div>
+			<div class="buttonHolder"><input type="buttonH" onclick="checkQuiz(3)" value="Submit"></div></form>
+	
 	<!-- Footer PHP-->
 	<?php
 	include $path.'assets/includes/footer.php';
