@@ -3,8 +3,29 @@ body {
 	background-color: #eee;
 	font-family: 'Raleway', sans-serif;
 }
+#cover{
+	width:100vw;
+	height:100vh;
+	background-color:#333;
+	opacity:.3;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+}
 
-
+#popUp{
+	background-color:white;
+	width:70%;
+	margin:auto;
+	z-index:2;
+	border-radius:15%;
+}
+.result{
+	width:90%;
+	margin:auto;
+	padding:10px;
+}
 /* Home Page */
 
 .index p {

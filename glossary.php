@@ -36,25 +36,34 @@
 		$stmt->bind_param('ss',$likeVar,$likeVar);
 		$stmt->execute();
 		$stmt->bind_result($commandName,$commandInfo);
-		
-		
-	echo '<div id="popUp">';
-		while($stmt->fetch()){
-			echo '<p>'.$commandName.": ". $commandInfo.'</p>';
 		}
-		echo '</div>';
-	}
-	else{
+		else{
 		$result = $conn->query('SELECT * FROM glossaryDB WHERE type = "program" ORDER BY commandName');
-		
-	}
+		}
+
 	?>
 <!-- Glossary -->
 <div class="glossary">
-	<div id = 'cover'></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->
 	
-
 	<?php
+	
+	if($_POST['term']!=""){
+		echo '<div id = "cover"></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->';
+	
+		echo '<div id="popUp">';
+		while($stmt->fetch()){
+			echo '<p class = "result">'.$commandName.": ". $commandInfo.'</p>';
+		}
+		echo '</div>';
+	
+	}
+	
+	
+	
+	
+		
+	
+	
 		if($result->num_rows>0){
 			echo '<h2>Glossary</h2>';
 			while($row = $result->fetch_assoc()){
