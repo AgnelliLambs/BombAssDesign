@@ -281,6 +281,11 @@ img {
 	box-shadow: 0 5px 10px #999;
 }
 
+/* Hide tutorial answer  */
+
+#hiddenA{
+	visibility: hidden;
+}
 
 /* Resize images on mobile */
 
