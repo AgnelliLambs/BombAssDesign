@@ -17,7 +17,7 @@
 	<!-- SEARCH BAR -->
 	
 
-	   <form class="navbar-form" action='#' method='POST'>
+	   <form id="search" class="navbar-form" action='' method='POST'>
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Search" name="term" id="srch-term">
             <div class="input-group-btn">
@@ -29,7 +29,7 @@
 	<?php
 		if($_POST['term']!=""){
 		//search for the term
-		$likeVar = '%'.$_POST['term'].'%';
+		$likeVar = '%'.trim($_POST['term'], "\t.").'%';
 		$stmt = $conn->stmt_init();
 		$stmt->prepare('SELECT commandName,commandInfo FROM glossaryDB WHERE commandName LIKE ? or commandInfo LIKE ?');
 		//$stmt->bind_param('s',$_POST['term']);
