@@ -6,7 +6,7 @@
 	$path = '../';
 	$title = 'Quiz 8';
 	$heading = 'Quiz';
-	include $path.'assets/includes/header/php';
+	include $path.'assets/includes/header.php';
 ?>
 
 <!-- Quiz -->
@@ -18,6 +18,12 @@
 		<div class="question">
 			<input type="radio" name="answer1" id="a" value="0">
 			<label for="a">ANSWER<label>
+			</br>
+			<input type="radio" name="answer1" id="b" value="1">
+			<label for="b">ANSWER<label>
+			<input type="radio" name="answer1" id="c" value="2">
+			<label for="c">ANSWER<label>
+			</br>
 			</br>
 		</div>
 		<h3>QUESTION</h3>
@@ -70,5 +76,5 @@
 	</form>
 </div>
 <?php
-	include $path/includes/footer.php';
+	include $path.'assets/includes/footer.php';
 ?>
