@@ -11,14 +11,22 @@
 <div id='content'>
 	<h1>Tutorials</h1>
 	
-	<a href = "tutorial1.php">SSH</a> 
-	<a href = "tutorial2.php">Navigation</a> 
-	<a href = "tutorial3.php">Files</a> 
-	<a href = "tutorial4.php">SFTP</a> 
-	<a href = "tutorial5.php">Permissions</a> 
-	<a href = "tutorial6.php">Directories</a> 
-	<a href = "tutorial7.php">Apache</a> 
-	<a href = "tutorial8.php">Text Editors</a> 
+	<a href = "tutorial1.php"><div class = 'tut'><h3>SSH</h3><p>In this tutorial you will learn how
+		to ... </p></div></a>
+	<a href = "tutorial2.php"><div class = 'tut'><h3>Navigation</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
+	<a href = "tutorial3.php"><div class = 'tut'><h3>Files</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
+	<a href = "tutorial4.php"><div class = 'tut'><h3>SFTP</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
+	<a href = "tutorial5.php"><div class = 'tut'><h3>Permissions</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
+	<a href = "tutorial6.php"><div class = 'tut'><h3>Directories</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
+	<a href = "tutorial7.php"><div class = 'tut'><h3>Apache</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
+	<a href = "tutorial8.php"><div class = 'tut'><h3>Text Editors</h3><p>In this tutorial you will learn how
+		to ... </p></div></a> 
 	<div class='median'></div>
 </div> <!-- end of content -->
 <!-- Footer PHP -->

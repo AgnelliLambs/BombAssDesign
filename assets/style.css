@@ -146,7 +146,6 @@ body {
 	}
 }
 
-
 /* Navbar */
 
 .navbar-default {
@@ -214,6 +213,13 @@ body {
 	text-align: center;
 }
 
+@media(min-width:767px){
+	.tut{
+	margin-left:5%;
+	width:45%;
+	float:left;
+	}
+}
 
 /* Mobile tutorials home pace */
 
@@ -238,6 +244,9 @@ body {
 		color: #07889B;
 		box-shadow: 1px 3px 5px #999;
 		text-decoration: none;
+	}
+	.tut p{
+		display:none;
 	}
 }
 
