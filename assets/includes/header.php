@@ -18,7 +18,7 @@
 	<!-- Style sheet -->
 	<link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/style.css">
 	
-	<link rel="icon" href="assets/images/dumbLogo.png"  sizes="16x16">
+	<link rel="icon" href="<?php echo $path;?>assets/imgs/dumbLogo.png"  sizes="16x16">
 
 
 	</head>
