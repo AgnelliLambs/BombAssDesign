@@ -326,6 +326,10 @@ input[type=button], .circleButton a {
 		box-shadow: 0 2px 5px #999
 }
 
+.circleButton .col-md-4 {
+	padding-bottom: 20px;
+}
+
 /* Grow on hover */
 input[type=button]:hover,   {
 	padding-left: 33px;
