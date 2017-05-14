@@ -67,15 +67,15 @@
 	
 		
 		<!-- Quiz -->
-		<div class="col-md-6 col-sm-6">
+		<div class="col-md-6 col-sm-6 row">
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Take the Quiz</a>
 			</div></div>
-		<div class="col-md-6 col-sm-6">
+		<div class="col-md-6 col-sm-6 row">
 			<div class="circleButton">
 			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Take the Quiz</a>
 			</div></div>
-		<div class="col-md-6 col-sm-6">
+		<div class="col-md-6 col-sm-6 row">
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Take the Quiz</a>
 		</div><div>
