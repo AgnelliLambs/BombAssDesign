@@ -74,9 +74,9 @@
 		$stmt->bind_result($commandName,$commandInfo);
 		}
 	if($_POST['term']!=""){
-		echo '<br /><div id = "cover"></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->';
-	
-		echo '<div id="popUp">';
+		echo '<div id = "cover"></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->';
+		
+		echo '<div id="popUp"><br />';
 		while($stmt->fetch()){
 			echo '<p class = "result">'.$commandName.": ". $commandInfo.'</p>';
 		}
