@@ -199,6 +199,11 @@ body {
 	color: #fff;
 }
 
+/* Tutorials Homepage */
+
+#content {
+	max-width: 1000px;
+}
 
 /* Set mobile navbar not sticky */
 
