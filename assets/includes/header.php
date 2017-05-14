@@ -17,6 +17,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 	<!-- Style sheet -->
 	<link rel="stylesheet" type="text/css" href="<?php echo $path;?>assets/style.css">
+	
+	<link rel="icon" href="assets/images/dumbLogo.png"  sizes="16x16">
+
+
 	</head>
 
 <body>
