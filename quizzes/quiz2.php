@@ -7,11 +7,12 @@
 <?php
 	$path = '../';
 	$title = 'Quiz 2';
+	$heading = 'Quiz';
 	include $path.'assets/includes/header.php';
 ?>
 		<!-- Quiz -->
 <div class="quiz">
-	<h2>Navigation Quiz</h2>
+	<h2>Navigation</h2>
 	<form>
 
 	<h3>In UNIX, how do you find your current directory?</h3>
@@ -80,7 +81,7 @@
 	<label for="o">Impossibe, you can't</label>
 	<br/>
 </div>
-	<input type="button" onclick="checkQuiz(6)" value="Submit"></div>
+	<input type="button" onclick="checkQuiz(2)" value="Submit"></div>
 	</form>
 
 <!-- Footer PHP-->
