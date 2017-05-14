@@ -203,6 +203,7 @@ body {
 
 #content {
 	max-width: 1000px;
+	margin: auto;
 }
 
 /* Set mobile navbar not sticky */
