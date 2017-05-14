@@ -27,7 +27,43 @@
         </form>
 	<!-- SEARCH BAR -->
 	<?php
-		if($_POST['term']!=""){
+		
+		
+		
+		
+
+	?>
+<!-- Glossary -->
+<div class="glossary">
+	
+	<?php
+	
+	echo "<div id='back'>";
+	$result = $conn->query('SELECT * FROM glossaryDB WHERE type = "program" ORDER BY commandName');
+	if($result->num_rows>0){
+		echo '<h2>Glossary</h2>';
+		while($row = $result->fetch_assoc()){
+			echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+		}
+	}
+	elseif($_POST['term']==""){
+		echo '<h3><i>No Results Found</i></h3>';
+		
+	}
+		
+	echo '<h3>Unix Commands</h3>';
+	$result = $conn->query('SELECT * FROM glossaryDB WHERE type != "program" ORDER BY commandName');
+	if($result->num_rows>0){
+		while($row = $result->fetch_assoc()){
+			echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+		}
+	}
+	else{
+		echo '<h3><i>No Results Found</i></h3>';
+	}
+	echo "</div>";
+	
+	if($_POST['term']!=""){
 		//search for the term
 		$likeVar = '%'.trim($_POST['term'], "\t.").'%';
 		$stmt = $conn->stmt_init();
@@ -37,16 +73,6 @@
 		$stmt->execute();
 		$stmt->bind_result($commandName,$commandInfo);
 		}
-		else{
-		$result = $conn->query('SELECT * FROM glossaryDB WHERE type = "program" ORDER BY commandName');
-		}
-
-	?>
-<!-- Glossary -->
-<div class="glossary">
-	
-	<?php
-	
 	if($_POST['term']!=""){
 		echo '<div id = "cover"></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->';
 	
@@ -57,39 +83,6 @@
 		echo '</div>';
 	
 	}
-	
-	
-	
-	
-		
-	
-	
-		if($result->num_rows>0){
-			echo '<h2>Glossary</h2>';
-			while($row = $result->fetch_assoc()){
-				echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
-			}
-		}
-		elseif($_POST['term']==""){
-			echo '<h3><i>No Results Found</i></h3>';
-			
-		}
-		
-		
-		
-		if($_POST['term']==""){
-			echo '<h3>Unix Commands</h3>';
-			$result = $conn->query('SELECT * FROM glossaryDB WHERE type != "program" ORDER BY commandName');
-			if($result->num_rows>0){
-				while($row = $result->fetch_assoc()){
-					echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
-				}
-			}
-			else{
-				echo '<h3><i>No Results Found</i></h3>';
-			}
-		}
-		
 		
 		?>
 		<!--

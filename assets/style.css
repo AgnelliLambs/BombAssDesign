@@ -20,6 +20,11 @@ body {
 	margin:auto;
 	z-index:2;
 	border-radius:15%;
+	position:absoulute;
+}
+#back{
+	position:absolute;
+	z-index:-1;
 }
 .result{
 	width:90%;
