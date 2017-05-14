@@ -9,7 +9,7 @@
   	include $path.'assets/includes/header.php';
   ?>
   <div class="tutorial">
-	<h1>Text Editors</h1>
+	<h1>Unix Text Editors</h1>
 	<p>
 		In this tutorial, we will be looking at two text editors; Vi, and Pico. 
 	</p>
