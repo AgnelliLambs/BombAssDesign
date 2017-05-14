@@ -389,7 +389,7 @@ img {
 /* Hide tutorial answer  */
 
 #hiddenA{
-	visibility: hidden;
+	display: none;
 }
 
 /* Resize images on mobile */

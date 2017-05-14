@@ -50,7 +50,7 @@
 		<!-- Hidden Screenshot of answer? -->
 		<form action="">
 		<img src="<?php echo $path;?>/assets/imgs/tutorial5/ChangePermissionsCorrect.PNG" alt="Change of Permissions" id="hiddenA">
-			<div class="buttonHolder"><input class="circleButton" type="button" onclick="document.getElementById('hiddenA').style.visibility = 'visible';" value="Show Answer"></div>
+			<div class="buttonHolder"><input class="circleButton" type="button" onclick="document.getElementById('hiddenA').style.display = 'block';" value="Show Answer"></div>
 		</form>
 		<h2>Permissions using numbers</h2>
 		
