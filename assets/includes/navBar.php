@@ -20,7 +20,7 @@
 					<li><a href="<?php echo $path;?>tutorials/tutorial5.php" <?php if ($title == 'Tutorial 5'){echo 'class="active"';}?>>File Permissions</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial6.php" <?php if ($title == 'Tutorial 6'){echo 'class="active"';}?>>Directories</a></li>
 					<li><a href="<?php echo $path;?>tutorials/tutorial7.php" <?php if ($title == 'Tutorial 7'){echo 'class="active"';}?>>Apache</a></li>
-					<li><a href="<?php echo $path;?>tutorials/tutorial8.php" <?php if ($title == 'Tutorial 8'){echo 'class="active"';}?>>Unix text editors</a></li>
+					<li><a href="<?php echo $path;?>tutorials/tutorial8.php" <?php if ($title == 'Tutorial 8'){echo 'class="active"';}?>>Unix Text Editors</a></li>
 				</ul>
       	</li>
         <li class="dropdown">
