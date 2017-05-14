@@ -199,11 +199,19 @@ body {
 	color: #fff;
 }
 
-/* Tutorials Homepage */
+/* Tutorials Homepage Desktop */
 
 #content {
 	max-width: 1000px;
 	margin: auto;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+.rightAlign {
+	text-align: right;
 }
 
 /* Set mobile navbar not sticky */
