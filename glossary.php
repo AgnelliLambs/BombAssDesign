@@ -138,6 +138,13 @@
 	-->
 		</div>
 <!-- Footer PHP-->
-<?php
-	include $path.'assets/includes/footer.php';
-?>
+<!-- </div>  end contentwrapper, remove/add if header php is different-->
+<div id="Fullscreen"> </div>
+<div id="dimBackground"></div>
+</div>
+<script src="<?php echo $path;?>assets/js/fullscreen_photos.js"></script>
+<script src="<?php echo $path;?>assets/js/quizscripts.js"></script>
+<script src="<?php echo $path;?>assets/js/tutorial5unhide.js"></script>
+</body>
+
+</html>
