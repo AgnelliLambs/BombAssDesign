@@ -81,7 +81,7 @@
 	<label for="o">Impossibe, you can't</label>
 	<br/>
 </div>
-	<input type="button" onclick="checkQuiz(2)" value="Submit"></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(2)" value="Submit"></div></div>
 	</form>
 
 <!-- Footer PHP-->
