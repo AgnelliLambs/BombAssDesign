@@ -12,11 +12,12 @@
 	<h1>Unix Text Editors</h1>
 	<p>
 		The text editors in Unix will allow you to make changes to the a file through command line.
-		In this tutorial, we will be looking at two text editors; Vi, and Pico. These two editors both
+		In this tutorial, we will be looking at two text editors; vi, and pico. These two editors both
 		come with Unix, you do not need any extra downloads.
 	</p>
 	<h2>Vi</h2>
 	<p>
+		It is important to know that vi is a case-sensitive text editor.
 		To run Vi, input in the command line "vi" and then the filename that you want to edit.
 		If the filename does not exist, a new file will be created with this name.
 	</p>
@@ -28,10 +29,19 @@
 		simply enter "i" into the command line. To exit insert mode, press the escape key on 
 		your keyboard.
 	</p>
+	<p>
+		Once entering command mode, you can move around the file by using your arrow
+		keys. Another way to move around is by using the following characters; k, j, h, l. Using
+		"h" will move the cursor left one character, while "l" will move it right one character.
+		Using "k" will move your cursor up one line, and "j" will move it down one line. These
+		commands will not work upon entering insert mode.
+	</p>
 	<p class="code">$ i</p>
 	<h3>Saving Your Work</h3>
 	<p>
-		To save changes in the editor, enter the command ":w".
+		Changes cannot be save while in insert mode. To save a change in command
+		mode, enter the command ":w". If you quit without saving first, your changes
+		will be lost.
 	</p>
 	<h3>Exiting the Editor</h3>
 	<p>
