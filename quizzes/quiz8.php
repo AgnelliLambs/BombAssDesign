@@ -77,7 +77,7 @@
 			<label for="p">false<label> <!-- Correct answer -->
 			</br>
 		</div>
-		
+		<div class="buttonHolder">
 		<div class="button" onclick="checkQuiz(8)" value="Submit"></div>
 	</form>
 </div>
