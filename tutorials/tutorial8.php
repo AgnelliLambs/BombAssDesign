@@ -1,56 +1,86 @@
-<!-- Tutorial 8 -->
-<!-- B.A.D Design -->
+<!-- Quiz 8 -->
+<!-- B.A.D. Design -->
+<!-- Header -->
 
-<!-- Header PHP -->
- <?php
-  	$path = '../';
-  	$title = 'Tutorial 8';
- 	$heading = 'Tutorial';
-  	include $path.'assets/includes/header.php';
-  ?>
-  <div class="tutorial">
-	<h1>Unix Text Editors</h1>
-	<p>
-		The text editors in Unix will allow you to make changes to the a file through command line.
-		In this tutorial, we will be looking at two text editors; Vi, and Pico. These two editors both
-		come with Unix, you do not need any extra downloads.
-	</p>
-	<h2>Vi</h2>
-	<p>
-		To run Vi, input in the command line "vi" and then the filename that you want to edit.
-	</p>
-	<p class="code">$ vi &lt;filename&gt;</p>
-	<h3>Editing a File</h3>
-	<p>
-	
-	</p>
-	<h3>Saving Your Work</h3>
-	<p>
-	
-	</p>
-	<h3>Exiting the Editor</h3>
-	<p>
-	
-	</p>
-	<h2>Pico</h2>
-	<p>
-		To run Pico, input in the command line "pico" and then the filename that you want to edit.
-	</p>
-	<p class="code">$ pico &lt;filename&gt;</p>
-	<h3>Editing a File</h3>
-	<p>
-	
-	</p>
-	<h3>Saving Your Work</h3>
-	<p>
-	
-	</p>
-	<h3>Exiting the Editor</h3>
-	<p>
-	
-	</p>
-  </div>
-<!-- Footer PHP-->
+<?php
+	$path = '../';
+	$title = 'Quiz 8';
+	$heading = 'Quiz';
+	include $path.'assets/includes/header.php';
+?>
+
+<!-- Quiz -->
+<div class="quiz">
+	<h2>Text Editors</h2>
+	<!-- Question 1 -->
+	<form>
+		<h3>What command would you use to exit the Vi text editor?</h3>
+		<div class="question">
+			<input type="radio" name="answer1" id="a" value="0">
+			<label for="a">:exit!<label>
+			</br>
+			<input type="radio" name="answer1" id="b" value="1">
+			<label for="b">:e!<label>
+			</br>
+			<input type="radio" name="answer1" id="c" value="2">
+			<label for="c">:q!<label> <!-- Correct answer -->
+			</br>
+			<input type="radio" name="answer1" id="d" value="3">
+			<label for="d">:quit!<label>
+			</br>
+		</div>
+		<h3>What command would you use to start editing a file with Vi?</h3>
+		<div class="question">
+			<input type="radio" name="answer2" id="e" value="0">
+			<label for="e">e<label>
+			</br>
+			<input type="radio" name="answer2" id="f" value="1">
+			<label for="f">i<label>
+			</br>
+			<input type="radio" name="answer2" id="g" value="2">
+			<label for="g">edit<label>
+			</br>
+			<input type="radio" name="answer1" id="h" value="3">
+			<label for="h">insert<label>
+			</br>
+		</div>
+		<h3>QUESTION</h3>
+		<div class="question">
+			<input type="radio" name="answe3" id="" value="0">
+			<label for="">ANSWER<label>
+			</br>
+			<input type="radio" name="answer3" id="" value="1">
+			<label for="">ANSWER<label>
+			</br>
+			<input type="radio" name="answer3" id="" value="2">
+			<label for="">ANSWER<label>
+			</br>
+		</div>
+		<h3>QUESTION</h3>
+		<div class="question">
+			<input type="radio" name="answer4" id="" value="0">
+			<label for="">ANSWER<label>
+			</br>
+			<input type="radio" name="answer4" id="" value="1">
+			<label for="">ANSWER<label>
+			</br>
+		</div>
+		<h3>QUESTION</h3>
+		<div class="question">
+			<input type="radio" name="answe5" id="" value="0">
+			<label for="">ANSWER<label>
+			</br>
+			<input type="radio" name="answer5" id="" value="1">
+			<label for="">ANSWER<label>
+			</br>
+			<input type="radio" name="answer5" id="" value="2">
+			<label for="">ANSWER<label>
+			</br>
+		</div>
+		
+		<div class="button" onclick="checkQuiz(8)" value="Submit"></div>
+	</form>
+</div>
 <?php
 	include $path.'assets/includes/footer.php';
 ?>
