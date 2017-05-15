@@ -36,7 +36,6 @@
 		Using "k" will move your cursor up one line, and "j" will move it down one line. These
 		commands will not work upon entering insert mode.
 	</p>
-	<p class="code">$ i</p>
 	<h3>Saving Your Work</h3>
 	<p>
 		Changes cannot be save while in insert mode. To save a change in command
@@ -51,22 +50,22 @@
 	</p>
 	<h2>Pico</h2>
 	<p>
-		To run Pico, input in the command line "pico" and then the filename that you want to edit.
-		If a file with that name does not exist, a new file will be made.
+		Unlike vi, pico is always in insert mode and does not have a command mode.
+		The "^" character is the control key on your keyboard. Pico is also not
+		case-sensitive. When using pico, the commands that can be used will 
+		be displayed at the bottom of the window.
+		To run Pico, input in the command line "pico" and then the filename
+		that you want to edit. If a file with that name does not exist,
+		a new file will be made.
 	</p>
 	<p class="code">$ pico &lt;filename&gt;</p>
-	<h3>Editing a File</h3>
+	<h3>Usin Pico</h3>
 	<p>
-		Unlike vi, pico is always in insert mode and does not have a command mode.
+		As pico has no command mode, it will automatically open your file
+		on insert mode. The command "^G" will bring up a list of all the
+		commands that can be used in pico.
 	</p>
-	<h3>Saving Your Work</h3>
-	<p>
-	
-	</p>
-	<h3>Exiting the Editor</h3>
-	<p>
-	
-	</p>
+	<img src="<?php echo $path;?>assets/imgs/tutorial8/picocommands.jpg" alt="Pico commands">
   </div>
 <!-- Footer PHP-->
 <?php
