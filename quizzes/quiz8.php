@@ -65,19 +65,16 @@
 			<label for="m">true<label>
 			</br>
 			<input type="radio" name="answer4" id="n" value="1">
-			<label for="n">false<label>
+			<label for="n">false<label> <!-- Correct answer -->
 			</br>
 		</div>
-		<h3>QUESTION</h3>
+		<h3>Any file type can be edited with Vi or Pico.</h3>
 		<div class="question">
-			<input type="radio" name="answe5" id="" value="0">
-			<label for="">ANSWER<label>
+			<input type="radio" name="answe5" id="o" value="0">
+			<label for="o">true<label>
 			</br>
-			<input type="radio" name="answer5" id="" value="1">
-			<label for="">ANSWER<label>
-			</br>
-			<input type="radio" name="answer5" id="" value="2">
-			<label for="">ANSWER<label>
+			<input type="radio" name="answer5" id="p" value="1">
+			<label for="p">false<label> <!-- Correct answer -->
 			</br>
 		</div>
 		
