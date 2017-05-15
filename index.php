@@ -21,7 +21,8 @@
                 	
 			</div>
           	  </div>-->
-	
+		
+		<!-- Main paragraph -->
 			<h1>It starts with an idea ...</h1>
 			<p>Welcome to YouNix, an interactive UNIX learning experience. Whether you are new to UNIX 
 				or you already have some experience, these tutorials can help you host your website for all 
@@ -29,9 +30,13 @@
 			<p>YouNix was created by web developers, for web developers, and it's here to give you
 				all the tools you need to put your site onto a server. 
 		</div>
+		
+		<!-- Button to tutorials -->
 		<div id="tutorialsStart">
 			<a id="tutorialsLink" href="tutorials/tutorial1.php">Start Tutorials</a> <!-- Goes to first tutorial -->
 		</div>
+		
+		<!-- Button to Glossary -->
 		<div id="gotoglossary">
 			<h2>Already know Unix?</h2>
 			<a id="glossaryLink" href="glossary.php">Search Glossary</a>
