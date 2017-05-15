@@ -30,7 +30,7 @@
 </div>
 
 
-	<h3>WHow do you list the files in your directory, using UNIX?</h3>
+	<h3>How do you list the files in your directory, using UNIX?</h3>
 	<div class ="question">
 	<input type='radio' name='answer2' id='d' value='0'>
 	<label for="d">dir</label>
