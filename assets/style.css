@@ -212,6 +212,7 @@ body {
 
 .rightAlign {
 	text-align: right;
+	margin-right: 0;
 }
 
 /* Set mobile navbar not sticky */
