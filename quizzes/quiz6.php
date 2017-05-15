@@ -81,7 +81,7 @@
 	<label for="o">vi directory1 directory2</label>
 	<br/>
 </div>
-	<input type="button" onclick="checkQuiz(6)" value="Submit"></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(6)" value="Submit"></div></div>
 	</form>
 
 <!-- Footer PHP-->
