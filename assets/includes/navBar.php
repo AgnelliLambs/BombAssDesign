@@ -41,5 +41,4 @@
     </div>
   </div>
 </nav>
-<link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 <script src="<?php echo $path;?>assets/js/dropdown.js"></script>
