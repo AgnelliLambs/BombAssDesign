@@ -72,7 +72,7 @@
 			</br>
 		</div>
 		
-		<div class="button" onclick="checkQuiz(8)" value="Submit"></div>
+				<div class="buttonHolder"><div class="button" onclick="checkQuiz(8)" value="Submit"></div></div>
 	</form>
 </div>
 <?php
