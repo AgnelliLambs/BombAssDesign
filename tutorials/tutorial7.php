@@ -1,4 +1,4 @@
-<!-- Tutorial 1 -->
+<!-- Tutorial 7 -->
 <!-- B.A.D Design -->
 
 <!-- Header PHP-->
@@ -9,6 +9,7 @@
 	include $path.'assets/includes/header.php';
 ?>
 	<div class="tutorial">
+		<!-- Start of Apache install description -->
 		<h1>Apache</h1>
 		
 		<p>Apache is the server application that we will be using to host our website. Apache is the most popular web server and can run on any operating system. We'll be installing it on a linux server through terminal.</p>
@@ -27,6 +28,7 @@
 		
 		<p>Some text will pass through, and then it will ask you if you want to continue. enter "y" to continue and it will install apache.</p>
 		
+		<!-- End of install description -->
 		<h2>Test your first website</h2>
 		
 		<p>You can test to see if apache is up and running by opening your browser and going to the ip address or hostname of your server. It should load up this:</p>

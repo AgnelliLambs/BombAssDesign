@@ -13,7 +13,7 @@
 		<img src="<?php echo $path;?>assets/imgs/tutorial1/Mac_Terminal.png" alt="Mac terminal">
 		
 		<h2>Where are you?</h2>
-		
+		<!-- Class 'code' is changing the style to differ from the page -->
 		<p>We'll start with pwd: pwd stands for <u>P</u>rint <u>W</u>orking <u>D</u>irectory. This will display the path from the ROOT directory (usually C:\) to wherever you are now. Entering the pwd command should look something like this:</p>
 		<p class="code">$ pwd
 			<br>/Users/Username</p>
