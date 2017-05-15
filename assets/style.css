@@ -206,13 +206,12 @@ body {
 	margin: auto;
 }
 
-.leftAlign {
+#content .leftAlign {
 	text-align: left;
 }
 
-.rightAlign {
+#content .rightAlign {
 	text-align: right;
-	padding-left: 5px;
 }
 
 /* Set mobile navbar not sticky */
