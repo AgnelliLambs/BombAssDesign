@@ -1,3 +1,6 @@
+<!-- Quiz 4 -->
+<!-- B.A.D Design -->
+<!-- Header PHP-->
 <?php
 	$path='../';
 	$title='Quiz 4';
@@ -72,6 +75,7 @@
 				<input type="button" onclick="checkQuiz(4)" value="Submit"> </div>
 		</form>
 	</div>
+	<!-- Footer PHP -->
 	<?php
 	include $path.'assets/includes/footer.php';
 ?>
