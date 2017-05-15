@@ -86,7 +86,5 @@
 
 <!-- Footer PHP-->
 <?php
-	$path = '../';
-	$title = 'Quiz 6';
 	include $path.'assets/includes/footer.php';
 ?>
