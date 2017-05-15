@@ -249,7 +249,7 @@ body {
 		margin: auto;
 		font-weight: bold;
 	}
-	#content a {
+	.tut {
 		margin: 3vw;
 		margin-top: 0px;
 		float: left;
@@ -259,10 +259,13 @@ body {
 		border: 3px solid #07889B;
 		text-align: center;
 		background-color: #fff;
-		line-height: 33vw;
+		
 		color: #07889B;
 		box-shadow: 1px 3px 5px #999;
 		text-decoration: none;
+	}
+	.tut h3{
+		line-height: 27vw;
 	}
 	.tut p{
 		display:none;
