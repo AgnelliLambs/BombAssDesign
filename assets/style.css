@@ -249,7 +249,7 @@ body {
 		margin: auto;
 		font-weight: bold;
 	}
-	#content>a {
+	#content a {
 		margin: 3vw;
 		margin-top: 0px;
 		float: left;
