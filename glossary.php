@@ -17,7 +17,7 @@
 	<!-- SEARCH BAR -->
 	
 
-	   <form id="search" class="navbar-form" action='' method='POST'>
+	   <form id="search" class="navbar-form" action='#' method='POST'>
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Search" name="term" id="srch-term">
             <div class="input-group-btn">
@@ -43,7 +43,7 @@
 	if($result->num_rows>0){
 		echo '<h2>Glossary</h2>';
 		while($row = $result->fetch_assoc()){
-			echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+			echo '<p>'.$row['commandName'].': '.$row['commandInfo'] . '</p>';
 		}
 	}
 	elseif($_POST['term']==""){
@@ -55,7 +55,7 @@
 	$result = $conn->query('SELECT * FROM glossaryDB WHERE type != "program" ORDER BY commandName');
 	if($result->num_rows>0){
 		while($row = $result->fetch_assoc()){
-			echo '<p>'.$row['commandName'].': '.$row['commandInfo'];
+			echo '<p>'.$row['commandName'].': '.$row['commandInfo'] . '</p>';
 		}
 	}
 	else{
@@ -72,8 +72,7 @@
 		$stmt->bind_param('ss',$likeVar,$likeVar);
 		$stmt->execute();
 		$stmt->bind_result($commandName,$commandInfo);
-		}
-	if($_POST['term']!=""){
+		
 		echo '<div id = "cover"></div> <!-- add stlyes to make this cover the background, but only if a user searched a term -->';
 		
 		echo '<div id="popUp"><br />';

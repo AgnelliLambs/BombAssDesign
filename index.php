@@ -22,7 +22,7 @@
 			</div>
           	  </div>-->
 	
-			<h1 id="logo"><span class="you">You</span><span class="nix">Nix</span></h1>
+			<h1>It starts with an idea ...</h1>
 			<p>Welcome to YouNix, an interactive UNIX learning experience. Whether you are new to UNIX 
 				or you already have some experience, these tutorials can help you host your website for all 
 				the world to see.</p>

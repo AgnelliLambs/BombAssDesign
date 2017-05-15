@@ -39,8 +39,9 @@ body {
 
 .index h1 {
 	text-align: center;
-	color: blue;
+	color: black;
 	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .homeBox {
