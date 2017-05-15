@@ -78,7 +78,7 @@
 	<label for="o">/etc/apache2/apache2.conf</label>
 	<br/>
 </div>
-	<input type="button" onclick="checkQuiz(7)" value="Submit"></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(7)" value="Submit"></div></div>
 	</form>
 
 <!-- Footer PHP-->
