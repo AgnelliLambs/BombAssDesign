@@ -11,7 +11,9 @@
   <div class="tutorial">
 	<h1>Unix Text Editors</h1>
 	<p>
-		In this tutorial, we will be looking at two text editors; Vi, and Pico. 
+		The text editors in Unix will allow you to make changes to the a file through command line.
+		In this tutorial, we will be looking at two text editors; Vi, and Pico. These two editors both
+		come with Unix, you do not need any extra downloads.
 	</p>
 	<h2>Vi</h2>
 	<p>
