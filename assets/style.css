@@ -212,7 +212,6 @@ body {
 
 .rightAlign {
 	text-align: right;
-	margin-right: 0;
 }
 
 /* Set mobile navbar not sticky */
@@ -235,7 +234,7 @@ body {
 
 @media(min-width:767px){
 	.tut{
-		width:45%;
+		width:50%;
 		float:left;
 	}
 }
