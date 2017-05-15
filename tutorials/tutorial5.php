@@ -79,7 +79,7 @@
 		<div class="col-md-4 col-sm-4">
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Next Tutorial</a>
-			</div></div></div>
+			</div></div>
 </div>
 <!-- Footer PHP-->
 <?php
