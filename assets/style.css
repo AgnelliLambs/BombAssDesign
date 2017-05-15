@@ -234,8 +234,9 @@ body {
 
 @media(min-width:767px){
 	.tut{
-		width:50%;
+		width:48%;
 		float:left;
+		padding: 1%;
 	}
 }
 
