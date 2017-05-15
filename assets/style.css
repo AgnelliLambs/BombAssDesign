@@ -203,15 +203,15 @@ body {
 /* Tutorials Homepage Desktop */
 
 #content {
-	max-width: 750px;
+	max-width: 1000px;
 	margin: auto;
 }
 
-#content .leftAlign {
+.leftAlign {
 	text-align: left;
 }
 
-#content .rightAlign {
+.rightAlign {
 	text-align: right;
 }
 
@@ -236,7 +236,7 @@ body {
 @media(min-width:767px){
 	.tut{
 		width:50%;
-		float:left;
+		float: left;
 	}
 }
 
