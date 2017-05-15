@@ -21,16 +21,34 @@
 	</p>
 	<p class="code">$ vi &lt;filename&gt;</p>
 	<h3>Editing a File</h3>
+	<p>
+	
+	</p>
 	<h3>Saving Your Work</h3>
+	<p>
+	
+	</p>
 	<h3>Exiting the Editor</h3>
+	<p>
+	
+	</p>
 	<h2>Pico</h2>
 	<p>
 		To run Pico, input in the command line "pico" and then the filename that you want to edit.
 	</p>
 	<p class="code">$ pico &lt;filename&gt;</p>
 	<h3>Editing a File</h3>
+	<p>
+	
+	</p>
 	<h3>Saving Your Work</h3>
+	<p>
+	
+	</p>
 	<h3>Exiting the Editor</h3>
+	<p>
+	
+	</p>
   </div>
 <!-- Footer PHP-->
 <?php
