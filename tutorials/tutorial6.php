@@ -49,7 +49,20 @@
 		<p class="code">$ mv &lt;directoryName1&gt; &lt;directoryName2&gt;</p>
 		<img src="<?php echo $path;?>assets/imgs/tutorial10/rename.PNG" alt="rename">
 	</div>
-
+	<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial5.php">Previous Tutorial</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz6.php">Take the Quiz</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial7.php">Next Tutorial</a>
+			</div></div>
+</div>
 	
 <!-- Footer PHP-->
 <?php
