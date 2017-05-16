@@ -81,6 +81,21 @@
 		<div class="button" onclick="checkQuiz(8)" value="Submit"></div>
 	</form>
 </div>
+	<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz7.php">Previous Quiz</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial8.php">Go to Tutorial</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>index.php">Home</a>
+			</div></div>
+</div>				
+
 <?php
 	include $path.'assets/includes/footer.php';
 ?>
