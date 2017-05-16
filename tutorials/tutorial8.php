@@ -76,7 +76,7 @@
 <div class="row">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
-				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial7.php">Previous Tutorial</a>
+				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial7.php">Previous Tutorial</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
