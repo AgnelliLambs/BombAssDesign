@@ -49,7 +49,7 @@
 		
 		<p>For more advanced users, apace settings can be changed by edditing the file located at /etc/apache2/apache2.conf. You'll learn how to open and edit that in a text editor in the <a href="tutorial8.php">next tutorial.</a></p>
 	
-	</div>
+	
 
 	<div class="row">
 		<div class="col-md-4 col-sm-4 centered">
@@ -64,7 +64,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial8.php">Next Tutorial</a>
 			</div></div>
-</div>
+</div></div>
 	
 	<!-- Quiz -->
 	
