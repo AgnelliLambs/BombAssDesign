@@ -87,15 +87,15 @@
 <div class="row">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
-				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz4.php">Previous Quiz</a>
+				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Previous Quiz</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
-			<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial5.php">Go to Tutorial</a>
+			<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial6.php">Go to Tutorial</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
-				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz6.php">Next Quiz</a>
+				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz7.php">Next Quiz</a>
 			</div></div>
 </div>
 
