@@ -119,7 +119,7 @@
 		or
 		<p class="code"> $ help</p>
 		<img src="../assets/imgs/tutorial4/help.jpg" alt="Command options">
-	</div>
+	
 
 <div class="row">
 		<div class="col-md-4 col-sm-4 centered">
@@ -134,7 +134,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial5.php">Next Tutorial</a>
 			</div></div>
-</div>
+</div></div>
 <!-- Footer PHP-->
 <?php
 	include $path.'assets/includes/footer.php';
