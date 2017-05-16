@@ -43,7 +43,7 @@
 					<br>C:/Users/YouNix/desktop
 					<br>$ cd myOtherDir
 					<br>C:/Users/YouNix/desktop/myOtherDir</p>
-	</div>
+	
 
 	<div class="row">
 		<div class="col-md-4 col-sm-4 centered">
@@ -58,7 +58,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial3.php">Next Tutorial</a>
 			</div></div>
-</div>
+</div></div>
 	<!-- Quiz -->
 	<!-- Footer PHP-->
 	<?php
