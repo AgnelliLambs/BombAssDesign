@@ -67,7 +67,7 @@
 	
 		
 		<!-- Quiz -->
-		<div class="row">
+		<div class="row centered">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial4.php">Previous Tutorial</a>
