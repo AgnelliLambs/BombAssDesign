@@ -84,7 +84,7 @@
 		<div class="buttonHolder"><input type="button" onclick="checkQuiz(2)" value="Submit"></div></div>
 	</form>
 
-<div class="row">
+<!--<div class="row">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz1.php">Previous Quiz</a>
@@ -97,7 +97,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz3.php">Next Quiz</a>
 			</div></div>
-</div>
+</div>--></div>
 <!-- Footer PHP-->
 <?php
 	include $path.'assets/includes/footer.php';
