@@ -80,7 +80,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial6.php">Next Tutorial</a>
 			</div></div>
-</div>
+		</div></div>
 <!-- Footer PHP-->
 <?php
 	include $path.'assets/includes/footer.php';
