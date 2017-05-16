@@ -120,6 +120,21 @@
 		<p class="code"> $ help</p>
 		<img src="../assets/imgs/tutorial4/help.jpg" alt="Command options">
 	</div>
+
+<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial3.php">Previous Tutorial</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz4.php">Take the Quiz</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial5.php">Next Tutorial</a>
+			</div></div>
+</div>
 <!-- Footer PHP-->
 <?php
 	include $path.'assets/includes/footer.php';
