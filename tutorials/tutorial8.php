@@ -72,6 +72,21 @@
 	<!-- Image shows all pico commands -->
 	<img src="<?php echo $path;?>assets/imgs/tutorial8/picocommands.jpg" alt="Pico commands">
   </div>
+
+<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial7.php">Previous Tutorial</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz8.php">Take the Quiz</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz_home.php">Quiz Home</a>
+			</div></div>
+</div>
 <!-- Footer PHP-->
 <?php
 	include $path.'assets/includes/footer.php';
