@@ -86,7 +86,7 @@
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
-			<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial3.php">Go to Tutorial</a>
+			<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial3.php">Go to Tutorial</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
