@@ -50,6 +50,21 @@
 		<p class="code">$ mv &lt;fileName1&gt; &lt;fileName2&gt;</p>
 		<img src="<?php echo $path;?>assets/imgs/tutorial3/rename.PNG" alt="rename">
 	</div>
+
+<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial2.php">Previous Tutorial</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz3.php">Take the Quiz</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial4.php">Next Tutorial</a>
+			</div></div>
+</div>
 	
 	
 <!-- Footer PHP-->
