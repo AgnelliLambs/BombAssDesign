@@ -48,7 +48,7 @@
 		<p>The Rename command is similar to the move command, in that it uses the same command "mv". The difference with it is that there is no address at the end of the command </p>
 		<p class="code">$ mv &lt;directoryName1&gt; &lt;directoryName2&gt;</p>
 		<img src="<?php echo $path;?>assets/imgs/tutorial10/rename.PNG" alt="rename">
-	</div>
+	
 	<div class="row">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton">
