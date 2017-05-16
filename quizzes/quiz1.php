@@ -73,6 +73,20 @@
 				<br> </div>
 			<div class="buttonHolder"><input type="button" onclick="checkQuiz(1)" value="Submit"></div> </form>
 	</div>
+<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial_home.php">Tutorial Home</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial1.php"></a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz2.php">Next Quiz</a>
+			</div></div>
+</div>
 	<?php
 	include $path.'assets/includes/footer.php';
 ?>
