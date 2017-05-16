@@ -49,6 +49,21 @@
 		<p>You now have control of the remote server through the bash shell. This will be how you connect to you server to setup your website in later tutorials.</p>
 		<!-- End of PuTTY -->
 </div>
+
+<div class="row">
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>index.php">Home</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz1.php">Take the Quiz</a>
+			</div></div>
+		<div class="col-md-4 col-sm-4 centered">
+			<div class="circleButton">
+				<a id='quizLink' href="<?php echo $path;?>tutorial/tutorial2.php">Next Tutorial</a>
+			</div></div>
+</div>
 	
 	<!-- Quiz -->
 	
