@@ -75,15 +75,15 @@
 
 <div class="row">
 		<div class="col-md-4 col-sm-4 centered">
-			<div class="circleButton">
+			<div class="circleButton buttonHolder">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial7.php">Previous Tutorial</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
-			<div class="circleButton">
+			<div class="circleButton buttonHolder">
 			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz8.php">Take the Quiz</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
-			<div class="circleButton">
+			<div class="circleButton buttonHolder">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz_home.php">Quiz Home</a>
 			</div></div>
 </div></div>
