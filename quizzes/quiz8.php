@@ -94,7 +94,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>index.php">Home</a>
 			</div></div>
-</div>		-->		
+</div>		--></div>		
 
 <?php
 	include $path.'assets/includes/footer.php';
