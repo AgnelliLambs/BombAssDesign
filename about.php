@@ -47,7 +47,7 @@
 	I am a second year Web 	&amp; Mobile Computing major here at RIT.
 	Prior to coming to RIT, I had no computing experience at all so everything I have learned has been thanks to my professors these past two years.
 </p>
-	 <img src="<?php echo $path;?>assets/imgs/about/portrait" alt="Brie">
+	 <img src="<?php echo $path;?>assets/imgs/about/portrait.jpg" alt="Brie">
 
 </div>
 
