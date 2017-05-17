@@ -3,34 +3,8 @@ body {
 	background-color: #eee;
 	font-family: 'Raleway', sans-serif;
 }
-#cover{
-	width:100vw;
-	height:100vh;
-	background-color:#333;
-	opacity:.3;
-	position:fixed;
-	left:0px;
-	top:0px;
-	z-index:-1;
-}
 
-#popUp{
-	background-color:white;
-	width:70%;
-	margin:auto;
-	z-index:2;
-	border-radius:15%;
-	position:absoulute;
-}
-#back{
-	position:absolute;
-	z-index:-1;
-}
-.result{
-	width:90%;
-	margin:auto;
-	padding:10px;
-}
+
 /* Home Page */
 
 .index p {
@@ -77,28 +51,7 @@ body {
 #gotoglossary h2 {
 	padding: 40px;
 }
-/* Tutorial Next Buttons *
 
-#toQuiz{
-	margin: 0 auto;
-	text-align: center;
-	height: 100px;
-	width: 30%;
-}
-/*
-#toQuiz #quizLink, #fiveAnswer{
-	margin: auto;
-	border: 3px solid white;
-	overflow: hidden;
-	background-color: #66B9BF;
-	color: #fff;
-	font-family: 'Monsterrat', sans-serif;
-	font-size: 130%;
-	text-decoration: none;
-	border-radius: 150px;
-	padding: 10px 20px;
-	
-}
 
 /* Home page Buttons */
 
@@ -152,6 +105,7 @@ body {
 	}
 }
 
+
 /* Navbar */
 
 .navbar-default {
@@ -200,6 +154,7 @@ body {
 	color: #fff;
 }
 
+
 /* Tutorials Homepage Desktop */
 
 #content {
@@ -215,6 +170,7 @@ body {
 	text-align: right;
 }
 
+
 /* Set mobile navbar not sticky */
 
 @media (max-width: 767px) {
@@ -227,18 +183,30 @@ body {
 }
 
 
-/* Tutorials home page */
+/* Desktop Tutorials home page */
 
 #content>h1 {
 	text-align: center;
 }
 
-@media(min-width:767px){
-	.tut{
-		width:50%;
+@media(min-width:767px) {
+	.tut {
+		width: 50%;
 		float: left;
 	}
+	.tut {
+		font-size: 30px;
+		color: #333;
+		transition: color .3s;
+	}
+	.tut:hover {
+		color: #E37222;
+	}
+	.tut p {
+		font-size: 16px;
+	}
 }
+
 
 /* Mobile tutorials home pace */
 
@@ -264,9 +232,8 @@ body {
 		box-shadow: 1px 3px 5px #999;
 		text-decoration: none;
 	}
-
-	.tut p{
-		display:none;
+	.tut p {
+		display: none;
 	}
 }
 
@@ -303,7 +270,8 @@ body {
 	height: 60px;
 }
 
-input[type=button], .circleButton a {
+input[type=button],
+.circleButton a {
 	border: 3px solid white;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -318,23 +286,31 @@ input[type=button], .circleButton a {
 	transition: all 0.3s ease-in-out;
 }
 
+
 /* Shadow, no grow on hover */
-.circleButton a:hover {padding-left: 30px;
+
+.circleButton a:hover {
+	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	font-size: 150%;
-		box-shadow: 0 2px 5px #999
+	box-shadow: 0 2px 5px #999
 }
 
+
 /*mobile buttons*/
-.col-md-4{
+
+.col-md-4 {
 	padding-bottom: 20px;
 	padding-top: 20px;
-}	
+}
+
 
 /* Grow on hover */
-input[type=button]:hover,   {
+
+input[type=button]:hover,
+{
 	padding-left: 33px;
 	padding-right: 33px;
 	padding-top: 17px;
@@ -386,16 +362,10 @@ input[type=button]:hover,   {
 	text-align: center;
 }
 
-.glossary {
-	padding-left: 10px;
-	padding-right: 10px;
-	max-width: 1000px;
-	margin: auto;
-}
-
 #search {
 	text-align: center;
 }
+
 img {
 	display: block;
 	margin: auto;
@@ -407,11 +377,13 @@ img {
 	box-shadow: 0 5px 10px #999;
 }
 
+
 /* Hide tutorial answer  */
 
-#hiddenA{
+#hiddenA {
 	display: none;
 }
+
 
 /* Resize images on mobile */
 
@@ -434,6 +406,54 @@ img {
 	padding-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+
+/* Glossary */
+
+.glossary {
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+#cover {
+	width: 100vw;
+	height: 100vh;
+	background-color: #333;
+	opacity: .3;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+#popUp {
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	z-index: 2;
+	border-radius: 15%;
+	position: absoulute;
+}
+
+@media (max-width: 767px) {
+	#popUp {
+		width: 100%;
+		border-radius: 0;
+	}
+}
+
+#back {
+	position: absolute;
+	z-index: -1;
+}
+
+.result {
+	width: 90%;
+	margin: auto;
+	padding: 10px;
 }
 
 
