@@ -52,17 +52,19 @@
 
 <div class="row">
 		<div class="col-md-4 col-sm-4 centered">
-			<div class="circleButton">
+			<div class="circleButton buttonHolder">
 				<a id='quizLink' href="<?php echo $path;?>index.php">Home</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
-			<div class="circleButton">
+			
+			<div class="circleButton buttonHolder">
 			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz1.php">Take the Quiz</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
-			<div class="circleButton">
+			
+			<div class="circleButton buttonHolder">
 				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial2.php">Next Tutorial</a>
-			</div></div>
+				</div></div>
 </div></div>
 	
 	<!-- Quiz -->
