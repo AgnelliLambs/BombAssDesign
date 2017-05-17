@@ -5,7 +5,7 @@
 	$heading = 'About';
 	include $path.'assets/includes/header.php';
 ?>
- 
+ <div class="tutorial">
 <h1>About us</h1>
 
 <h2>Joseph Agnelli</h2>
@@ -45,7 +45,7 @@
 	Prior to coming to RIT, I had no computing experience at all so everything I have learned has been thanks to my professors these past two years.
 </p>
 
-
+</div>
 
 <!-- Footer PHP -->
 <?php
