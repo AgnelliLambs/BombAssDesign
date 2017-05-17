@@ -46,7 +46,7 @@
 		</div>
 		<h3>Which of the following do you NOT need to know in order to open a text editor?</h3>
 		<div class="question">
-			<input type="radio" name="answe3" id="i" value="0">
+			<input type="radio" name="answer3" id="i" value="0">
 			<label for="i">transfer port<label> <!-- Correct answer -->
 			<br>
 			<input type="radio" name="answer3" id="j" value="1">
@@ -70,15 +70,14 @@
 		</div>
 		<h3>Any file type can be edited with Vi or Pico.</h3>
 		<div class="question">
-			<input type="radio" name="answe5" id="o" value="0">
+			<input type="radio" name="answer5" id="o" value="0">
 			<label for="o">true<label>
 			<br>
 			<input type="radio" name="answer5" id="p" value="1">
 			<label for="p">false<label> <!-- Correct answer -->
 			<br>
 		</div>
-		<div class="buttonHolder">
-		<div class="button" onclick="checkQuiz(8)" value="Submit"></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(8)" value="Submit"></div></div>
 	</form>
 </div>
 	
