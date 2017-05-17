@@ -435,7 +435,6 @@ img {
 	margin: auto;
 	z-index: 2;
 	border-radius: 15%;
-	position: absoulute;
 }
 
 @media (max-width: 767px) {

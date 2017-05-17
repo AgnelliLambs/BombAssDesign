@@ -17,7 +17,7 @@
 	<!-- SEARCH BAR -->
 	
 
-	   <form id="search" class="navbar-form" action='#' method='POST'>
+	   <form id="search" class="navbar-form" action='' method='POST'>
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Search" name="term" id="srch-term">
             <div class="input-group-btn">
