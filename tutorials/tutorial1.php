@@ -53,7 +53,7 @@
 <div class="row">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-				<a id='quizLink' href="<?php echo $path;?>index.php">Home</a>
+				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial_home.php">Tutorial Home</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			
