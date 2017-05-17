@@ -14,6 +14,7 @@
 	I like to listen to music (my favorite artist is George Watsky) 
 	I also like to do card tricks and, make stuff. 
 </p>
+	 <img src="<?php echo $path;?>assets/imgs/about/agnelli.jpg" alt="Joe A.">
 
 <h2>Ryan Brown</h2>
 <p>
@@ -22,7 +23,7 @@
 	I am a full time student at the Rochester Institute of Technology and I work around 8 to 10 hours a week for the MMET/PS department. I went to Monroe Community College for a year after graduating High-School in 2013, transfering to RIT still studying as a Biology major. 
 	After a two semesters at RIT I transfered majors to CIT and have loved the courses ever since.
 </p>
-
+	<img src="<?php echo $path;?>assets/imgs/about/memyselfandi.jpg" alt="Ryan">
 
 <h2> Tim Endersby</h2>
 <p>
@@ -30,20 +31,23 @@
 	My hobbies include photography, video, and working with kids. 
 	I've spend the past few summers working at a summer camp as a climbing and media counselor. 
 </p>
-
+	<img src="<?php echo $path;?>assets/imgs/about/Tim.jpg" alt="Tim">
+	 
 <h2> Joe Kerznowski</h2>
 <p>
 	I'm a third year CIT major from Syracuse, NY.
 	In my free time I enjoy running, watching movies, and hiking
 	I also really like the shows Game of Thrones and Rick and Morty.
 </p>
-
+	<img src="<?php echo $path;?>assets/imgs/about/face_image.jpg" alt="Joe K.">
+	 
 <h2> Brie McIntosh</h2>
 <p>
 	My name is Brie McIntosh and I am from Newark, Delaware.
 	I am a second year Web 	&amp; Mobile Computing major here at RIT.
 	Prior to coming to RIT, I had no computing experience at all so everything I have learned has been thanks to my professors these past two years.
 </p>
+	 <img src="<?php echo $path;?>assets/imgs/about/portrait" alt="Brie">
 
 </div>
 
