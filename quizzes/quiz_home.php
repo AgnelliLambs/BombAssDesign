@@ -12,37 +12,37 @@
 <div id='content'>
 	<h1>Quizzes</h1>
 	
-	<div class="lefttAlign">
-	<a href = "quiz1.php"><div class = 'tut'>SSH<p>In this tutorial you will learn how
-		to ... </p></div></a>
+	<div class="leftAlign">
+	<a href = "quiz1.php"><div class = 'tut'>SSH<p>Test your knowledge in how
+				to securely connect to a remote computer. </p></div></a>
 	</div>
 	<div class="rightAlign">
-	<a href = "quiz2.php"><div class = 'tut'>Navigation<p>In this tutorial you will learn how
-		to ... </p></div></a> 
+	<a href = "quiz2.php"><div class = 'tut'>Navigation<p>Test your knowledge in how
+				to navigate the linux file system. </p></div></a> 
 	</div>
 	<div class="leftAlign">
-	<a href = "quiz3.php"><div class = 'tut'>Files<p>In this tutorial you will learn how
-		to ... </p></div></a>
+	<a href = "quiz3.php"><div class = 'tut'>Files<p>Test your knowledge in how
+		to manipulate files on the computer. </p></div></a>
 	</div>
 	<div class="rightAlign">
-	<a href = "quiz4.php"><div class = 'tut'>SFTP<p>In this tutorial you will learn how
-		to ... </p></div></a>
+	<a href = "quiz4.php"><div class = 'tut'>SFTP<p>Test your knowledge in how
+		to securely connect to a remote server. </p></div></a>
 	</div>
 	<div class="leftAlign">
-	<a href = "quiz5.php"><div class = 'tut'>Permissions<p>In this tutorial you will learn how
-		to ... </p></div></a>
+	<a href = "quiz5.php"><div class = 'tut'>Permissions<p>Test your knowledge in how
+		to view and change file permissions. </p></div></a>
 	</div>
 	<div class="rightAlign">	
-	<a href = "quiz6.php"><div class = 'tut'>Directories<p>In this tutorial you will learn how
-		to ... </p></div></a> 
+	<a href = "quiz6.php"><div class = 'tut'>Directories<p>Test your knowledge in how
+		to manipulate directorie within the file system. </p></div></a> 
 	</div>
 	<div class="leftAlign">
-	<a href = "quiz7.php"><div class = 'tut'>Apache<p>In this tutorial you will learn how
-		to ... </p></div></a> 
+	<a href = "quiz7.php"><div class = 'tut'>Apache<p>Test your knowledge in how
+		to download and install Apache. </p></div></a> 
 	</div>
 	<div class="rightAlign">
-	<a href = "quiz8.php"><div class = 'tut'>Text Editors<p>In this tutorial you will learn how
-		to ... </p></div></a> 
+	<a href = "quiz8.php"><div class = 'tut'>Text Editors<p>Test your knowledge in how
+		to use the text editors within linux. </p></div></a> 
 	</div><!-- End of Align divs -->
 	<div class='median'></div>
 </div> <!-- end of content -->
