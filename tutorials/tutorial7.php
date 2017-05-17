@@ -54,15 +54,15 @@
 	<div class="row">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial6.php">Previous Tutorial</a>
+				<a  href="<?php echo $path;?>tutorials/tutorial6.php">Previous Tutorial</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz7.php">Take the Quiz</a>
+			<a  href="<?php echo $path;?>quizzes/quiz7.php">Take the Quiz</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial8.php">Next Tutorial</a>
+				<a  href="<?php echo $path;?>tutorials/tutorial8.php">Next Tutorial</a>
 			</div></div>
 </div></div>
 	

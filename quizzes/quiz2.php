@@ -81,7 +81,7 @@
 	<label for="o">Impossibe, you can't</label>
 	<br/>
 </div>
-		<div class="buttonHolder"><input type="button" onclick="checkQuiz(2)" value="Submit"></div></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(2)" value="Submit"></div>
 	</form>
 
 <!--<div class="row">

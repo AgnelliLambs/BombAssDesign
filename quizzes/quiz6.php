@@ -81,7 +81,7 @@
 	<label for="o">vi directory1 directory2</label>
 	<br/>
 </div>
-		<div class="buttonHolder"><input type="button" onclick="checkQuiz(6)" value="Submit"></div></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(6)" value="Submit"></div>
 	</form>
 
 <!--<div class="row">

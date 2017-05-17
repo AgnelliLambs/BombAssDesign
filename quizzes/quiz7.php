@@ -78,7 +78,7 @@
 	<label for="o">/etc/apache2/apache2.conf</label>
 	<br/>
 </div>
-		<div class="buttonHolder"><input type="button" onclick="checkQuiz(7)" value="Submit"></div></div>
+		<div class="buttonHolder"><input type="button" onclick="checkQuiz(7)" value="Submit"></div>
 	</form>
 
 <!--<div class="row">
@@ -94,7 +94,7 @@
 			<div class="circleButton">
 				<a id='quizLink' href="<?php echo $path;?>quizzes/quiz8.php">Next Quiz</a>
 			</div></div>
-</div>-->
+</div>--></div>
 
 <!-- Footer PHP-->
 <?php

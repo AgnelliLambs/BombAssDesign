@@ -74,7 +74,6 @@
 			<div class="buttonHolder">
 				<input type="button" onclick="checkQuiz(4)" value="Submit"> </div>
 		</form>
-	</div>
 
 	<!--<div class="row">
 		<div class="col-md-4 col-sm-4 centered">

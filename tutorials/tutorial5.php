@@ -48,7 +48,7 @@
 		to read and write.
 		
 		<!-- Hidden Screenshot of answer? -->
-		<form action="">
+		<form>
 		<img src="<?php echo $path;?>/assets/imgs/tutorial5/ChangePermissionsCorrect.PNG" alt="Change of Permissions" id="hiddenA">
 			<div class="buttonHolder"><input class="circleButton" type="button" onclick="document.getElementById('hiddenA').style.display = 'block';" value="Show Answer"></div>
 		</form>
@@ -70,15 +70,15 @@
 		<div class="row centered">
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial4.php">Previous Tutorial</a>
+				<a  href="<?php echo $path;?>tutorials/tutorial4.php">Previous Tutorial</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-			<a id='quizLink' href="<?php echo $path;?>quizzes/quiz5.php">Take the Quiz</a>
+			<a  href="<?php echo $path;?>quizzes/quiz5.php">Take the Quiz</a>
 			</div></div>
 		<div class="col-md-4 col-sm-4 centered">
 			<div class="circleButton buttonHolder">
-				<a id='quizLink' href="<?php echo $path;?>tutorials/tutorial6.php">Next Tutorial</a>
+				<a  href="<?php echo $path;?>tutorials/tutorial6.php">Next Tutorial</a>
 			</div></div>
 		</div></div>
 <!-- Footer PHP-->
